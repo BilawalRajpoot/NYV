@@ -12,7 +12,7 @@ const Services = () => {
   return (
     <div className='container md:py-[100px] py-[50px]'>
       <SubHeading className='text-center mb-[8px]' subHeading='Our Services' />
-      <GeneralHeading className='text-center' heading='Services We Offer' />
+      <GeneralHeading className='text-center' heading='Our Offered Services' />
       <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-[30px] gap-y-[60px] mt-[60px]'>
         {
           SERVICES_DATA.map((data, index) => {

@@ -16,8 +16,8 @@ const HeroBanner = () => {
                                 New York    
                                 <span className='text-purple'> Vancouver </span>
                             </h1>
-                            <p className='text-lg font-normal font-poppins text-grey md:text-left text-center leading-7 mb-[24px]'>Turning your idea on a napkin into <br className='hidden md:block' />
-                                a marketable product with synergy, innovation and <br className='hidden md:block' />mastery.</p>
+                            <p className='text-lg font-normal font-poppins text-grey md:text-left text-center leading-7 mb-[24px]'>Creating a market-ready product from a napkin sketch <br className='hidden md:block' />
+                            with synergy, innovation, mastery, and marketability. <br className='hidden md:block' /></p>
                             <div className='flex md:justify-start justify-center md:mb-0 mb-[50px]'>
                                 <Button className='bg-primary text-white font-poppins text-base items-center hover:shadow-custom-button hover:translate-y-[-3px]		flex gap-3 py-[16px] px-[24px] font-bold	capitalize rounded-lg'>
                                     <Link href={'/contact'} className='flex items-center gap-3'>
