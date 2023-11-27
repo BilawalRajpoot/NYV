@@ -18,6 +18,7 @@
     z-index: 1;
     top: -60px;
     left: -60px;
+    filter: grayscale();
     background-repeat: no-repeat;
     z-index: -1;
 }

@@ -19,7 +19,7 @@ const Theory = () => {
                         <p className='font-poppins text-lg font-normal leading-8'> Our founders, who bring extensive experience from top-tier tech companies, have instilled best practices within our organization. This has resulted in a proven track record of consistently delivering projects on time and achieving peak performance, helping our clients reach their goals successfully.</p>
                     </div>
                     <div className='mx-auto'>
-                        <Image src={theoryImage} alt={'Overseas Development'}  quality={100}/>
+                        <Image className='grayscale' src={theoryImage} alt={'Overseas Development'}  quality={100}/>
                     </div>
 
 

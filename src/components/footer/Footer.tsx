@@ -1,6 +1,6 @@
 import React from 'react'
 import styles from './Footer.module.css';
-import footerLogo from '../../../src/images/footerLogo.svg';
+import footerLogo from '../../../src/images/NYV-Logo-White (1).png';
 import Image from '../../../node_modules/next/image';
 import { FacebookIcon, LinkedInIcon, TwitterIcon } from '@/svg';
 import { FOOTER_LINKS, OUR_OFFICES_DATA } from './FooterData';

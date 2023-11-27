@@ -20,12 +20,17 @@ const MobileNavbar = () => {
                 <div className={styles.mobileMenu}>
                     <ul className='mt-[50px] px-[35px] w-full '>
                         <div>
-                            <NavItem text="Home" className='text-white 	 text-lg 	  inline-block	 w-full  border-b	py-3' href={'/'} />
-                            <NavItem text="About" className='text-white text-lg 		  inline-block w-full  border-b py-3	' href={'/about'} />
-                            <NavDropDown dropDownText='Services' className='text-white text-lg 		  inline-block 	w-full border-b py-3' href='/services'/>
-                            <NavItem text="Hire Talent" className='text-white text-lg 		 inline-block w-full	 border-b py-3' href={'hireTalent'} />
-                            <NavItem text="Work" className='text-white text-lg 	  inline-block w-full  border-b py-3	' href={'/work'} />
-                            <NavDropDown dropDownText='Careers' className='text-white text-lg 		w-full  border-b py-3 inline-block	' href='/careers'/>
+                           <div onClick={toggleHumBurger}>
+                             <NavItem  text="Home" className='text-white 	 text-lg 	  inline-block	 w-full  border-b	py-3' href={'/'} />
+                            </div>
+                              <div onClick={toggleHumBurger}>
+                            <NavItem  text="About" className='text-white text-lg 		  inline-block w-full  border-b py-3	' href={'/about'} /></div>
+                            <NavDropDown onClose={toggleHumBurger} dropDownText='Services' className='text-white text-lg 		  inline-block 	w-full border-b py-3' href='/services'/>
+                              <div onClick={toggleHumBurger}>
+                            <NavItem text="Hire Talent" className='text-white text-lg 		 inline-block w-full	 border-b py-3' href={'hire-talent'} /></div>
+                              <div onClick={toggleHumBurger}>
+                            <NavItem text="Careers" className='text-white text-lg 	  inline-block w-full  border-b py-3	' href={'/careers'} /></div>
+                            
                         </div>
                         <Button className="bg-primary-dark text-white text-base font-poppins  mt-5	 px-[14px] py-[10px] font-bold	capitalize rounded-lg">
                             Get in Touch

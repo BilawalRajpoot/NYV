@@ -110,7 +110,7 @@
 .mobileMenu {
     position: absolute;
     z-index: 2;
-    background: #4c40f7d6;
+    background: rgb(0, 0, 0);
     width: 100%;
     left: 0;
     display: flex;

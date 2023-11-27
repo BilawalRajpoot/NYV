@@ -17,9 +17,10 @@ import iot from '../../images/navbar/iot.svg';
 interface NavDropDownProps {
   dropDownText: string;
   className?: string;
-  href?:string
+  href?:string ; 
+  onClose?: ()=>void;
 }
-const NavDropDown: React.FC<NavDropDownProps> = ({ dropDownText, className, href }) => {
+const NavDropDown: React.FC<NavDropDownProps> = ({ dropDownText, className, href , onClose}) => {
   const isItMobile = useCheckMobileScreen();
   const [open, setOpen] = useState(false);
   const url: string =  href?href:'';
@@ -96,31 +97,32 @@ const NavDropDown: React.FC<NavDropDownProps> = ({ dropDownText, className, href
             </button>
             {open &&
               <ul
-                className={`right-0 w-40 py-2  font-poppins	 `}
+                className={`right-0 w-40 py-2  font-poppins	  w-full flex flex-wrap `}
               >
-                <li className="flex w-full items-center px-3 py-2 text-base font-light font-poppins text-white">
-                <Link href={'/devops'}>DevOps</Link>
+                
+                <li className="flex  items-center px-3 py-2 text-base w-1/2 font-light font-poppins text-white">
+                <Link onClick={onClose} href={'/devops'}>DevOps</Link>
                 </li>
-                <li className="flex w-full items-center px-3 py-2 text-base font-light text-white font-poppins">
-                <Link href={'/web-development'}>Web Development</Link>
+                <li className="flex  items-center px-3 py-2 text-base w-1/2 font-light text-white font-poppins">
+                <Link onClick={onClose} href={'/web-development'}>Web Development</Link>
                 </li>
-                <li className="flex w-full items-center px-3 py-2 text-base font-light text-white font-poppins">
-                <Link href={'/ai-development'}>Ai & Ml Development</Link>
+                <li className="flex  items-center px-3 py-2 text-base w-1/2 font-light text-white font-poppins">
+                <Link onClick={onClose} href={'/ai-development'}>Ai & Ml Development</Link>
                 </li>
-                <li className="flex w-full items-center px-3 py-2 text-base font-light text-white font-poppins">
-                <Link href={'/game-development'}>Game Development</Link>
+                <li className="flex  items-center px-3 py-2 text-base w-1/2 font-light text-white font-poppins">
+                <Link onClick={onClose} href={'/game-development'}>Game Development</Link>
                 </li>
-                <li className="flex w-full items-center px-3 py-2 text-base font-light text-white font-poppins">
-                <Link href={'/ecommerce-dev'}>E-Commerce Development</Link>
+                <li className="flex  items-center px-3 py-2 text-base w-1/2 font-light text-white font-poppins">
+                <Link onClick={onClose} href={'/ecommerce-dev'}>E-Commerce Development</Link>
                 </li>
-                <li className="flex w-full items-center px-3 py-2 text-base font-light text-white font-poppins">
-                <Link href={'/salesforce-development'}>SalesForce Development</Link>
+                <li className="flex  items-center px-3 py-2 text-base w-1/2 font-light text-white font-poppins">
+                <Link onClick={onClose} href={'/salesforce-development'}>SalesForce Development</Link>
                 </li>
-                <li className="flex w-full items-center px-3 py-2 text-base font-light text-white font-poppins">
-                <Link href={'/blockchain-development'}>Blockchain Development</Link>
+                <li className="flex  items-center px-3 py-2 text-base w-1/2 font-light text-white font-poppins">
+                <Link onClick={onClose} href={'/blockchain-development'}>Blockchain Development</Link>
                 </li> 
-                <li className="flex w-full items-center px-3 py-2 text-base font-light text-white font-poppins">
-                <Link href={'/iot-development'}>IoT Development</Link>
+                <li className="flex  items-center px-3 py-2 text-base w-1/2 font-light text-white font-poppins">
+                <Link onClick={onClose} href={'/iot-development'}>IoT Development</Link>
                 </li>
               </ul>
             }

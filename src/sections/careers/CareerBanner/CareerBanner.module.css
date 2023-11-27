@@ -3,6 +3,8 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
+    padding: 40px 0px;
+    filter: grayscale();
 }
 
 .inputField {
