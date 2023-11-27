@@ -63,9 +63,9 @@ const Industries = () => {
     return (
         <div className={style.industryWrapper}>
             <div className='container'>
-                <SubHeading className='text-center mb-[8px]' subHeading='We Serve' />
-                <GeneralHeading className='text-center' heading='Industries We Serve' />
-                <p className='text-grey text-center leading-6 font-poppins text-lg font-normal mb-[60px] mt-[8px]'>Here, we make almost every genre of applications. You name it <br /> and we build it.</p>
+                <SubHeading className='text-center mb-[8px]' subHeading='Our Customer Base' />
+                <GeneralHeading className='text-center' heading='Our Varied Industry Expertise' />
+                <p className='text-grey text-center leading-6 font-poppins text-lg font-normal mb-[60px] mt-[8px]'>At our establishment, we excel in crafting applications for a multitude of sectors. <br /> Just let us know your requirements, and we'll bring your ideas to fruition.</p>
                 <div className={style.CardsGrid}>
                     {
                         INDUSTRIES_WE_SERVE.map((data: any, index:number) => {
