@@ -9,18 +9,19 @@ const handler =async (
   if (req.method === 'POST') {
     const { fullname, email, companyname, phone ,dev_message, website, Mobile_App, Digital_Product, Software_Development, Ecommerce_Development } = req.body;
 
-    const transporter = nodemailer.createTransport({
-      service: 'gmail', 
-      auth: {
-        user: 'muhammad.ukkasha@codeupscale.com',
-        pass: 'ftxzaipuldkjppnj',
-      },
-    });
+      const transporter = nodemailer.createTransport({
+        service: 'gmail', 
+        auth: {
+          //This is gmail App Credentials
+          user: 'email',
+          pass: 'password',
+        },
+      });
 
     try {
       await transporter.sendMail({
         from: email,  
-        to: 'muhammad.ukkasha@codeupscale.com',
+        to: 'bilawal.ali2626@gmail.com',
         subject: `New Contact Form Submission from ${fullname}`,
         text: `Full Name: ${fullname}\nEmail: ${email}\ncompanyname: ${companyname}\nPhone: ${phone}\nMessage: ${dev_message} 
         \nWebsite: ${Boolean(website)}\nMobile App : ${Boolean(Mobile_App)}\nDigital Product : ${Boolean(Digital_Product)}\nSoftware Development : ${Boolean(Software_Development)}\nEcommerce Development : ${Boolean(Ecommerce_Development)}
