@@ -29,7 +29,7 @@ const OurProcess = () => {
             subtile: 'step 3',
             title: 'Commence/Start and Monitor Progress',
             text: 'Once we’ve agreed on milestones, we’ll immediately get to work. We’ll track progress, report updates, and continuously adapt to your needs.'
-        }
+        } 
     ]
     return (
         <div className='container mt-[100px]'>

@@ -17,6 +17,7 @@ import Head from 'next/head'
 const Home = () => {
   return (
     <>
+    {/* Seo Purpose */}
       <Head>
         <title>Home | NYV - Web & Mobile APP | Artificial Intelligence and Blockchain Development Services</title>
  
@@ -40,5 +41,6 @@ const Home = () => {
     </>
   )
 }
+
 
 export default Home
