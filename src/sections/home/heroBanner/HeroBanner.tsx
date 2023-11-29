@@ -2,7 +2,7 @@ import { Button } from "@/components/Button/Button";
 import { ArrowRightIcon } from "@/svg";
 import React from "react";
 import Image from "next/image";
-import heroBannner from "../../../../src/images/Banner.png";
+import heroBannner from "../../../../src/images/newbanner.png";
 import style from "./HeroBanner.module.css";
 import Link from "next/link";
 const HeroBanner = () => {

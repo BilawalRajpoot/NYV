@@ -1,7 +1,7 @@
 import GeneralHeading from "@/components/Heading/GeneralHeading";
 import React from "react";
 import styles from "./Theory.module.css";
-import theoryImage from "../../../../src/images/theoryImage.svg";
+import theoryImage from "../../../../src/images/Box 4.png";
 import Image from "next/image";
 const Theory = () => {
   return (
