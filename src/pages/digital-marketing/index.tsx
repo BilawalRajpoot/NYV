@@ -10,7 +10,7 @@ import DevTeamWork from "@/sections/development_sections/DevTeamWork/DevTeamWork
 import DevWeServe from "@/sections/development_sections/DevWeServe/DevWeServe";
 import DevWhyUs from "@/sections/development_sections/DevwhyUs/DevwhyUs";
 import DevServicesBanner from "@/sections/development_sections/DevServicesBanner/DevServicesBanner";
-import {data} from '../../sections/data'
+import { data } from "../../sections/data";
 import React from "react";
 import Head from "next/head";
 
@@ -18,25 +18,27 @@ const index = () => {
   return (
     <>
       <Head>
-        <title>Ecommerce Development | NYV Digital Solutions LLC - Web & Mobile APP | Artificial Intelligence and Blockchain Development Services</title>
- 
+        <title>
+          Digital Marketing | NYV Digital Solutions LLC - Web & Mobile APP |
+          Artificial Intelligence and Blockchain Development Services
+        </title>
+
         <meta
           name="description"
           content=" NYV Digital Solutions LLC - Web & Mobile APP | Artificial Intelligence and Blockchain Development Services - NYV Digital Solutions powers e-commerce success. We build feature-rich online stores and platforms to drive sales and enhance user experiences."
           key="desc"
         />
- 
       </Head>
 
-      <DevServicesBanner service_banner={data.ecommerce.serviceBanner}/>
-      <DevWeServe weServer={data.ecommerce.weServer}/>
-      <DevWhyUs whyUs={data.ecommerce.whyUs}/>
-      <DevIdea devIdea={data.ecommerce.devIdea}/>
-      <DevProcess developmentProcess={data.ecommerce.developmentProcess}/>
-      <DevTeamWork teamWork={data.ecommerce.teamWork}/>
-      <DevPlatforms platforms={data.ecommerce.platforms}/>
-      <DevFaq faq={data.ecommerce.faq}/>
-      
+      <DevServicesBanner service_banner={data.ecommerce.serviceBanner} />
+      <DevWeServe weServer={data.ecommerce.weServer} />
+      <DevWhyUs whyUs={data.ecommerce.whyUs} />
+      <DevIdea devIdea={data.ecommerce.devIdea} />
+      <DevProcess developmentProcess={data.ecommerce.developmentProcess} />
+      <DevTeamWork teamWork={data.ecommerce.teamWork} />
+      <DevPlatforms platforms={data.ecommerce.platforms} />
+      <DevFaq faq={data.ecommerce.faq} />
+
       <ContactForm
         className="mt-24 pb-[245px]"
         ContactInfoCard={false}

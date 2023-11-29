@@ -1,7 +1,7 @@
 export const data = {
   ecommerce: {
     serviceBanner: {
-      title: "Ecommerce",
+      title: "Digital Marketing",
       desc: "Empower your business with our E-commerce Development prowess. At NYV Digital Solutions, we specialize in crafting personalized online shopping solutions that drive businesses to excel. Our core strength lies in constructing potent, user-friendly e-commerce platforms that turbocharge sales, elevate customer experiences and position your business for digital success. Whether you're launching a new or aiming to fine-tune your online presence, team up with us to achieve e-commerce greatness and unstoppable growth.",
     },
 
