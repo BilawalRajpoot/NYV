@@ -4,7 +4,7 @@ import SubHeading from "@/components/Heading/SubHeading";
 import { PersonBgBlueIcon, PhoneBgBlueIcon, TrackBgBlueIcon } from "@/svg";
 import Image from "next/image";
 import React from "react";
-import businemanImage from "../../../images/thinking-businessman.png";
+import businemanImage from "../../../images/thinking.png";
 import styles from "./OurProcess.module.css";
 import Link from "next/link";
 
