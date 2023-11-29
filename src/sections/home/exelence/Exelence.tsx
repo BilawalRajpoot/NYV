@@ -61,10 +61,10 @@ const Exelence = () => {
             <div className={styles.ExelenceWrapper}>
                 <div className='grid md:grid-cols-2 grid-cols-1 gap-[60px]'>
                     <div className='max-w-[470px]'>
-                        <SubHeading className={'text-left mb-[8px]'} subHeading={'Excellence'} />
+                        <SubHeading className={'text-left text-white mb-[8px]'} subHeading={'Excellence'} />
                         <GeneralHeading className={'text-left text-white mb-[8px] '} heading={'Our minimum bar for client delivery.'} />
                         <p className='text-white max-w-[400px] font-poppins text-lg	 leading-8	mb-[30px]'>Over 30 awards, accolades, and achievements showcase our quality and commitment to client success.</p>
-                        <Button className='flex gap-1 items-center font-poppins font-semibold text-base cursor-pointer	 text-purple'>Our trophy cabinet <ArrowRightBlue /></Button>
+                        <Button className='flex gap-1 items-center font-poppins font-semibold text-base cursor-pointer	 text-white'>Our trophy cabinet <ArrowRightBlue white /></Button>
                     </div>
                     <div>
                         <div className='grid grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-x-[30px] gap-y-[60px]'>

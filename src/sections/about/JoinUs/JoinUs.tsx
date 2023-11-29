@@ -9,7 +9,7 @@ import { Button } from '@/components/Button/Button';
 import Link from 'next/link';
 
 const JoinUs = () => {
-  const text = 'At CodeUpscale  we believe talent can come from anywhere and we are committed to making a difference for those who are talented. With Giveback Program, we’re taking that commitment one step further, by creating opportunities for talented people to thrive.'
+  const text = 'At NYV Digital Soultions  we believe talent can come from anywhere and we are committed to making a difference for those who are talented. With Giveback Program, we’re taking that commitment one step further, by creating opportunities for talented people to thrive.'
   return (
     <div className={styles.joinUsWrapper}>
       <div className='container'>

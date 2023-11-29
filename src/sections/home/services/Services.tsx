@@ -15,9 +15,9 @@ const Services = () => {
       <GeneralHeading className='text-center' heading='Our Offered Services' />
       <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-[30px] gap-y-[60px] mt-[60px]'>
         {
-          SERVICES_DATA.map((data, index) => {
+          SERVICES_DATA.slice(0 , 3).map((data, index) => {
             return (
-              <Card className={style.serviceCard} key={index}>
+              <Card className={`${style.serviceCard} hover:shadow-2xl`} key={index}>
                 <div className='mb-[17px]'>
                   <Image src={data.image} alt={data.title} />
                 </div>

@@ -87,7 +87,7 @@ const ContactForm = ({
             <InfoCard
               CardIcon={<Mail />}
               cardTitle={`Mail Us`}
-              cardLine={`hello@codeupscale.com`}
+              cardLine={`hello@nyvsolutions.com`}
             />
             <InfoCard
               CardIcon={<Phone />}

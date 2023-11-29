@@ -4,7 +4,7 @@ const Sitemap = () => { };
 
 export const getServerSideProps = async ({ res }) => {
 
-    const baseUrl = 'https://codeupscale.com'; 
+    const baseUrl = 'https://nyvdigitalsolutions.netlify.app'; 
     
     const staticPagesPath = [
         'about',

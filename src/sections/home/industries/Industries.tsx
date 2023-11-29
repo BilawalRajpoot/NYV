@@ -42,30 +42,17 @@ const Industries = () => {
             image: travelAgency,
             title: 'Travel & \nHospitality'
         },
-        {
-            image: solutions,
-            title: 'On-Demand \nSolutions'
-        },
-        {
-            image: realEstate,
-            title: 'Real Estate'
-        },
-        {
-            image: gaming,
-            title: 'Gaming'
-        },
-        {
-            image: foodRestaurant,
-            title: 'Food & \nRestaurant'
-        },
+     
      
     ]
     return (
-        <div className={style.industryWrapper}>
-            <div className='container'>
-                <SubHeading className='text-center mb-[8px]' subHeading='Our Customer Base' />
-                <GeneralHeading className='text-center' heading='Our Varied Industry Expertise' />
-                <p className='text-grey text-center leading-6 font-poppins text-lg font-normal mb-[60px] mt-[8px]'>At our establishment, we excel in crafting applications for a multitude of sectors. <br /> Just let us know your requirements, and we'll bring your ideas to fruition.</p>
+        <div className={`${style.industryWrapper} bg-black text-white` }>
+                     <SubHeading className='text-center pb-[49px] text-white' subHeading=' Our Varied Industry Expertise' />
+            <div className='container lg:flex'>
+                <div>
+                <GeneralHeading className='text-left text-white' heading='Our Customer Base' />
+                <p className='text-white text-left leading-6 font-poppins text-lg font-normal mb-[60px] mt-[48px]'>At our establishment, we excel in crafting applications for a multitude of sectors. <br /> Just let us know your requirements, and we'll bring your ideas to fruition.</p>
+               </div>
                 <div className={style.CardsGrid}>
                     {
                         INDUSTRIES_WE_SERVE.map((data: any, index:number) => {

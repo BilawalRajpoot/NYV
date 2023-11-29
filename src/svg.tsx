@@ -5427,8 +5427,10 @@ export const ArrowUp = () => {
     </svg>
   );
 };
-
-export const ArrowRightBlue = () => {
+export interface ArrowRightBlueProps{
+white ? : boolean
+}
+export const ArrowRightBlue = (props : ArrowRightBlueProps) => {
   return (
     <svg
       width="20"
@@ -5439,7 +5441,7 @@ export const ArrowRightBlue = () => {
     >
       <path
         d="M9.41083 14.4106L10.5892 15.589L16.1783 9.99981L10.5892 4.41064L9.41083 5.58898L12.9883 9.16648H5V10.8331H12.9883L9.41083 14.4106Z"
-        fill='#272829'
+        fill={`${!!Boolean(props?.white)  ? ('#ffffff') : ('#272829')} `}
       />
     </svg>
   );

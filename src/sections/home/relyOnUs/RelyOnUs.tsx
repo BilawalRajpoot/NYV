@@ -19,24 +19,24 @@ const COMPANIES_DATA = [
         image: google,
         link: 'Read case study'
     },
-    {
-        image: nextroll,
-        link: 'Watch testimonial',
-        playIcon: <VideoPlayIcon />
-    },
+    // {
+    //     image: nextroll,
+    //     link: 'Watch testimonial',
+    //     playIcon: <VideoPlayIcon />
+    // },
     {
         image: pinterest,
         link: 'Read case study'
     },
-    {
-        image: salesforce
-    },
+    // {
+    //     image: salesforce
+    // },
     {
         image: adobe
     },
-    {
-        image: companyrely
-    },
+    // {
+    //     image: companyrely
+    // },
     {
         image: rollsroyce
     },

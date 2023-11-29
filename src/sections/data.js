@@ -277,7 +277,7 @@ export const data = {
   app: {
     serviceBanner: {
       title: "Mobile App ",
-      desc: "We are a leading mobile app development firm, with expert developers who create custom Android, iOS, and cross-platform apps tailored to your business. Join us at CodeUpScale now and enjoy our special value-added services!",
+      desc: "We are a leading mobile app development firm, with expert developers who create custom Android, iOS, and cross-platform apps tailored to your business. Join us at NYV Digital Solutions now and enjoy our special value-added services!",
     },
 
     weServer: {

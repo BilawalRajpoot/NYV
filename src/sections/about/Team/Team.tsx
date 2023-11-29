@@ -41,7 +41,7 @@ const Team = () => {
                     <Image src={CeoImage} alt="Our Ceo Image" />
                 </div>
                 <div className={`${styles.ceoMsg} w-[50%] md:w-auto`}>
-                    <Text text={`“CodeUpScale hires great people from a wide variety of backgrounds, which simply makes our company stronger, and we couldn't be prouder of that.”`} className="text-white font-normal" />
+                    <Text text={`NYV Digital Solutions hires great people from a wide variety of backgrounds, which simply makes our company stronger, and we couldn't be prouder of that.”`} className="text-white font-normal" />
                     <Link href='about/about-ceo' className='text-blue-400'>Learn more about CEO</Link>
                     <p className='text-white text-base	font-poppins font-normal mt-[40px]'>CEO
                         <br /><span className='text-sm'>Julia Pasternack</span></p>

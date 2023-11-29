@@ -9,13 +9,8 @@ npm run dev
 # or
 yarn dev
 # or
-pnpm dev
+npm dev
 ```
-
-
-
-git@github.com-faizanmayo:codeupscale/codeupscale-landing.git
-
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
