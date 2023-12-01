@@ -18,6 +18,22 @@
     background: #fff;
 }
 
+.TestimonialCard:hover .testmonialpara , .TestimonialCard:hover .siteName ,  .TestimonialCard:hover .siteowner {
+    color: #fff;
+}
+.TestimonialCard:hover .white_logo{
+    width: 192px;
+    transition-duration: 2s;
+}
+.white_logo{
+   width: 0px ;
+
+}
+.TestimonialCard:hover .simple_logo{
+    display: none;
+}
+
+
 @media (max-width:767px) {
     .testimonialsWrapper .bgImage {
       display: none;
