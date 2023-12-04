@@ -56,7 +56,7 @@ import {
 export const SERVICES_DATA = [
   {
     image: appDevelopment,
-    title: "App Development",
+    title: "Mobile App Development",
     link: "/app-development",
     tecList: [
       {
@@ -87,7 +87,7 @@ export const SERVICES_DATA = [
   },
   {
     image: webDevelopment,
-    title: "Web Development",
+    title: "Website Development",
     link: "/web-development",
 
     tecList: [
@@ -143,57 +143,59 @@ export const SERVICES_DATA = [
   },
   {
     image: blockchain,
-    title: "Blockchain Development",
+    title: "Graphic Designing",
     link: "/blockchain-development",
 
     tecList: [
       {
+        
         icon: <Ethereum />,
-        text: "Ethereum",
+        text: "Logo Design",
       },
       {
         icon: <Hyperledger />,
-        text: "Hyperledger",
+        text: "Web Graphics",
       },
       {
         icon: <SmartContract />,
-        text: "Smart Contracts",
+        text: "Brand Identity",
       },
-      {
+        {
         icon: <PrivateBlockchain />,
-        text: "Private Blockchains",
+        text: "Print Design",
       },
       {
         icon: <NFTMarket />,
-        text: "NFT Marketplace",
+        text: "Social Media",
       },
     ],
   },
   {
     image: gameDevelopment,
-    title: "Game Development",
+    title: "Software Development",
     link: "/game-development",
 
     tecList: [
       {
+        
         icon: <Unity3d />,
-        text: "Unity 3d",
+        text: "Database Design",
       },
       {
         icon: <AugmentedReality />,
-        text: "Augmented Reality",
+        text: "Frontend Development",
       },
       {
         icon: <VirtualReality />,
-        text: "Virtual Reality",
+        text: "Backend Development",
       },
       {
         icon: <CasualGames />,
-        text: "Casual Games",
+        text: "E-commerce Solutions",
       },
       {
         icon: <Metaverse />,
-        text: "Metaverse",
+        text: "IoT Development",
       },
     ],
   },
