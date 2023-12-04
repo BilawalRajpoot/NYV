@@ -10,9 +10,8 @@ export const StoryCard = () => {
       <div className={styles.storyCardWrapper}>
         <div className='flex gap-[30px] md:flex-row flex-col justify-between items-center'>
           <div>
-            <h4 className='text-2xl	font-poppins font-bold text-white mb-[12px]'>Let’s Create Big Stories Togather</h4>
-            <p className='max-w-[500px] text-lg	font-normal	leading-7	mb-[12px]	font-poppins  text-white'>Mobile is in our nerves. We don’t just build apps, we create brand.
-              Choosing us will be your best decision.</p>
+            <h4 className='text-2xl	font-poppins font-bold text-white mb-[12px]'>Reach Out To Us </h4>
+            <p className='max-w-[500px] text-lg	font-normal	leading-7	mb-[12px]	font-poppins  text-white'>We're here to connect, collaborate, and cater to your inquiries. Whether you have questions, suggestions, or want to explore potential partnerships, don't hesitate to reach out.</p>
           </div>
           <div>
             <Link href={'/contact'}>

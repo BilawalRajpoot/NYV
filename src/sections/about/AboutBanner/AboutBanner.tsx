@@ -8,13 +8,12 @@ const AboutBanner = () => {
       <div className="grid md:grid-cols-2 grid-cols-1">
         <div className="">
           <h1 className={`main-heading font-poppins mb-[24px]`}>
-            We Think We’re
-            <span className="text-purple"> Pretty Good </span>
-            At It
+           Who We Are
+         
           </h1>
           <Text
             text={
-              "For over a decade we’ve partnered with technology leaders to rapidly scale their teams and meet their business challenges."
+              "Think of the world's most iconica and successful brands easily findable, impactful. Interactional and exceptional designs. "
             }
             className="text-grey text-center md:text-left font-normal md:max-w-[483px]"
           />

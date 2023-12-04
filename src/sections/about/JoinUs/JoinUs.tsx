@@ -10,7 +10,7 @@ import Link from "next/link";
 
 const JoinUs = () => {
   const text =
-    "At NYV Digital Soultions  we believe talent can come from anywhere and we are committed to making a difference for those who are talented. With Giveback Program, we’re taking that commitment one step further, by creating opportunities for talented people to thrive.";
+    "Founded with a passion for innovation and technology  4dots Solutions embarked on a remarkable journey that has seen us evolve into a leading Software House. From our modest beginnings, w ve cultivated a legacy of dedication, teamwork, and an unwavering pursuit of excellence. Over the years, we have built enduring client relationships while adapting to the dynamic digital landscape. Our commitment to delivering groundbreaking software solutions continues to drive our success. We take pride in embracing change, fostering creativity, and pushing the boundaries of what of possible in the software industry.";
   return (
     <div className={styles.joinUsWrapper}>
       <div className="container">
@@ -18,7 +18,7 @@ const JoinUs = () => {
           <div className="flex-col flex justify-center">
             <GeneralHeading
               className={"text-left text-white"}
-              heading={"Now, we are committed to making a difference."}
+              heading={"Our Story"}
             />
             <Text
               text={text}

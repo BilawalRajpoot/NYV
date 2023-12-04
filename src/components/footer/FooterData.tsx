@@ -2,8 +2,9 @@ import { MailIcon, PhoneIcon, TimeIcon, } from "@/svg";
 import lahoreOffice from '../../../src/images/pakistan.svg';
 import ukOffice from '../../../src/images/uk.svg';
 import usOffice from '../../../src/images/usa.svg';
+
 import pakFlag from '../../../src/images/pakFlag.svg';
-import usFlag from '../../../src/images/usFlag.svg';
+import caFlag from '../../../src/images/canada.png';
 import ukFlag from '../../../src/images/ukFlag.svg';
 export const FOOTER_LINKS: any = [
     {
@@ -342,23 +343,10 @@ export const FOOTER_LINKS: any = [
 export const OUR_OFFICES_DATA = [
     {
         image: usOffice,
-        icon: usFlag,
-        title: 'USA OFFICE',
-        infoText: '1575, 447 Broadway, 2nd Floor New York, New York 10013, US',
-        phoneNumber: '+1 309 791 4105',
+        icon: caFlag,
+        title: 'Canada Office',
+        infoText: 'Unit 209 8078 128 Street Surrey , British Columbia V3W4E9',
+        phoneNumber: '+1 (778) 896-2443',
     },
-    {
-        image: ukOffice,
-        icon: ukFlag,
-        title: 'UK OFFICE',
-        infoText: '22 Archibald Road Birmingham, England B19 1RZ, GB',
-        phoneNumber: '+1 309 791 4105',
-    }
-    ,{
-        image: lahoreOffice,
-        icon: pakFlag,
-        title: 'PAKISTAN OFFICE',
-        infoText: 'K2 block, Wapda Town 331 Lahore, Punjab 54000, PK',
-        phoneNumber: '+1 309 791 4105',
-    },
+
 ]

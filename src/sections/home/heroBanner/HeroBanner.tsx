@@ -13,8 +13,8 @@ const HeroBanner = () => {
           <div className={`${style.heroLeftSection} container  z-[1]`}>
             <div className="md:max-w-[483px] mx-auto md:mx-0">
               <h1 className={`${style.heading} font-poppins mb-[24px]`}>
-                New York
-                <span className="text-purple"> Vancouver </span>
+              Cutting-Edge Tech Hub
+                <span className="text-purple"> In New York City</span>
               </h1>
               <div className="text-xl font-normal font-poppins text-grey md:text-left text-center leading-9 mb-[24px]">
                 Where Branding Meets Optimum
