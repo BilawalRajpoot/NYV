@@ -15,7 +15,7 @@ const index = () => {
   return (
     <div className="">
       <Head>
-        <title>Hire Talent | NYV Digital Solutions LLC - Web & Mobile APP | Artificial Intelligence and Blockchain Development Services</title>
+        <title>Our Team | NYV Digital Solutions LLC - Web & Mobile APP | Artificial Intelligence and Blockchain Development Services</title>
  
         <meta
           name="description"
@@ -34,14 +34,11 @@ const index = () => {
           <div>
             <SubHeading className={"mb-[8px]"} subHeading={"Why"} />
             <GeneralHeading className={""} heading={"NYV Digital Solutions"} />
+          
             <Text
-              text={` We are not restricted to Python but also offer end-to-end Software Development expertise.`}
-              className="text-grey font-normal mt-[16px]"
-            />
-            <Text
-              text={`At NYV Digital Solutions, we believe in top-of-the-line expertise to serve diverse tools, frameworks, technologies and other components like Falcon, Django, Tornado and Flash to build scalable web architectures. Hire full-time or part-time python developers to schedule time zones to manage your team conveniently.
+              text={`We pride ourselves on being a comprehensive creative and digital agency, offering a spectrum of services tailored to meet the diverse needs of our clients. Our global reach allows us to collaborate with some of the most prominent brands worldwide. From conceptualization to execution, we passionately craft innovative strategies and deliver impactful solutions that resonate with audiences across various industries. Our dedication to excellence drives us to consistently push boundaries and deliver results that exceed expectations, making us a trusted partner for leading brands aiming to make a lasting impact in the digital landscape.
               `}
-              className="text-grey font-normal "
+              className="text-grey font-normal pt-16"
             />
           </div>
         </div>

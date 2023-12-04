@@ -4,10 +4,11 @@ import styles from './Card.module.css';
 interface CardProps {
   children: any;
   className:any;
+  id?:string;
 }
-export const Card: React.FC<CardProps> = ({ children , className}) => {
+export const Card: React.FC<CardProps> = ({ children , className , id}) => {
   return (
-    <div className={`${styles.card} ${className}`}>
+    <div id={id} className={`${styles.card} ${className}`}>
       {children}
     </div>
   )

@@ -24,7 +24,7 @@ const Navbar = () => {
           <NavItem text="Home" href={'/'} className="hover:text-purple transition" />
           <NavItem text="About" href={'/about'} className="hover:text-purple transition" />
           <NavDropDown dropDownText='Services' className="transition" href='/services' />
-          <NavItem text="Hire Talent" href={'/hire-talent'} className="hover:text-purple transition" />
+          <NavItem text="Our Team" href={'/our-team'} className="hover:text-purple transition" />
           {/* <NavItem text="Work" href={'/about'} className="hover:text-purple transition" /> */}
           <NavItem text="Careers" href={'/careers'} className="hover:text-purple transition" />
           {/* <NavDropDown dropDownText='Careers' className="transition" href='/careers' /> */}

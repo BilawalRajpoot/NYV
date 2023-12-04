@@ -62,7 +62,7 @@ const Footer = () => {
           {OUR_OFFICES_DATA.map((data, index) => {
             return (
               <div className='flex justify-start items-start gap-3' key={index}>
-                <Image src={data.image} alt={data.title} />
+                <Image className='w-24' src={data.image} alt={data.title} />
                 <div>
                   <div className='flex gap-2'> <Image src={data.icon} alt={data.title} /> <h4 className='text-white font-poppins text-base font-medium	'> {data.title}</h4> </div>
                   <p className='text-half-whiite font-poppins max-w-[260px] font-light my-[8px] text-base'>{data.infoText}</p>

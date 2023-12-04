@@ -1,7 +1,6 @@
 import { MailIcon, PhoneIcon, TimeIcon, } from "@/svg";
 import lahoreOffice from '../../../src/images/pakistan.svg';
-import ukOffice from '../../../src/images/uk.svg';
-import usOffice from '../../../src/images/usa.svg';
+import newYc from '../../../src/images/new-yc.png'
 
 import pakFlag from '../../../src/images/pakFlag.svg';
 import caFlag from '../../../src/images/canada.png';
@@ -342,7 +341,7 @@ export const FOOTER_LINKS: any = [
 
 export const OUR_OFFICES_DATA = [
     {
-        image: usOffice,
+        image: newYc,
         icon: caFlag,
         title: 'Canada Office',
         infoText: 'Unit 209 8078 128 Street Surrey , British Columbia V3W4E9',

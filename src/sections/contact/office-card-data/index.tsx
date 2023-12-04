@@ -12,7 +12,7 @@ const OfficeCardData = () => {
           return (
             <Card className={""} key={index}>
               <div className="flex justify-start items-start gap-3" key={index}>
-                <Image src={data.image} alt={data.title} />
+                <Image className="w-24" src={data.image} alt={data.title} />
                 <div>
                   <div className="flex gap-2">
                     <Image src={data.icon} alt={data.title} />

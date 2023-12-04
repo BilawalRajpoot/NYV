@@ -98,3 +98,6 @@ p{
 .testimonials-slider .swiper .swiper-button-prev::after {
   display: none;
 }
+html{
+  scroll-behavior: smooth !important;
+}

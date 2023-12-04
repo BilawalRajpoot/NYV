@@ -19,8 +19,8 @@ export default function JobDetail() {
 
     return (
         <div className="container">
-            <div className="mb-[200px] grid grid-cols-3 gap-[60px] mt-[80px]">
-                <div className="col-span-2">
+            <div className="mb-[200px]  gap-[60px] mt-[80px]">
+                <div className="">
                     <GeneralHeading className={"text-left"} heading={job.title} />
                     <h2 className="text-2xl font-poppins font-semibold mb-[12px] mt-[60px]">Overview</h2>
                     <p className="text-grey text-lg font-poppins">{job.description}</p>
@@ -45,7 +45,7 @@ export default function JobDetail() {
                     <h2 className="text-2xl font-poppins font-semibold mb-[12px] mt-[60px]">What you can expect from us after applying</h2>
                     <p className="font-poppins text-lg text-grey">Once you've applied, sit back and relax while we get to work on our side! You can expect to hear back from us within 3 working days. Our recruitment team will call you up on the provided contact number for initial screening. Good luck!</p>
                 </div>
-                <div >
+                <div className=" mt-[80px]">
                     <ApplyJobForm />
                 </div>
 

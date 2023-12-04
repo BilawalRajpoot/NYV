@@ -13,7 +13,7 @@ const AboutBanner = () => {
           </h1>
           <Text
             text={
-              "Think of the world's most iconica and successful brands easily findable, impactful. Interactional and exceptional designs. "
+              "We pride ourselves on being a comprehensive creative and digital agency, offering a spectrum of services tailored to meet the diverse needs of our clients. Our global reach allows us to collaborate with some of the most prominent brands worldwide. From conceptualization to execution, we passionately craft innovative strategies and deliver impactful solutions that resonate with audiences across various industries. Our dedication to excellence drives us to consistently push boundaries and deliver results that exceed expectations, making us a trusted partner for leading brands aiming to make a lasting impact in the digital landscape"
             }
             className="text-grey text-center md:text-left font-normal md:max-w-[483px]"
           />
