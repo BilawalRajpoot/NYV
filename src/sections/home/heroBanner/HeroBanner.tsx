@@ -12,10 +12,10 @@ const HeroBanner = () => {
         <div className="flex h-full md:flex-row flex-col">
           <div className={`${style.heroLeftSection} container  z-[1]`}>
             <div className="md:max-w-[483px] mx-auto md:mx-0">
-              <h1 className={`${style.heading} font-poppins mb-[24px]`}>
-              Cutting-Edge Tech Hub
-                <span className="text-purple"> In New York City</span>
-              </h1>
+              <h3 className={`${style.heading} font-poppins mb-[24px]`}>
+              Innovative Digital
+                <span className="text-purple">     Solutions</span>
+              </h3>
               <div className="text-xl font-normal font-poppins text-grey md:text-left text-center leading-9 mb-[24px]">
                 Where Branding Meets Optimum
                 <br className="hidden md:block" />
