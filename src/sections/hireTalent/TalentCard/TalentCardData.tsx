@@ -1,4 +1,3 @@
-import Image1 from '../../../images/danialzaib.png.png';
 
 export const TALENT_DATA = [
     {

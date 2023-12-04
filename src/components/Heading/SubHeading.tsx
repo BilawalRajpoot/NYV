@@ -1,8 +1,8 @@
 import React from 'react'
 
 interface SubHeadingProps {
-  className: string;
-  subHeading: string;
+  className?: string;
+  subHeading: string | any;
 }
 
 const SubHeading: React.FC<SubHeadingProps> = ({ className, subHeading }) => {

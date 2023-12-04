@@ -1064,90 +1064,98 @@ export const data = {
   web: {
     serviceBanner: {
       title: "Website",
-      desc: "Enhance your digital presence with our advanced web development solutions with us at NYV Digital Solutions. We offer a comprehensive suite of services, spanning from captivating website design to the creation of sophisticated web applications. Partner with us to bring your online vision to life and set new standards of excellence in the digital landscape, ensuring your business stays at the forefront of innovation and success.",
+      desc: "In the world of digital experiences, 4dots Solutions excels as a master craftsman of web development. We transform your ideas into user-friendly, responsive, and aesthetically captivating websites that authentically represent your brand’s essence. Our web development team boasts a profound understanding of the latest technologies, ensuring your site looks exceptional and functions flawlessly, providing a seamless and immersive user experience that leaves a lasting impression. We’re committed to creating websites that look great, drive results, and offer a seamless online journey for your visitors.",
     },
 
     weServer: {
-      subHeading: "we serve",
-      generalHeading: "A Sneak Peak of Our Custom Web Development Services",
-      subGenHeading: "Delivering convenience-focused web application development services in any form is what we’re inclined towards.",
+      subHeading: "our services",
+      generalHeading: "Explore Our Tailored Web Development Solutions",
+      subGenHeading: "Crafting user-centric web applications is our forte, aiming to provide seamless and convenient digital experiences.",
       WE_SERVER_DATA: [
         {
           id: 1,
           image: "services/andriod",
           title: 'Frontend/Backend Development',
-          text: "Collaborate with us to transform your exceptional, high-impact web solutions that drive success and innovation in the digital realm with our expert Frontend and Backend Development services. We specialize in creating user-friendly interfaces and ensuring robust functionality for web applications, setting your digital presence apart from the competition."
+          text: "Join forces with us to revolutionize your digital solutions, driving innovation and success in the online domain through our adept Frontend and Backend Development services. Our specialty lies in creating intuitive interfaces and ensuring robust functionality for web applications, setting your online presence apart from competitors."
          },
         {
           id: 2,
           image: "services/Ios",
           title: 'Full-stack Development',
-          text: "Maximize your digital potential with us for an all-inclusive approach that propels your digital vision to new heights, ensuring a competitive edge in the dynamic online landscape. We specialize in delivering comprehensive, high-performance web solutions by merging Frontend and Backend expertise. "
+          text: "Unleash your digital potential with our comprehensive approach, propelling your digital aspirations to new heights and ensuring a competitive edge in the ever-evolving online realm. We specialize in delivering comprehensive, high-performance web solutions by seamlessly merging Frontend and Backend expertise."
          },
         {
           id: 3,
           image: "services/native",
-          title: 'UI/UX web design',
-          text: "Amplify your digital footprint with our premium UI/UX web design services. Our skilled designers are committed to crafting mesmerizing, user-focused interfaces that guarantee a remarkable and immersive online journey for your audience, setting you apart in the digital arena."
+          title: 'UI/UX Web Design',
+          text: "Elevate your digital footprint with our premium UI/UX web design services. Our talented designers are dedicated to crafting captivating, user-centered interfaces that guarantee an engaging and immersive online journey for your audience, setting you apart in the digital space."
          },
         {
           id: 4,
           image: "services/hybrid",
           title: 'Content Management Systems (CMS)',
-          text: "Boost your online presence with our advanced Content Management Systems (CMS) services. Our software house excels in streamlining content creation and website management, ensuring your digital platform remains competitive and consistently updated."
+          text: "Enhance your online presence with our advanced Content Management Systems (CMS) services. Our expertise lies in streamlining content creation and website management, ensuring your digital platform remains competitive and consistently updated."
          },
         {
           id: 5,
           image: "services/hybrid",
           title: 'Custom Web Solutions',
-          text: "Partner with us and take your digital presence to its full potential and surpass the competition. We're experts at designing unique websites and applications tailored to your exact requirements, ensuring your online presence not only stands out but also excels in the digital landscape. "
+          text: "Collaborate with us to elevate your digital presence and surpass the competition. We excel in designing unique websites and applications tailored precisely to your requirements, ensuring your online presence not only stands out but excels in the digital landscape."
         },
       ],
     },
+    
 
     whyUs: {
-      subHeading: "Why You Choose Us",
-      generalHeading:"Why Should You Choose NYV Digital Solutions For Web Development Services?",
-      subGenHeading:"We capitalized on 6 key value services and successfully built a reputation as the leading and trusted Web app development services provider in the U.S.A., the U.K., and Canada.",
+      subHeading: "Why Choose Us",
+      generalHeading: "Why NYV Digital Solutions Stands Out for Web Development Services?",
+      subGenHeading: "Our success story is built on six core value propositions, establishing us as the foremost and trusted provider of web app development services in the U.S.A., the U.K., and Canada.",
       WHY_US_DATA: [
         {
           id: 1,
           heading: "01",
-          title: 'Unparalleled Expertise',
-          text: 'Our team comprises industry experts, steeped in the art of software development, guaranteeing the delivery of exceptional, high-quality solutions.'
+          title: 'Unmatched Expertise',
+          text: 'Our team comprises seasoned industry professionals deeply immersed in the realm of software development, ensuring the delivery of exceptional, top-tier solutions.'
        },
         {
           id: 2,
           heading: "02",
           title: 'Tailored Excellence',
-          text: 'We specialize in creating customized software solutions meticulously crafted to suit your unique business needs, offering a personalized touch that sets us apart.'
+          text: 'We specialize in meticulously crafting custom software solutions tailored precisely to address your distinctive business requirements, offering a personalized touch that sets us apart.'
       },
         {
           id: 3,
           heading: "03",
-          title: 'Pioneering Technology',
-          text: 'At the forefront of technological innovation, we harness cutting-edge tools and trends to fashion software products that epitomize innovation and competitiveness.'
+          title: 'Innovative Technology',
+          text: 'At the forefront of technological advancements, we harness cutting-edge tools and trends to create software products that embody innovation and competitiveness.'
       },
         {
           id: 4,
           heading: "04",
-          title: 'A Proven Legacy ',
-          text: 'Our track record stands as a testament to our proficiency, exemplifying a history of successful projects and elated clients, with a consistent record of on-time, on-budget deliveries.'
+          title: 'Proven Track Record',
+          text: 'Our history speaks volumes about our expertise, showcasing a track record of successful projects and delighted clients, consistently achieving on-time and on-budget deliveries.'
       },
         {
           id: 5,
           heading: "05",
-          title: 'Built to Scale',
-          text: 'Our solutions are architected with scalability in mind, prepared to gracefully expand alongside your business, accommodating evolving demands and securing long-term viability.'
+          title: 'Scalability as Priority',
+          text: 'Our solutions are meticulously designed with scalability in mind, primed to expand seamlessly with your business, catering to evolving needs and ensuring long-term sustainability.'
         },
         {
           id: 6,
           heading: "06",
-          title: 'Unwavering Support',
-          text: 'Beyond delivery, we offer unwavering support and maintenance services, ensuring your software continues to shine brilliantly in performance and relevance, even after deployment.'
+          title: 'Dedicated Support',
+          text: 'Beyond deployment, we provide steadfast support and maintenance services, ensuring sustained high-performance and relevance for your software, continuing to shine brightly.'
+        },
+        {
+          id: 7,
+          heading: "07",
+          title: 'Client-Centric Approach',
+          text: 'We prioritize understanding your needs and aspirations, fostering a collaborative approach that ensures your vision is not just met, but exceeded at every step of the journey.'
         },
       ],
     },
+    
 
     devIdea: {
       heading: "with A Featured-packed Web Development Services",

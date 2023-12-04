@@ -1,8 +1,8 @@
 import React from 'react'
 
 interface HeadingProps {
-  className: string;
-  heading: string;
+  className?: string;
+  heading: string | any;
 }
 
 const GeneralHeading: React.FC<HeadingProps> = ({ className, heading }) => {

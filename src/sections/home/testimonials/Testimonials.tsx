@@ -21,35 +21,40 @@ import "swiper/css/navigation";
 import "swiper/css/pagination";
 import styles from "./Testimonials.module.css";
 import "swiper/css/scrollbar";
+import Text from "@/components/Text/Text";
 const Testimonials = () => {
   const TESTIMONIALS_DATA = [
     {
       whiteimage: WhiteKbrLogo,
       image: KbrLogo,
-      text: "KBR Transport recognizes that in a constantly changing environment, only the companies that are  raising the bar for themselves are likely to survive in the market. By having our regular morning team huddles we discuss our customers transportation needs, obstacles, and frustrations. It is this management strategy that allows us to grasp a deep understanding of how each customer operates, their unique challenges and requirements, and how we can provide them with an array of added value transportation solutions along the way.",
+      text:"",
+      // text: "KBR Transport recognizes that in a constantly changing environment, only the companies that are  raising the bar for themselves are likely to survive in the market. By having our regular morning team huddles we discuss our customers transportation needs, obstacles, and frustrations. It is this management strategy that allows us to grasp a deep understanding of how each customer operates, their unique challenges and requirements, and how we can provide them with an array of added value transportation solutions along the way.",
       title: "KBR Transport",
-      name: "Kapil Malik",
+      // name: "Kapil Malik",
     },
     {
       whiteimage: UcWhiteImage,
       image: UcImage,
-      text: "At Ultra Cleaning, we are dedicated to delivering top-quality cleaning services that leave your space spotless and refreshed. Our expert team uses advanced techniques and eco-friendly products to ensure the highest level of cleanliness. We take pride in our attention to detail and commitment to excellence. Discover the difference with Ultra Cleaning today",
+      text:"",
+      // text: "At Ultra Cleaning, we are dedicated to delivering top-quality cleaning services that leave your space spotless and refreshed. Our expert team uses advanced techniques and eco-friendly products to ensure the highest level of cleanliness. We take pride in our attention to detail and commitment to excellence. Discover the difference with Ultra Cleaning today",
       title: "Ultra Cleaning",
-      name: "Waseem Afzal",
+      // name: "Waseem Afzal",
     },
     {
       whiteimage: Aws,
       image:  AwsWhite,
-      text: "At AWSRealEstate, we take pride in offering a comprehensive range of services tailored to meet the unique needs of both residential and commercial real estate throughout North America. From the charming landscapes of Whistler to the vibrant cityscape of Hope City, we are dedicated to providing top-tier real estate solutions. Our commitment is to ensure that your property goals not only meet but exceed your expectations, making them a reality in the diverse and dynamic North American market",
+      text:"",
+      // text: "At AWSRealEstate, we take pride in offering a comprehensive range of services tailored to meet the unique needs of both residential and commercial real estate throughout North America. From the charming landscapes of Whistler to the vibrant cityscape of Hope City, we are dedicated to providing top-tier real estate solutions. Our commitment is to ensure that your property goals not only meet but exceed your expectations, making them a reality in the diverse and dynamic North American market",
       title: "AWS Real Estate ",
-      name: "Ashraf & Waseem & Sharry",
+      // name: "Ashraf & Waseem & Sharry",
     },
     {
     whiteimage: Ks,
       image: KsBlack,
-      text: " We offer a range of legal services, all designed to help our clients. Whether you are looking for a small tweak or complete overhaul, we have you covered . We believe in a unique and customized consulting experience for each and every client. Each firm is unique. One-size-fits-all approaches will never help your problems reach a solution. We deliver custom solutions, tailored to you–your industry, your culture, your one-of-a-kind challenges.",
+      text:"",
+      // text: " We offer a range of legal services, all designed to help our clients. Whether you are looking for a small tweak or complete overhaul, we have you covered . We believe in a unique and customized consulting experience for each and every client. Each firm is unique. One-size-fits-all approaches will never help your problems reach a solution. We deliver custom solutions, tailored to you–your industry, your culture, your one-of-a-kind challenges.",
       title: "Kaushal Law",
-      name: "Manmohan Kaushal",
+      // name: "Manmohan Kaushal",
     },
     
   ];
@@ -108,13 +113,13 @@ const Testimonials = () => {
                     </div>
                     <div className="mt-[29px]">
                       <p className={`text-lg font-poppins font-normal text-grey mb-[24px] ${styles.testmonialpara}`}>
-                        {data.text.substring(0, 299)} ...
+                        {data.text.substring(0, 299)} 
                       </p>
                       <a className={`text-purple text-lg font-poppins font-semibold ${styles.siteName}`}>
-                        {data.title}
+                        <SubHeading className= {`${styles.testmonialpara}`} subHeading={data.title} />
                       </a>
                       <p className={`text-primary-dark text-lg font-poppins font-normal mt-[4px] ${styles.siteowner}`}>
-                        {data.name}
+                        {/* {data.name} */}
                       </p>
                     </div>
                   </Card>
