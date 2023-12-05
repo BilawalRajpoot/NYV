@@ -32,6 +32,8 @@ import {
   IonicIcon,
   IotApps,
   IotDashboard,
+  IotDashboardd,
+  IotDashboarddd,
   IotHardware,
   KotlinIcon,
   LaravelIcon,
@@ -51,6 +53,12 @@ import {
   VirtualReality,
   Virtuemart,
   Wordpress,
+  Keywordresearch,
+  Onpageseo,
+  Technicalseo,
+  Localseo,
+  Analyticsa,
+
 } from "@/svg";
 
 export const SERVICES_DATA = [
@@ -201,105 +209,121 @@ export const SERVICES_DATA = [
   },
   {
     image: salesforce,
-    title: "Salesforce Solutions",
+    title: "Search Engine Optimization",
     link: "/salesforce-development",
 
     tecList: [
       {
-        icon: <Saleforce />,
-        text: "Salesforce Development",
+        icon: <Keywordresearch />,
+        text: "Keyword Research",
       },
       {
-        icon: <Saleforce />,
-        text: "Salesforce Consulting",
+        icon: <Onpageseo />,
+        text: "On-Page SEO",
       },
       {
-        icon: <Saleforce />,
-        text: "Salesforce Implementation",
+        icon: <Technicalseo/>,
+        text: "Technical SEO",
+      },
+      {
+        icon: <Localseo/>,
+        text: "Local SEO",
+      },
+      {
+        icon: <Analyticsa/>,
+        text: "Analytics and Monitoring",
       },
     ],
   },
   {
     image: ai,
-    title: "AI & ML",
+    title: "UI & UX Designing",
     link: "/ai-development",
 
     tecList: [
       {
         icon: <TextToSpeach />,
-        text: "Text To Speech",
+        text: "Visual Design",
       },
       {
         icon: <BusinessInteligence />,
-        text: "Business Intelligence",
+        text: "Responsive Design",
       },
       {
         icon: <DataForcasting />,
-        text: "Data Forecasting",
+        text: "Mobile-First Design",
       },
       {
         icon: <NaturalLanguage />,
-        text: "Natural Language Processing",
+        text: "Gestures and Interactions",
       },
       {
         icon: <DataAnalytics />,
-        text: "Data Analytics",
+        text: "Color Psychology",
       },
       {
         icon: <AlexaSkills />,
-        text: "Alexa Skills Development",
+        text: "User Onboarding",
       },
     ],
   },
   {
     image: iot,
-    title: "IoT & Embedded",
+    title: "Domain & Hosting",
     link: "/iot-development",
 
     tecList: [
       {
         icon: <IotApps />,
-        text: "IoT Apps",
+        text: "Domain Name Registration",
       },
       {
         icon: <EmbededSoftware />,
-        text: "Embedded Software",
+        text: "Domain Extension",
       },
       {
         icon: <IotHardware />,
-        text: "IoT Hardware Prototyping",
+        text: "Domain Privacy Protection",
       },
       {
         icon: <IotDashboard />,
-        text: "IoT Dashboard and Analytics",
+        text: "Web Hosting",
+      },
+      {
+        icon: <IotDashboardd />,
+        text: "Shared Hosting",
+      },
+      {
+        icon: <IotDashboarddd />,
+        text: "Dedicated Hosting",
       },
     ],
   },
   {
     image: devops,
-    title: "Devops",
+    title: "Product Photoshoot",
     link: "/devops",
 
     tecList: [
       {
         icon: <Aws />,
-        text: "AWS",
+        text: "Concept & Planning",
       },
       {
         icon: <Azure />,
-        text: "Azure",
+        text: "Product Showcase",
       },
       {
         icon: <DC />,
-        text: "DC/OC",
+        text: "Quality & Detail",
       },
       {
         icon: <Digital_ocean />,
-        text: "Digital Ocean",
+        text: "Creativity",
       },
       {
         icon: <Google_cloud />,
-        text: "Google Cloud",
+        text: "Image Retouching",
       },
     ],
   },
