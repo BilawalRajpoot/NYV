@@ -37,7 +37,7 @@ const index = () => {
       {/* <DevFaq faq={data.web.faq}/> */}
 
       <ContactForm
-        className="mt-24 pb-[245px]"
+        className="pt-24 pb-[245px]"
         ContactInfoCard={false}
         ContactGeneralHeading="Let Us Know What You’re Looking for, We’ll Build it for You"
         ContatctSubHeading="Let’s Work Together"
