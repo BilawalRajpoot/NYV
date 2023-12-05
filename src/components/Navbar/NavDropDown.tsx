@@ -4,15 +4,15 @@ import Link from 'next/link';
 import React, { useState } from 'react';
 import styles from './Navbar.module.css';
 import Image from 'next/image';
-import ai_ml from '../../images/navbar/ai_ml.svg';
+import DomainHosting from '../../images/navbar/domain.svg';
 import appDev from '../../images/navbar/app_dev.svg';
 import webDev from '../../images/navbar/web_dev.svg';
-import blockchain from '../../images/navbar/blockchain.svg';
-import devops from '../../images/navbar/devops.svg';
-import slaesforce from '../../images/navbar/salesforce.svg';
-import gameDev from '../../images/navbar/game_dev.svg';
-import ecommerce from '../../images/navbar/Ecommerce.svg';
-import iot from '../../images/navbar/iot.svg';
+import Seo from '../../images/navbar/seo.svg';
+import ProductPhotoShoot from '../../images/navbar/product-photoshoot.svg';
+import SoftwareDevelopment from '../../images/navbar/salesforce.svg';
+import GraphicDesigning from '../../images/navbar/graphic-designing.svg';
+import DigitalMarketing from '../../images/navbar/digital-marketing.svg';
+import uiux from '../../images/navbar/ui-ux.svg';
 
 interface NavDropDownProps {
   dropDownText: string;
@@ -57,32 +57,32 @@ const NavDropDown: React.FC<NavDropDownProps> = ({ dropDownText, className, href
                 <Link href={'/web-development'}>Web Development</Link>
               </li>
               <li className="flex w-full items-center p-6 border-b-2 border-gray-100   gap-3 text-sm hover:text-purple hover:font-semibold  font-poppins">
-                <Image src={ecommerce} alt="app development"  />
-                <Link href={'/ecommerce-dev'}>E-Commerce Development</Link>
+                <Image src={DigitalMarketing} alt="app development"  />
+                <Link href={'/digital-marketing'}>Digital Marketing</Link>
               </li>
               <li className="flex w-full items-center p-6 border-b-2 border-gray-100   gap-3 text-sm hover:text-purple hover:font-semibold  font-poppins">
-                <Image src={blockchain} alt="app development" />
-                <Link href={'/blockchain-development'}>Blockchain Development</Link>
+                <Image src={Seo} alt="app development" />
+                <Link href={'/seo'}>Search Engine Optimization</Link>
               </li>
               <li className="flex w-full items-center p-6 border-b-2 border-gray-100   gap-3 text-sm hover:text-purple hover:font-semibold   font-poppins">
-                <Image src={gameDev} alt="app development" />
-                <Link href={'/game-development'}>Game Development</Link>
+                <Image src={GraphicDesigning} alt="app development" />
+                <Link href={'/graphic-designing'}>Graphic Designing</Link>
               </li>
               <li className="flex w-full items-center p-6 border-b-2 border-gray-100   gap-3 text-sm hover:text-purple hover:font-semibold  font-poppins">
-              <Image src={slaesforce} alt="app development" />
-              <Link href={'/salesforce-development'}>SalesForce Development</Link>
+              <Image src={SoftwareDevelopment} alt="app development" />
+              <Link href={'/software-development'}>Software Development</Link>
               </li>
               <li className="flex w-full items-center p-6 border-b-2 border-gray-100   gap-3 text-sm hover:text-purple hover:font-semibold   font-poppins">
-              <Image src={ai_ml} alt="app development" />
-              <Link href={'/ai-development'}>Ai & Ml Development</Link>
+              <Image src={DomainHosting} alt="app development" />
+              <Link href={'/domain-and-hosting'}>Domain & Hosting </Link>
               </li>
               <li className="flex w-full items-center p-6 border-b-2 border-gray-100   gap-3 text-sm hover:text-purple hover:font-semibold  font-poppins"> 
-              <Image src={iot} alt="app development" className='m-0 p-0'/>
-              <Link href={'/iot-development'}>IoT Development</Link>
+              <Image src={uiux} alt="app development" className='m-0 p-0'/>
+              <Link href={'/ui-ux-designing'}>UI & UX Designing</Link>
               </li>
               <li className="flex w-full items-center p-6 border-b-2 border-gray-100   gap-3 text-sm hover:text-purple hover:font-semibold  font-poppins ">
-              <Image src={devops} alt="app development" />
-                <Link href={'/devops'}>DevOps</Link>
+              <Image src={ProductPhotoShoot} alt="app development" />
+                <Link href={'/product-photoshoot'}>Product Photoshoot</Link>
               </li>
             </ul>
           </div>

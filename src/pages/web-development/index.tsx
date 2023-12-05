@@ -11,6 +11,7 @@ import DevWeServe from "@/sections/development_sections/DevWeServe/DevWeServe";
 import DevWhyUs from "@/sections/development_sections/DevwhyUs/DevwhyUs";
 import DevServicesBanner from "@/sections/development_sections/DevServicesBanner/DevServicesBanner";
 import {data} from '../../sections/data'
+
 import React from "react";
 import Head from "next/head";
 

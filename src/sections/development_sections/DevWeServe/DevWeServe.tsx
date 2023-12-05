@@ -19,7 +19,7 @@ const  DevWeServe = ({weServer}:any) => {
               return (
                 <Card className={'lg:w-[calc(33.3%-30px)] md:w-[calc(50%-30px)]'} key={data.id}>
                   <div className='mb-[17px]'>
-                    <Image src={`./services_images/${data.image}.svg`} alt={data.subHeading} width={50} height={50}/>
+                    {/* <Image src={`./services_images/${data.image}.svg`} alt={data.subHeading} width={50} height={50}/> */}
                   </div>
                   <Text className='mb-[17px] font-semibold text-primary-dark ' text={data.title} />
                   <Text className='text-grey font-normal' text={data.text} />

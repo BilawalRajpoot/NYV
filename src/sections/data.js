@@ -1615,82 +1615,82 @@ export const data = {
     },
   },
 
-  salesforce: {
+  productPhotoshoot: {
     serviceBanner: {
-      title: "Salesforce",
-      desc: "Explore our array of Salesforce solutions offered by our software house, carefully crafted to equip businesses with state-of-the-art CRM capabilities. Our specialization lies in customizing Salesforce platforms to align with your unique requirements, optimizing sales workflows, enhancing customer interactions, and elevating operational effectiveness. Leverage the potential of Salesforce through our expertise, propelling your business towards heightened success.",
+      title: "Product PhotoShoot",
+      desc: "Transform Your Product's Visual Story with Our Expert Product Photoshoot Services. At NYV Solutions Shed, we're dedicated to crafting stunning imagery that showcases your products in their best light, helping your brand shine brighter than the rest.",
     },
 
     weServer: {
-      subHeading: "we serve",
-      generalHeading: "A Sneak Peak of Our Custom Salesforce Development Services",
-      subGenHeading: "Delivering convenience-focused Salesforce development services in any form is what we’re inclined towards.",
+      subHeading: "Our Offerings",
+      generalHeading: "Explore Our Product Photoshoot Services",
+      subGenHeading: "Capturing the essence of your products through exceptional photoshoot services is our specialty.",
       WE_SERVER_DATA: [
         {
           id: 1,
-          image: "services/andriod",
-          title: 'Salesforce Development',
-         text: "Harness the capabilities of Salesforce through our software house's development services. From custom app creation to process automation, we're your strategic partner for maximizing Salesforce's potential and elevating your efficiency and success."
-      },
+          // image: "services/product1",
+          title: 'Standard Product Photoshoot',
+          text: "Highlight your products with our standard product photoshoot service. We offer high-quality images and professional editing to make your products stand out in the market."
+        },
         {
           id: 2,
-          image: "services/Ios",
-          title: 'Salesforce Consulting Services',
-          text: "Supercharge your business with our Salesforce consulting expertise. Let our seasoned consultants optimize your Salesforce setup for streamlined processes, stronger customer relationships, and unparalleled success."
-           },
+          // image: "services/product2",
+          title: 'Creative Conceptual Photoshoot',
+          text: "Elevate your product presentation with our creative conceptual photoshoot service. Our team crafts innovative concepts to showcase your products in unique and engaging ways."
+        },
         {
           id: 3,
-          image: "services/native",
-          title: 'Salesforce Implementation ',
-          text: "Achieve flawless Salesforce implementation with NYV Digital Solutions. Our specialized team customizes Salesforce to align perfectly with your requirements, ensuring a seamless transition and unleashing its full potential to enhance your business success."
-         },
-      
-      ],
+          // image: "services/product3",
+          title: '360-Degree Product Photography',
+          text: "Experience immersive product viewing with our 360-degree product photography. We capture your products from all angles, providing a comprehensive view for your customers."
+        }
+      ]
     },
-
+    
     whyUs: {
-      subHeading: "Why You Choose Us",
-      generalHeading:"Why Should You Choose NYV Digital Solutions For salesforce Development Services?",
-      subGenHeading:"We capitalized on 6 key value services and successfully built a reputation as the leading and trusted salesforce development services provider in the U.S.A., the U.K., and Canada.",
+      subHeading: "Why Choose Our Product Photoshoot Services",
+      generalHeading: "Reasons to Partner with Us for Exceptional Product Photography",
+      subGenHeading: "We excel in delivering top-notch product photography services, standing out as a trusted choice for businesses seeking high-quality visual representation of their products.",
       WHY_US_DATA: [
         {
           id: 1,
           heading: "01",
-          title: 'Unparalleled Expertise',
-          text: 'Our team comprises industry experts, steeped in the art of software development, guaranteeing the delivery of exceptional, high-quality solutions.'
-       },
+          title: 'Expertise in Visual Storytelling',
+          text: 'Our team comprises skilled visual storytellers who understand the essence of your products, ensuring that every image captures the unique narrative behind them.'
+        },
         {
           id: 2,
           heading: "02",
-          title: 'Tailored Excellence',
-          text: 'We specialize in creating customized software solutions meticulously crafted to suit your unique business needs, offering a personalized touch that sets us apart.'
-      },
+          title: 'Customized Photography Solutions',
+          text: 'We specialize in tailoring our photography services to fit your brand of unique style and vision, providing customized solutions that resonate with your audience.'
+        },
         {
           id: 3,
           heading: "03",
-          title: 'Pioneering Technology',
-          text: 'At the forefront of technological innovation, we harness cutting-edge tools and trends to fashion software products that epitomize innovation and competitiveness.'
-      },
+          title: 'Utilization of Cutting-Edge Equipment',
+          text: 'At the forefront of photography technology, we employ state-of-the-art equipment and techniques to ensure the highest quality images for your products.'
+        },
         {
           id: 4,
           heading: "04",
-          title: 'A Proven Legacy ',
-          text: 'Our track record stands as a testament to our proficiency, exemplifying a history of successful projects and elated clients, with a consistent record of on-time, on-budget deliveries.'
-      },
+          title: 'Proven Track Record of Excellence',
+          text: 'Our portfolio speaks volumes about our expertise, showcasing a history of successful product photoshoots and satisfied clients with consistent delivery of exceptional visual content.'
+        },
         {
           id: 5,
           heading: "05",
-          title: 'Built to Scale',
-          text: 'Our solutions are architected with scalability in mind, prepared to gracefully expand alongside your business, accommodating evolving demands and securing long-term viability.'
+          title: 'Scalable Photography Solutions',
+          text: 'Our services are scalable, designed to accommodate diverse product ranges and evolving business needs, ensuring your visual assets grow alongside your brand.'
         },
         {
           id: 6,
           heading: "06",
-          title: 'Unwavering Support',
-          text: 'Beyond delivery, we offer unwavering support and maintenance services, ensuring your software continues to shine brilliantly in performance and relevance, even after deployment.'
+          title: 'Ongoing Support and Maintenance',
+          text: 'We provide continuous support and maintenance, ensuring that your visual content remains impactful and relevant, even after the photoshoot is completed.'
         },
       ],
-    },
+    } , 
+    
 
     devIdea: {
       heading: "with A Featured-packed Salesforce Development Services",
