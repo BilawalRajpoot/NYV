@@ -152,7 +152,7 @@ export const SERVICES_DATA = [
   {
     image: blockchain,
     title: "Graphic Designing",
-    link: "/blockchain-development",
+    link: "/graphic-designing",
 
     tecList: [
       {
@@ -181,7 +181,7 @@ export const SERVICES_DATA = [
   {
     image: gameDevelopment,
     title: "Software Development",
-    link: "/game-development",
+    link: "/software-development",
 
     tecList: [
       {
@@ -210,7 +210,7 @@ export const SERVICES_DATA = [
   {
     image: salesforce,
     title: "Search Engine Optimization",
-    link: "/salesforce-development",
+    link: "/seo",
 
     tecList: [
       {
@@ -238,7 +238,7 @@ export const SERVICES_DATA = [
   {
     image: ai,
     title: "UI & UX Designing",
-    link: "/ai-development",
+    link: "/ui-ux-designing",
 
     tecList: [
       {
@@ -270,7 +270,7 @@ export const SERVICES_DATA = [
   {
     image: iot,
     title: "Domain & Hosting",
-    link: "/iot-development",
+    link: "/domain-and-hosting",
 
     tecList: [
       {
@@ -302,7 +302,7 @@ export const SERVICES_DATA = [
   {
     image: devops,
     title: "Product Photoshoot",
-    link: "/devops",
+    link: "/product-photoshoot",
 
     tecList: [
       {
