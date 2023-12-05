@@ -30,11 +30,7 @@ const index = () => {
       <DevServicesBanner service_banner={data.app.serviceBanner}/>
       <DevWeServe weServer={data.app.weServer}/>
       <DevWhyUs whyUs={data.app.whyUs}/>
-      <DevIdea devIdea={data.app.devIdea}/>
-      <DevProcess developmentProcess={data.app.developmentProcess}/>
       <DevTeamWork teamWork={data.app.teamWork}/>
-      <DevPlatforms platforms={data.app.platforms}/>
-      <DevFaq faq={data.app.faq}/>
 
       <ContactForm
         className="mt-24 pb-[245px]"

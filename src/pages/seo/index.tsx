@@ -18,7 +18,7 @@ const index = () => {
   return (
     <>
       <Head>
-        <title>Ai & Ml Development | NYV Digital Solutions LLC - Web & Mobile APP | Artificial Intelligence and Blockchain Development Services</title>
+        <title>SEO | NYV Digital Solutions LLC - Web & Mobile APP | Artificial Intelligence and Blockchain Development Services</title>
  
         <meta
           name="description"
@@ -26,14 +26,14 @@ const index = () => {
           key="desc"
         />
       </Head>
-      <DevServicesBanner service_banner={data.ai.serviceBanner}/>
-      <DevWeServe weServer={data.ai.weServer}/>
-      <DevWhyUs whyUs={data.ai.whyUs}/>
-      <DevIdea devIdea={data.ai.devIdea}/>
-      <DevProcess developmentProcess={data.ai.developmentProcess}/>
-      <DevTeamWork teamWork={data.ai.teamWork}/>
-      <DevPlatforms platforms={data.ai.platforms}/>
-      <DevFaq faq={data.ai.faq}/>
+      <DevServicesBanner service_banner={data.seo.serviceBanner}/>
+      <DevWeServe weServer={data.seo.weServer}/>
+      <DevWhyUs whyUs={data.seo.whyUs}/>
+      {/* <DevIdea devIdea={data.seo.devIdea}/> */}
+      {/* <DevProcess developmentProcess={data.seo.developmentProcess}/> */}
+      <DevTeamWork teamWork={data.seo.teamWork}/>
+      {/* <DevPlatforms platforms={data.seo.platforms}/>
+      <DevFaq faq={data.seo.faq}/> */}
       <ContactForm
         className="mt-24 pb-[245px]"
         ContactInfoCard={false}

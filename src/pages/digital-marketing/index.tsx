@@ -30,14 +30,14 @@ const index = () => {
         />
       </Head>
 
-      <DevServicesBanner service_banner={data.ecommerce.serviceBanner} />
-      <DevWeServe weServer={data.ecommerce.weServer} />
-      <DevWhyUs whyUs={data.ecommerce.whyUs} />
-      <DevIdea devIdea={data.ecommerce.devIdea} />
-      <DevProcess developmentProcess={data.ecommerce.developmentProcess} />
-      <DevTeamWork teamWork={data.ecommerce.teamWork} />
-      <DevPlatforms platforms={data.ecommerce.platforms} />
-      <DevFaq faq={data.ecommerce.faq} />
+      <DevServicesBanner service_banner={data.digitalMarketing.serviceBanner} />
+      <DevWeServe weServer={data.digitalMarketing.weServer} />
+      <DevWhyUs whyUs={data.digitalMarketing.whyUs} />
+      {/* <DevIdea devIdea={data.digitalMarketing.devIdea} /> */}
+      {/* <DevProcess developmentProcess={data.digitalMarketing.developmentProcess} /> */}
+      <DevTeamWork teamWork={data.digitalMarketing.teamWork} />
+      {/* <DevPlatforms platforms={data.digitalMarketing.platforms} /> */}
+      {/* <DevFaq faq={data.digitalMarketing.faq} /> */}
 
       <ContactForm
         className="mt-24 pb-[245px]"

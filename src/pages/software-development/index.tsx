@@ -18,7 +18,7 @@ const index = () => {
   return (
     <>
       <Head>
-        <title>DevOps | NYV Digital Solutions LLC - Web & Mobile APP | Artificial Intelligence and Blockchain Development Services</title>
+        <title>Software Development | NYV Digital Solutions LLC - Web & Mobile APP | Artificial Intelligence and Blockchain Development Services</title>
  
         <meta
           name="description"
@@ -27,14 +27,10 @@ const index = () => {
         />
       </Head>
     
-      <DevServicesBanner service_banner={data.devops.serviceBanner}/>
-      <DevWeServe weServer={data.devops.weServer}/>
-      <DevWhyUs whyUs={data.devops.whyUs}/>
-      <DevIdea devIdea={data.devops.devIdea}/>
-      <DevProcess developmentProcess={data.devops.developmentProcess}/>
-      <DevTeamWork teamWork={data.devops.teamWork}/>
-      <DevPlatforms platforms={data.devops.platforms}/>
-      <DevFaq faq={data.devops.faq}/>
+      <DevServicesBanner service_banner={data.softwareDevelopment.serviceBanner}/>
+      <DevWeServe weServer={data.softwareDevelopment.weServer}/>
+      <DevWhyUs whyUs={data.softwareDevelopment.whyUs}/>
+      <DevTeamWork teamWork={data.softwareDevelopment.teamWork}/>
 
       <ContactForm
         className="mt-24 pb-[245px]"

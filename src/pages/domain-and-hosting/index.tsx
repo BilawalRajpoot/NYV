@@ -19,7 +19,7 @@ const index = () => {
   return (
     <>
       <Head>
-        <title>Game Development | NYV Digital Solutions LLC - Web & Mobile APP | Artificial Intelligence and Blockchain Development Services</title>
+        <title>Domain & Hosting | NYV Digital Solutions LLC - Web & Mobile APP | Artificial Intelligence and Blockchain Development Services</title>
  
         <meta
           name="description"
@@ -28,14 +28,10 @@ const index = () => {
         />
       </Head>
 
-      <DevServicesBanner service_banner={data.game.serviceBanner}/>
-      <DevWeServe weServer={data.game.weServer}/>
-      <DevWhyUs whyUs={data.game.whyUs}/>
-      <DevIdea devIdea={data.game.devIdea}/>
-      <DevProcess developmentProcess={data.game.developmentProcess}/>
-      <DevTeamWork teamWork={data.game.teamWork}/>
-      <DevPlatforms platforms={data.game.platforms}/>
-      <DevFaq faq={data.game.faq}/>
+      <DevServicesBanner service_banner={data.domainHosting.serviceBanner}/>
+      <DevWeServe weServer={data.domainHosting.weServer}/>
+      <DevWhyUs whyUs={data.domainHosting.whyUs}/>
+      <DevTeamWork teamWork={data.domainHosting.teamWork}/>
 
       <ContactForm
         className="mt-24 pb-[245px]"

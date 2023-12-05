@@ -1,91 +1,88 @@
 export const data = {
-  ecommerce: {
+  digitalMarketing: {
     serviceBanner: {
       title: "Digital Marketing",
-      desc: "Empower your business with our E-commerce Development prowess. At NYV Digital Solutions, we specialize in crafting personalized online shopping solutions that drive businesses to excel. Our core strength lies in constructing potent, user-friendly e-commerce platforms that turbocharge sales, elevate customer experiences and position your business for digital success. Whether you're launching a new or aiming to fine-tune your online presence, team up with us to achieve e-commerce greatness and unstoppable growth.",
+      desc: "Digital Marketing is the art of aligning every decision with our partner's goals, driving innovative solutions that define success in the digital landscape . A relentless quest for solutions fuels our journey, connecting brands with audiences, driving tangible results, and driving brands to new heights.",
     },
 
     weServer: {
-      subHeading: "we serve",
-      generalHeading: "A Sneak Peak of Our Custom E-Commerce Services",
-      subGenHeading: "Delivering convenience-focused E-Commerec development services in any form is what we’re inclined towards.",
+      subHeading: "Our Offerings",
+      generalHeading: "Unlocking Digital Potential with NYV Digital Solutions",
+      subGenHeading: "We specialize in delivering cutting-edge digital marketing solutions tailored to enhance your online presence and drive business growth.",
       WE_SERVER_DATA: [
         {
           id: 1,
-          image: "services/andriod",
-          title: "B2C (Business-to-Consumer) E-commerce Development",
-          text: "At NYV Digital Solutions, we excel in creating user-friendly B2C e-commerce solutions that enable businesses to showcase their products, engage with customers, and increase sales. Our primary focus is enhancing the shopping experience and driving revenue growth for our clients.",
+          title: "SEO Services",
+          text: "Boost your website's visibility and rank higher on search engines with our expert SEO strategies and techniques, tailored to drive organic traffic and improve your online presence."
         },
         {
           id: 2,
-          image: "services/Ios",
-          title: "B2B (Business-to-Business) E-commerce Development",
-          text: "We're experts at making businesses connect and do business online. Our focus is on creating user-friendly platforms that help companies improve how they purchase things, work better with suppliers, and make more money. ",
+          title: "PPC Advertising",
+          text: "Maximize your online reach and conversions through targeted Pay-Per-Click advertising campaigns. Our expertise ensures optimal ROI and increased brand visibility."
         },
         {
           id: 3,
-          image: "services/native",
-          title: "C2C (Consumer-to-Consumer) E-commerce Development",
-          text: "Discover our specialty in crafting websites that enable regular folks to buy and sell items online hassle-free. Our primary goal is to simplify and secure transactions between individuals, making peer-to-peer trading a breeze.",
+          title: "Social Media Marketing",
+          text: "Engage and captivate your audience across various social media platforms. Our creative strategies are designed to amplify brand awareness and drive engagement."
         },
         {
           id: 4,
-          image: "services/hybrid",
-          title: "Marketplace Development",
-          text: "Elevate your business for digital success. Whether you're launching a new marketplace or enhancing an existing one, our expertise and support will empower your online ventures to thrive.",
+          title: "Email Marketing",
+          text: "Leverage the power of personalized and targeted email campaigns to nurture leads, retain customers, and drive sales for your business."
         },
         {
           id: 5,
-          image: "services/hybrid",
-          title: "M-commerce (Mobile Commerce) Development",
-          text: "Elevate your online sales to new heights with our M-commerce prowess. At NYV Digital Solutions, we're masters at creating advanced mobile apps and platforms that guarantee flawless shopping experiences. Trust us to help your business captivate customers, drive conversions, and thrive in the mobile-first landscape.",
+          title: "Content Marketing",
+          text: "Create compelling and informative content that resonates with your audience. Our content strategies are aimed at establishing thought leadership and driving customer engagement."
         },
       ],
     },
+    
 
     whyUs: {
-      subHeading: "Why You Choose Us",
-      generalHeading:"Why Should You Choose NYV Digital Solutions For ECommerce  Services?",
-      subGenHeading:"We capitalized on 6 key value services and successfully built a reputation as the leading and trusted E-Commerce development services provider in the U.S.A., the U.K., and Canada.",
+      subHeading: "Why Choose Us",
+      generalHeading: "Why NYV Digital Solutions Excels in Digital Marketing for Business?",
+      subGenHeading: "We've mastered six essential values, positioning ourselves as the premier Business digital marketing services provider in Canada.",
       WHY_US_DATA: [
         {
           id: 1,
           heading: "01",
-          title: "Unparalleled Expertise",
-          text: "Our team comprises industry experts, steeped in the art of software development, guaranteeing the delivery of exceptional, high-quality solutions.",
+          title: "Expertise in Digital Marketing",
+          text: "Our team consists of digital marketing experts adept in delivering exceptional, high-quality solutions for  businesses.",
         },
         {
           id: 2,
           heading: "02",
-          title: "Tailored Excellence",
-          text: "We specialize in creating customized software solutions meticulously crafted to suit your unique business needs, offering a personalized touch that sets us apart.",
+          title: "Customized Strategies",
+          text: "Crafting tailored digital marketing strategies, we cater specifically to your  business needs, setting us apart with personalized solutions.",
         },
         {
           id: 3,
           heading: "03",
-          title: "Pioneering Technology",
-          text: "At the forefront of technological innovation, we harness cutting-edge tools and trends to fashion software products that epitomize innovation and competitiveness.",
+          title: "Utilizing Advanced Technology",
+          text: "We are at the forefront of leveraging cutting-edge tools and trends in digital marketing, ensuring innovative and competitive solutions  success.",
         },
         {
           id: 4,
           heading: "04",
-          title: "A Proven Legacy ",
-          text: "Our track record stands as a testament to our proficiency, exemplifying a history of successful projects and elated clients, with a consistent record of on-time, on-budget deliveries.",
+          title: "Proven Track Record",
+          text: "Our history showcases successful projects, satisfied clients, and a consistent record of delivering on-time, on-budget solutions for  ventures.",
         },
         {
           id: 5,
           heading: "05",
-          title: "Built to Scale",
-          text: "Our solutions are architected with scalability in mind, prepared to gracefully expand alongside your business, accommodating evolving demands and securing long-term viability.",
+          title: "Scalable Marketing Solutions",
+          text: "Our scalable digital marketing solutions grow with your  business, adapting to evolving demands and ensuring long-term viability.",
         },
         {
           id: 6,
           heading: "06",
-          title: "Unwavering Support",
-          text: "Beyond delivery, we offer unwavering support and maintenance services, ensuring your software continues to shine brilliantly in performance and relevance, even after deployment.",
+          title: "Continuous Support",
+          text: "Beyond initial implementation, we provide unwavering support and maintenance, ensuring sustained brilliance in performance and relevance for your E-Commerce platform.",
         },
       ],
     },
+    
 
     devIdea: {
       heading: "with A Featured-packed E-Commerce Services",
@@ -142,42 +139,43 @@ export const data = {
     },
 
     teamWork: {
-      subHeading: "Team Work",
-      generalHeading: "Team Work On Your Project",
-      subGenHeading: "We deliver profitable and gratifying offshore mobile app development services. You may connect with a large talent pool in 60 seconds at a cost roughly 50% lower than Western marketplaces. We can demonstrate it to you through a trial.",
+      subHeading: "Our Collaborative Team",
+      generalHeading: "Dedicated Team for Your Digital Marketing Goals",
+      subGenHeading: "We deliver effective digital marketing strategies, leveraging offshore resources to provide cost-efficient services with a large talent pool.",
       TEAM_WORK_DATA: [
         {
           id: 1,
-          title: "Designer",
-            icon: 'services/design',
-          content: "Seek the helping hand of our 500+ pre-vetted developers adept in the most loved languages and frameworks. Elixir, Python, RoR, Flutter, Ionic — you want it, you got it. You name it, here it is.",
+          title: "Creative Designers",
+          icon: 'services/design',
+          content: "Our skilled designers specialize in creating captivating visuals to enhance your digital marketing campaigns and strategies.",
         },
         {
           id: 2,
-          title: "iOS Development",
-            icon: 'services/Ios',
-          content: "Seek the helping hand of our 500+ pre-vetted developers adept in the most loved languages and frameworks. Elixir, Python, RoR, Flutter, Ionic — you want it, you got it. You name it, here it is.",
+          title: "iOS Marketing Experts",
+          icon: 'services/Ios',
+          content: "With a focus on iOS marketing, our team crafts strategies tailored to reach and engage Apple users effectively.",
         },
         {
           id: 3,
-          title: "Android Developers",
-            icon: 'services/andriod',
-          content: "Seek the helping hand of our 500+ pre-vetted developers adept in the most loved languages and frameworks. Elixir, Python, RoR, Flutter, Ionic — you want it, you got it. You name it, here it is.",
+          title: "Android Marketing Specialists",
+          icon: 'services/andriod',
+          content: "Our Android marketing specialists devise strategies to optimize your presence and engagement on Android platforms.",
         },
         {
           id: 4,
-          title: "Product Manager",
-            icon: 'services/product',
-          content: "Seek the helping hand of our 500+ pre-vetted developers adept in the most loved languages and frameworks. Elixir, Python, RoR, Flutter, Ionic — you want it, you got it. You name it, here it is.",
+          title: "Product Marketing Managers",
+          icon: 'services/product',
+          content: "Our product marketing managers employ market insights to drive your product's success through strategic planning and execution.",
         },
         {
           id: 5,
-          title: "QA Tester",
-            icon: 'services/qaBlueBg',
-          content:  "Seek the helping hand of our 500+ pre-vetted developers adept in the most loved languages and frameworks. Elixir, Python, RoR, Flutter, Ionic — you want it, you got it. You name it, here it is.",
+          title: "Quality Assurance in Marketing",
+          icon: 'services/qaBlueBg',
+          content: "Our QA team ensures the effectiveness and efficiency of implemented marketing strategies through rigorous testing and analysis.",
         },
       ],
     },
+    
 
     platforms: {
       subHeading: "E-Commerce Development Platforms",
@@ -277,90 +275,92 @@ export const data = {
   app: {
     serviceBanner: {
       title: "Mobile App ",
-      desc: "We are a leading mobile app development firm, with expert developers who create custom Android, iOS, and cross-platform apps tailored to your business. Join us at NYV Digital Solutions now and enjoy our special value-added services!",
+      desc: "In the era of mobile dominance, NYV Solutions is your guiding star in mobile app development. Our expertise extends to creating engaging, user-centric mobile applications for Android and iOS platforms. Our mobile app development team leverages the latest technology trends to craft intuitive apps that align seamlessly with your business objectives, providing a delightful user experience and opening doors to new opportunities. We understand the fast-paced world of mobile apps and are here to help your brand create an app that meets and exceeds user expectations.",
     },
 
     weServer: {
-      subHeading: "we serve",
-      generalHeading: "A Sneak Peak of Our Custom Mobile App Development Services",
-      subGenHeading: "Delivering convenience-focused mobile application development services in any form is what we’re inclined towards.",
+      subHeading: "Our Services",
+      generalHeading: "Discover Our Tailored App Development Solutions",
+      subGenHeading: "Crafting user-centric mobile applications is our specialty, ensuring seamless digital experiences.",
       WE_SERVER_DATA: [
         {
           id: 1,
           image: "services/andriod",
           title: 'Android App Development',
-          text: 'Bring onboard our remote team of Android developers to craft feature-rich mobile apps that enhance your business and generate revenue with every user conversion.'
-         },
+          text: 'Partner with our remote team of adept Android developers to create feature-rich mobile apps that elevate your business and drive revenue with each user interaction.'
+        },
         {
           id: 2,
           image: "services/Ios",
           title: 'iOS App Development',
-          text: 'NYV Digital Solutions is home to a team of exceptional iOS developers who excel at creating user-friendly iPhone and iPad apps, ensuring top-notch quality.'
-            },
+          text: 'At NYV Digital Solutions, our exceptional iOS developers specialize in crafting user-friendly iPhone and iPad apps, ensuring top-tier quality and performance.'
+        },
         {
           id: 3,
           image: "services/native",
           title: 'React Native App Development',
-          text: 'Leverage a thriving network of app developers for outsourcing, ensuring a high level of reliability and top-notch performance in your React Native applications.'
-         },
+          text: 'Leverage our extensive network of app developers for outsourcing to ensure reliability and optimal performance in your React Native applications.'
+        },
         {
           id: 4,
           image: "services/hybrid",
           title: 'Hybrid App Development',
-          text: "Grow your business and connect with a wider customer base using hybrid app development services. These solutions enable you to speed up your app's launch and ensure it's available across various platforms."
-          },
+          text: "Expand your business reach and engage a broader audience with our hybrid app development services. Speed up your app's deployment and make it available across multiple platforms."
+        },
         {
           id: 5,
           image: "services/hybrid",
           title: 'Cross-Platform App Development',
-           text: 'Let us help you bring your app ideas to life efficiently and cost-effectively with the power of cross-platform mobile app development that works seamlessly on Android and iOS.'
+          text: 'Let us bring your app concepts to reality efficiently and cost-effectively with cross-platform mobile app development, seamlessly functioning across Android and iOS platforms.'
         },
       ],
     },
+    
 
     whyUs: {
-      subHeading: "Why You Choose Us",
-      generalHeading:"Why Should You Choose NYV Digital Solutions For Mobile App Development  Services?",
-      subGenHeading:"We capitalized on 6 key value services and successfully built a reputation as the leading and trusted Mobile App development services provider in the U.S.A., the U.K., and Canada.",
+      subHeading: "Why Choose Us",
+      generalHeading: "Why NYV Digital Solutions Excels in Mobile App Development Services?",
+      subGenHeading: "We have leveraged six key value propositions to establish ourselves as the foremost and trusted provider of mobile app development services in Canada.",
       WHY_US_DATA: [
         {
           id: 1,
           heading: "01",
-          title: 'Unparalleled Expertise',
-          text: 'Our team comprises industry experts, steeped in the art of software development, guaranteeing the delivery of exceptional, high-quality solutions.'
+          title: 'Unmatched Expertise',
+          text: 'Our team consists of industry experts deeply entrenched in software development, ensuring the delivery of exceptional, high-quality solutions.'
        },
         {
           id: 2,
           heading: "02",
           title: 'Tailored Excellence',
-          text: 'We specialize in creating customized software solutions meticulously crafted to suit your unique business needs, offering a personalized touch that sets us apart.'
+          text: 'Specializing in creating customized software solutions meticulously crafted to suit your unique business needs, providing a personalized touch that sets us apart.'
      },
         {
           id: 3,
           heading: "03",
           title: "Pioneering Technology",
-          text: "At the forefront of technological innovation, we harness cutting-edge tools and trends to fashion software products that epitomize innovation and competitiveness.",
+          text: "At the forefront of technological innovation, we harness cutting-edge tools and trends to create software products that embody innovation and competitiveness.",
         },
         {
           id: 4,
           heading: "04",
           title: "A Proven Legacy ",
-          text: "Our track record stands as a testament to our proficiency, exemplifying a history of successful projects and elated clients, with a consistent record of on-time, on-budget deliveries.",
+          text: "Our track record stands as a testament to our proficiency, showcasing a history of successful projects and satisfied clients, consistently delivering on-time and on-budget solutions.",
         },
         {
           id: 5,
           heading: "05",
           title: "Built to Scale",
-          text: "Our solutions are architected with scalability in mind, prepared to gracefully expand alongside your business, accommodating evolving demands and securing long-term viability.",
+          text: "Our solutions are architected with scalability in mind, ready to gracefully expand alongside your business, accommodating evolving demands and ensuring long-term viability.",
         },
         {
           id: 6,
           heading: "06",
-          title: "Unwavering Support",
-          text: "Beyond delivery, we offer unwavering support and maintenance services, ensuring your software continues to shine brilliantly in performance and relevance, even after deployment.",
+          title: "Dedicated Support",
+          text: "Beyond delivery, we provide unwavering support and maintenance services, ensuring your software continues to perform brilliantly and stay relevant even after deployment.",
         },
       ],
     },
+    
 
     devIdea: {
       heading: "with A Featured-packed Mobile App Development Services",
@@ -417,42 +417,43 @@ export const data = {
     },
 
     teamWork: {
-      subHeading: "Team Work",
-      generalHeading: "Team Work On Your Project",
-      subGenHeading: "We deliver profitable and gratifying offshore mobile app development services. You may connect with a large talent pool in 60 seconds at a cost roughly 50% lower than Western marketplaces. We can demonstrate it to you through a trial.",
+      subHeading: "Our Team",
+      generalHeading: "Team Collaboration for Your Mobile App Project",
+      subGenHeading: "We provide lucrative offshore mobile app development services. Connect with our extensive talent pool in just 60 seconds at costs roughly 50% lower than Western markets. We can demonstrate this through a trial.",
       TEAM_WORK_DATA: [
         {
           id: 1,
           title: "Designer",
-            icon: 'services/design',
-          content: "Seek the helping hand of our 500+ pre-vetted developers adept in the most loved languages and frameworks. Elixir, Python, RoR, Flutter, Ionic — you want it, you got it. You name it, here it is.",
+          icon: 'services/design',
+          content: "Leverage the expertise of our 500+ pre-vetted developers proficient in various programming languages and frameworks. Elixir, Python, RoR, Flutter, Ionic — we've got you covered.",
         },
         {
           id: 2,
           title: "iOS Development",
-            icon: 'services/Ios',
-          content: "Seek the helping hand of our 500+ pre-vetted developers adept in the most loved languages and frameworks. Elixir, Python, RoR, Flutter, Ionic — you want it, you got it. You name it, here it is.",
+          icon: 'services/Ios',
+          content: "Tap into the skills of our 500+ pre-vetted developers adept in preferred languages and frameworks. Elixir, Python, RoR, Flutter, Ionic — your wish is our command.",
         },
         {
           id: 3,
           title: "Android Developers",
-            icon: 'services/andriod',
-          content: "Seek the helping hand of our 500+ pre-vetted developers adept in the most loved languages and frameworks. Elixir, Python, RoR, Flutter, Ionic — you want it, you got it. You name it, here it is.",
+          icon: 'services/andriod',
+          content: "Engage with our 500+ pre-vetted developers skilled in widely admired languages and frameworks. Elixir, Python, RoR, Flutter, Ionic — everything you need in one place.",
         },
         {
           id: 4,
           title: "Product Manager",
-            icon: 'services/product',
-          content: "Seek the helping hand of our 500+ pre-vetted developers adept in the most loved languages and frameworks. Elixir, Python, RoR, Flutter, Ionic — you want it, you got it. You name it, here it is.",
+          icon: 'services/product',
+          content: "Rely on our 500+ pre-vetted developers adept in popular languages and frameworks. Elixir, Python, RoR, Flutter, Ionic — you name it, we've got it.",
         },
         {
           id: 5,
           title: "QA Tester",
-            icon: 'services/qaBlueBg',
-          content:  "Seek the helping hand of our 500+ pre-vetted developers adept in the most loved languages and frameworks. Elixir, Python, RoR, Flutter, Ionic — you want it, you got it. You name it, here it is.",
+          icon: 'services/qaBlueBg',
+          content:  "Count on our 500+ pre-vetted developers skilled in well-regarded languages and frameworks. Elixir, Python, RoR, Flutter, Ionic — anything you need, we can deliver.",
         },
       ],
     },
+    
 
     platforms: {
       subHeading: "Mobile App Development Platforms",
@@ -530,7 +531,7 @@ export const data = {
           desc:'Absolutely, we offer ongoing post-launch support and maintenance services to guarantee your app stays current, secure, and optimized for peak performance.',},
         {
           id:5,
-          heading:'What is the typical timeframe and pricing structure for mobile app development projects?',
+          heading:'What is the typical time frame and pricing structure for mobile app development projects?',
           desc:"The timeline and cost can fluctuate based on the app's complexity and your specific requirements. We offer personalized quotations and timelines following an initial discussion of your project particulars and objectives.", 
         
         },
@@ -538,93 +539,90 @@ export const data = {
     },
   },
 
-  game: {
+  domainHosting: {
     serviceBanner: {
-      title: "Game",
-      desc: "Transform your gaming dreams into reality with our extraordinary Game Development services at NYV Digital Solutions. We excel at crafting immersive and captivating gaming experiences that redefine industry standards. Our prowess in designing engaging gameplay, breathtaking graphics, and unforgettable soundscapes guarantees your game not only stands out but also captivates players, setting you on a path to unparalleled success. Collaborate with us to elevate your gaming project to new heights.",
+      title: "Domain & Hosting",
+      desc: "Let us help you in spreading across the globe, in making wide connections and getting your websites accessible. We are providing the best hosting services with keeping up the technology trends in mind. The services provided at NYV Solutions shed are market competitive and refined.",
     },
-
     weServer: {
-      subHeading: "we serve",
-      generalHeading: "A Sneak Peak of Our Custom Game Services",
-      subGenHeading: "Delivering convenience-focused mobile application development services in any form is what we’re inclined towards.",
+      subHeading: "Domain & Hosting Services",
+      generalHeading: "Explore Our Custom Domain and Hosting Solutions",
+      subGenHeading: "Delivering reliable domain and hosting services tailored to meet your specific needs is our primary focus.",
       WE_SERVER_DATA: [
         {
           id: 1,
-          image: "services/andriod",
-          title: "Video Game Development",
-          text: "Boost your game's potential with our top-notch Video Game Development services. We're experts at creating captivating games that players love, ensuring your game stands out and achieves great success.",
+          title: "Domain Registration",
+          text: "Secure your online presence with our domain registration services. Register your desired domain name with ease and establish your unique identity on the web."
         },
         {
           id: 2,
-          image: "services/Ios",
-          title: "Mobile Game Development",
-          text: "Craft engaging mobile games that captivate players on smartphones and tablets. Turn your game idea into a mobile gaming sensation with our expert team.",
+          title: "Web Hosting",
+          text: "Host your website on our reliable servers. Our web hosting services ensure high-performance, security, and scalability for your website's smooth functioning."
         },
         {
           id: 3,
-          image: "services/native",
-          title: "Virtual Reality (VR) Game Development",
-          text: "Immerse players in lifelike VR worlds, creating unforgettable gaming experiences using cutting-edge technology. Partner with us to transport players to extraordinary realms in the virtual world",
+          title: "Virtual Private Server (VPS)",
+          text: "Experience the benefits of a dedicated server within a shared hosting environment. Our VPS hosting offers enhanced control, privacy, and flexibility for your business needs."
         },
         {
           id: 4,
-          image: "services/hybrid",
-          title: "Augmented Reality (AR) Game Development",
-          text: "Blend the real and digital worlds seamlessly with interactive AR games. Our experts use AR technology to provide unique and engaging adventures in the physical environment.",
+          title: "Dedicated Server Hosting",
+          text: "Get exclusive access to a dedicated server for your website. Our dedicated server hosting guarantees maximum performance, customization, and security for your online presence."
         },
         {
           id: 5,
-          image: "services/hybrid",
-          title: "Indie Game Development",
-          text: "Empower small teams and individual developers to bring their unique game ideas to life. Join us on a journey of innovation and artistic expression in the world of independent game development.",
+          title: "Cloud Hosting",
+          text: "Utilize the power of cloud technology for your website hosting. Our cloud hosting services ensure scalability, reliability, and high availability for your online projects."
         },
       ],
-    },
+    }
+,    
+    
 
-    whyUs: {
-      subHeading: "Why You Choose Us",
-      generalHeading:"Why Should You Choose NYV Digital Solutions For Game Development Services?",
-      subGenHeading:"We capitalized on 6 key value services and successfully built a reputation as the leading and trusted mobile app development services provider in the U.S.A., the U.K., and Canada.",
-      WHY_US_DATA: [
-        {
-          id: 1,
-          heading: "01",
-          title: "Unparalleled Expertise",
-          text: "Our team comprises industry experts, steeped in the art of software development, guaranteeing the delivery of exceptional, high-quality solutions.",
-        },
-        {
-          id: 2,
-          heading: "02",
-          title: "Tailored Excellence",
-          text: "We specialize in creating customized software solutions meticulously crafted to suit your unique business needs, offering a personalized touch that sets us apart.",
-        },
-        {
-          id: 3,
-          heading: "03",
-          title: "Pioneering Technology",
-          text: "At the forefront of technological innovation, we harness cutting-edge tools and trends to fashion software products that epitomize innovation and competitiveness.",
-        },
-        {
-          id: 4,
-          heading: "04",
-          title: "A Proven Legacy ",
-          text: "Our track record stands as a testament to our proficiency, exemplifying a history of successful projects and elated clients, with a consistent record of on-time, on-budget deliveries.",
-        },
-        {
-          id: 5,
-          heading: "05",
-          title: "Built to Scale",
-          text: "Our solutions are architected with scalability in mind, prepared to gracefully expand alongside your business, accommodating evolving demands and securing long-term viability.",
-        },
-        {
-          id: 6,
-          heading: "06",
-          title: "Unwavering Support",
-          text: "Beyond delivery, we offer unwavering support and maintenance services, ensuring your software continues to shine brilliantly in performance and relevance, even after deployment.",
-        },
-      ],
+whyUs: {
+  subHeading: "Why Choose Our Domain & Hosting Services",
+  generalHeading: "Reasons to Choose NYV Digital Solutions for Domain & Hosting Services",
+  subGenHeading: "We have leveraged six key value propositions to establish ourselves as a leading and trusted provider of domain and hosting services, serving clients in the Canada.",
+  WHY_US_DATA: [
+    {
+      id: 1,
+      heading: "01",
+      title: "Unmatched Expertise",
+      text: "Our team comprises domain and hosting experts dedicated to providing exceptional, reliable solutions, ensuring your online presence operates seamlessly."
     },
+    {
+      id: 2,
+      heading: "02",
+      title: "Tailored Hosting Excellence",
+      text: "We specialize in crafting customized hosting solutions meticulously designed to suit your unique business requirements, offering a personalized hosting experience."
+    },
+    {
+      id: 3,
+      heading: "03",
+      title: "Cutting-Edge Technology",
+      text: "At the forefront of hosting innovation, we utilize cutting-edge tools and trends to offer hosting products that epitomize innovation and competitiveness in the digital landscape."
+    },
+    {
+      id: 4,
+      heading: "04",
+      title: "Proven Track Record",
+      text: "Our track record speaks volumes about our proficiency, showcasing a history of successful hosting services and satisfied clients, consistently delivering reliable solutions."
+    },
+    {
+      id: 5,
+      heading: "05",
+      title: "Scalable Solutions",
+      text: "Our solutions are designed with scalability in mind, ready to expand alongside your business, catering to evolving demands and ensuring long-term online viability."
+    },
+    {
+      id: 6,
+      heading: "06",
+      title: "Continuous Support",
+      text: "Beyond service provision, we offer continuous support and maintenance services, ensuring that your online presence remains consistently operational and relevant."
+    },
+  ],
+},
+
 
     devIdea: {
       heading: "with A Featured-packed Game Development Services",
@@ -681,42 +679,44 @@ export const data = {
     },
 
     teamWork: {
-      subHeading: "Team Work",
-      generalHeading: "Team Work On Your Project",
-      subGenHeading: "We deliver profitable and gratifying offshore Game development services. You may connect with a large talent pool in 60 seconds at a cost roughly 50% lower than Western marketplaces. We can demonstrate it to you through a trial.",
+      subHeading: "Domain & Hosting Team Collaboration",
+      generalHeading: "Collaborative Domain & Hosting Team for Your Project",
+      subGenHeading: "We provide reliable domain and hosting services with a dedicated team. Connect with our proficient talent pool in just 60 seconds at significantly lower costs compared to other marketplaces.",
       TEAM_WORK_DATA: [
         {
           id: 1,
-          title: "Designer",
-            icon: 'services/design',
-          content: "Seek the helping hand of our 500+ pre-vetted developers adept in the most loved languages and frameworks. Elixir, Python, RoR, Flutter, Ionic — you want it, you got it. You name it, here it is.",
+          title: "Domain Designer",
+          icon: 'services/domainDesignerIcon',
+          content: "Our Domain Designers are experts in crafting unique domain names that define and enhance your online identity, ensuring a memorable presence."
         },
         {
           id: 2,
-          title: "iOS Development",
-            icon: 'services/Ios',
-          content: "Seek the helping hand of our 500+ pre-vetted developers adept in the most loved languages and frameworks. Elixir, Python, RoR, Flutter, Ionic — you want it, you got it. You name it, here it is.",
+          title: "Hosting Specialist",
+          icon: 'services/hostingSpecialistIcon',
+          content: "Our Hosting Specialists excel in offering tailored hosting solutions, ensuring optimal performance, security, and scalability for your online projects."
         },
         {
           id: 3,
-          title: "Android Developers",
-            icon: 'services/andriod',
-          content: "Seek the helping hand of our 500+ pre-vetted developers adept in the most loved languages and frameworks. Elixir, Python, RoR, Flutter, Ionic — you want it, you got it. You name it, here it is.",
+          title: "Server Engineer",
+          icon: 'services/serverEngineerIcon',
+          content: "Our Server Engineers manage and maintain server infrastructure, ensuring seamless hosting operations and reliability for your websites."
         },
         {
           id: 4,
           title: "Product Manager",
-            icon: 'services/product',
-          content: "Seek the helping hand of our 500+ pre-vetted developers adept in the most loved languages and frameworks. Elixir, Python, RoR, Flutter, Ionic — you want it, you got it. You name it, here it is.",
+          icon: 'services/domainProductManagerIcon',
+          content: "Our Domain & Hosting Product Managers oversee service delivery, ensuring alignment with your project goals and efficient team collaboration."
         },
         {
           id: 5,
           title: "QA Tester",
-            icon: 'services/qaBlueBg',
-          content:  "Seek the helping hand of our 500+ pre-vetted developers adept in the most loved languages and frameworks. Elixir, Python, RoR, Flutter, Ionic — you want it, you got it. You name it, here it is.",
+          icon: 'services/domainQATesterIcon',
+          content: "Our QA Testers ensure the quality and reliability of domain and hosting services through rigorous testing, guaranteeing a smooth online experience."
         },
       ],
-    },
+    }
+    
+    ,
 
     platforms: {
       subHeading: "Game Development Platforms",
@@ -793,93 +793,94 @@ export const data = {
     },
   },
 
-  blockchain: {
+  graphicDesign: {
     serviceBanner: {
-      title: "BlockChain",
-      desc: "Transform your gaming dreams into reality with our extraordinary BlockChain Development services at NYV Digital Solutions. We excel at crafting immersive and captivating gaming Elevate your business with our cutting-edge blockchain development expertise. At Code UpsScale, we're masters at harnessing distributed ledger technology to craft secure and transparent solutions customized for your unique business needs. From smart contract innovation to DApp excellence and private blockchain deployment, partnering with us means propelling your organization into the future of digital transformation. Unleash the true potential of blockchain with our dedicated team by your side, ensuring your business stays ahead of the curve.",
-    },
-
+      title: "Graphic Designing",
+      desc: "Unlock the power of visuals with our artistry alchemists, as they blend creativity and design magic to craft mesmerizing brand identities that leave a lasting enchantment.",
+    }, 
     weServer: {
-      subHeading: "we serve",
-      generalHeading: "A Sneak Peak of Our Custom BlockChain Development Services",
-      subGenHeading: "Delivering convenience-focused BlockChain development services in any form is what we’re inclined towards.",
+      subHeading: "We Serve",
+      generalHeading: "Discover Our Tailored Graphic Design Services",
+      subGenHeading: "Providing user-centric and visually appealing graphic design services is our specialty.",
       WE_SERVER_DATA: [
         {
           id: 1,
           image: "services/andriod",
-          title: 'Smart Contract Development',
-          text: 'We craft blockchain-powered self-executing contracts to streamline operations, eliminate intermediaries, and boost trust and transparency, positioning your business for success in the digital age.'
+          title: 'Logo Design',
+          text: 'Crafting unique and memorable logos that resonate with your brand identity. Our graphic design team ensures a professional and impactful visual representation for your business.'
         },
         {
           id: 2,
           image: "services/Ios",
-          title: 'DApp Development',
-          text: 'Discover our DApp Development expertise at NYV Digital Solutions, where we excel in creating decentralized applications using blockchain technology. We design innovative, secure, and user-friendly DApps that foster trust and transparency across diverse industries and applications.'
-         },
+          title: 'UI/UX Design',
+          text: 'Explore our UI/UX design expertise, where we specialize in creating intuitive and visually engaging user interfaces. We prioritize user experience to ensure customer satisfaction.'
+        },
         {
           id: 3,
           image: "services/native",
-          title: 'Cryptocurrency Wallet Development',
-          text: 'Embark on a crypto adventure with our Cryptocurrency Wallet Development services, tailored for safeguarding your digital fortunes. Our security-driven wallets offer a smooth gateway to the crypto world, ensuring the utmost protection and convenience for your digital assets.'
-         },
+          title: 'Branding and Identity Design',
+          text: 'Embark on a branding journey with us. Our graphic design services cover everything from designing brochures, business cards, and stationery to ensure consistent brand representation.'
+        },
         {
           id: 4,
           image: "services/hybrid",
-          title: 'Private and Consortium Blockchain Development',
-          text: "Enter a realm of blockchain mastery with our Private and Consortium Blockchain Development. Elevate control, fortify privacy, and forge unwavering trust in a bespoke blockchain ecosystem tailored for your business."
-          },
+          title: 'Print Design',
+          text: 'Transform your ideas into visually striking print materials. Our graphic designers are skilled in creating captivating designs for magazines, posters, flyers, and other print collateral.'
+        },
         {
           id: 5,
           image: "services/hybrid",
-          title: 'Tokenization',
-          text: "Explore our Tokenization services at our software house, where we're skilled at turning things into digital tokens. Whether it's for creative fundraising or representing real stuff as digital assets, our blockchain-based tokens help businesses go digital and raise money safely."
+          title: 'Packaging Design',
+          text: 'Innovative packaging designs that stand out on shelves. We specialize in creating eye-catching packaging graphics that resonate with your brand and captivate customers.'
         },
       ],
-    },
+    } ,
+    
 
     whyUs: {
-      subHeading: "Why You Choose Us",
-      generalHeading:"Why Should You Choose NYV Digital Solutions For Blockchain Services?",
-      subGenHeading:"We capitalized on 6 key value services and successfully built a reputation as the leading and trusted mobile app development services provider in the U.S.A., the U.K., and Canada.",
+      subHeading: "Why Choose Our Graphic Design Services",
+      generalHeading:"Why Opt for NYV Digital Solutions' Graphic Design Expertise?",
+      subGenHeading:"With a focus on creativity and innovation, we've established ourselves as the leading graphic design services provider in Canada.",
       WHY_US_DATA: [
         {
           id: 1,
           heading: "01",
-          title: 'Unparalleled Expertise',
-          text: 'Our team comprises industry experts, steeped in the art of software development, guaranteeing the delivery of exceptional, high-quality solutions.'
-       },
+          title: 'Unmatched Creativity',
+          text: 'Our team comprises artistic minds dedicated to delivering exceptional visual concepts and designs, ensuring uniqueness and creativity in every project.'
+        },
         {
           id: 2,
           heading: "02",
-          title: 'Tailored Excellence',
-          text: 'We specialize in creating customized software solutions meticulously crafted to suit your unique business needs, offering a personalized touch that sets us apart.'
-      },
+          title: 'Tailored Design Solutions',
+          text: 'We specialize in tailoring designs to meet your specific business requirements, offering personalized and bespoke graphic solutions that set your brand apart.'
+        },
         {
           id: 3,
           heading: "03",
-          title: 'Pioneering Technology',
-          text: 'At the forefront of technological innovation, we harness cutting-edge tools and trends to fashion software products that epitomize innovation and competitiveness.'
-      },
+          title: 'Cutting-Edge Design Tools',
+          text: 'At the forefront of design innovation, we leverage the latest design tools and trends to craft visually stunning and competitive graphic solutions for businesses.'
+        },
         {
           id: 4,
           heading: "04",
-          title: 'A Proven Legacy ',
-          text: 'Our track record stands as a testament to our proficiency, exemplifying a history of successful projects and elated clients, with a consistent record of on-time, on-budget deliveries.'
-      },
+          title: 'Proven Track Record',
+          text: 'Our history of successful design projects and satisfied clients speaks volumes about our proficiency, ensuring on-time, on-budget, and high-quality deliveries.'
+        },
         {
           id: 5,
           heading: "05",
-          title: 'Built to Scale',
-          text: 'Our solutions are architected with scalability in mind, prepared to gracefully expand alongside your business, accommodating evolving demands and securing long-term viability.'
+          title: 'Scalable Design Solutions',
+          text: 'Our designs are scalable, adapting seamlessly to your evolving business needs and ensuring long-term viability in meeting the demands of your growing business.'
         },
         {
           id: 6,
           heading: "06",
-          title: 'Unwavering Support',
-          text: 'Beyond delivery, we offer unwavering support and maintenance services, ensuring your software continues to shine brilliantly in performance and relevance, even after deployment.'
+          title: 'Continuous Support',
+          text: 'Beyond delivering designs, we provide continuous support and maintenance, ensuring your graphics remain impactful, relevant, and aligned with your brand goals.'
         },
       ],
     },
+    
 
     devIdea: {
       heading: "with A Featured-packed BlockChain Development Services",
@@ -936,42 +937,43 @@ export const data = {
     },
 
     teamWork: {
-      subHeading: "Team Work",
-      generalHeading: "Team Work On Your Project",
-      subGenHeading: "We deliver profitable and gratifying offshore BlockChain development services. You may connect with a large talent pool in 60 seconds at a cost roughly 50% lower than Western marketplaces. We can demonstrate it to you through a trial.",
+      subHeading: "Creative Team",
+      generalHeading: "Creative Minds for Your Design Project",
+      subGenHeading: "We offer comprehensive and innovative graphic designing services. Connect with our team of skilled designers for visually captivating solutions that elevate your brand.",
       TEAM_WORK_DATA: [
         {
           id: 1,
-          title: "Designer",
-            icon: 'services/design',
-          content: "Seek the helping hand of our 500+ pre-vetted developers adept in the most loved languages and frameworks. Elixir, Python, RoR, Flutter, Ionic — you want it, you got it. You name it, here it is.",
+          title: "Graphic Designer",
+          icon: 'services/design',
+          content: "Harness the expertise of our talented graphic designers skilled in crafting visually appealing designs. From logos to branding materials, we bring your ideas to life with creative flair."
         },
         {
           id: 2,
-          title: "iOS Development",
-            icon: 'services/Ios',
-          content: "Seek the helping hand of our 500+ pre-vetted developers adept in the most loved languages and frameworks. Elixir, Python, RoR, Flutter, Ionic — you want it, you got it. You name it, here it is.",
+          title: "UI/UX Design Specialist",
+          icon: 'services/Ios',
+          content: "Leverage the proficiency of our UI/UX experts adept in creating intuitive and engaging user interfaces. We design user-centric experiences that resonate with your audience."
         },
         {
           id: 3,
-          title: "Android Developers",
-            icon: 'services/andriod',
-          content: "Seek the helping hand of our 500+ pre-vetted developers adept in the most loved languages and frameworks. Elixir, Python, RoR, Flutter, Ionic — you want it, you got it. You name it, here it is.",
+          title: "Illustrator",
+          icon: 'services/andriod',
+          content: "Explore the world of illustrations with our creative illustrators who transform ideas into captivating visuals. Engage your audience with stunning and compelling artwork."
         },
         {
           id: 4,
-          title: "Product Manager",
-            icon: 'services/product',
-          content: "Seek the helping hand of our 500+ pre-vetted developers adept in the most loved languages and frameworks. Elixir, Python, RoR, Flutter, Ionic — you want it, you got it. You name it, here it is.",
+          title: "Art Director",
+          icon: 'services/product',
+          content: "Get guidance from our skilled art directors who lead the artistic vision. They ensure your designs align with your brand identity and convey the right message."
         },
         {
           id: 5,
-          title: "QA Tester",
-            icon: 'services/qaBlueBg',
-          content:  "Seek the helping hand of our 500+ pre-vetted developers adept in the most loved languages and frameworks. Elixir, Python, RoR, Flutter, Ionic — you want it, you got it. You name it, here it is.",
+          title: "Quality Assurance Specialist",
+          icon: 'services/qaBlueBg',
+          content:  "Ensure top-notch quality with our QA specialists who meticulously review designs to guarantee they meet the highest standards before delivery."
         },
       ],
     },
+    
 
     platforms: {
       subHeading: "Blockchain Development Platforms",
@@ -1064,77 +1066,78 @@ export const data = {
   web: {
     serviceBanner: {
       title: "Website",
-      desc: "In the world of digital experiences, 4dots Solutions excels as a master craftsman of web development. We transform your ideas into user-friendly, responsive, and aesthetically captivating websites that authentically represent your brand’s essence. Our web development team boasts a profound understanding of the latest technologies, ensuring your site looks exceptional and functions flawlessly, providing a seamless and immersive user experience that leaves a lasting impression. We’re committed to creating websites that look great, drive results, and offer a seamless online journey for your visitors.",
+      desc: "In the world of digital experiences, NYV Solutions excels as a master craftsman of web development. We transform your ideas into user-friendly, responsive, and aesthetically captivating websites that authentically represent your brand’s essence. Our web development team boasts a profound understanding of the latest technologies, ensuring your site looks exceptional and functions flawlessly, providing a seamless and immersive user experience that leaves a lasting impression. We’re committed to creating websites that look great, drive results, and offer a seamless online journey for your visitors.",
     },
 
     weServer: {
-      subHeading: "our services",
-      generalHeading: "Explore Our Tailored Web Development Solutions",
+      subHeading: "Our Services",
+      generalHeading: "Discover Our Tailored Web Development Solutions",
       subGenHeading: "Crafting user-centric web applications is our forte, aiming to provide seamless and convenient digital experiences.",
       WE_SERVER_DATA: [
         {
           id: 1,
           image: "services/andriod",
           title: 'Frontend/Backend Development',
-          text: "Join forces with us to revolutionize your digital solutions, driving innovation and success in the online domain through our adept Frontend and Backend Development services. Our specialty lies in creating intuitive interfaces and ensuring robust functionality for web applications, setting your online presence apart from competitors."
-         },
+          text: "Revolutionize your digital solutions with our adept Frontend and Backend Development services. We create intuitive interfaces and robust functionality for web applications, setting your online presence apart from competitors."
+        },
         {
           id: 2,
           image: "services/Ios",
           title: 'Full-stack Development',
-          text: "Unleash your digital potential with our comprehensive approach, propelling your digital aspirations to new heights and ensuring a competitive edge in the ever-evolving online realm. We specialize in delivering comprehensive, high-performance web solutions by seamlessly merging Frontend and Backend expertise."
-         },
+          text: "Unleash your digital potential with our comprehensive Full-stack Development approach, ensuring a competitive edge in the ever-evolving online realm by merging Frontend and Backend expertise."
+        },
         {
           id: 3,
           image: "services/native",
           title: 'UI/UX Web Design',
-          text: "Elevate your digital footprint with our premium UI/UX web design services. Our talented designers are dedicated to crafting captivating, user-centered interfaces that guarantee an engaging and immersive online journey for your audience, setting you apart in the digital space."
-         },
+          text: "Elevate your digital footprint with our premium UI/UX web design services. Our designers craft captivating, user-centered interfaces, guaranteeing an engaging online journey for your audience."
+        },
         {
           id: 4,
           image: "services/hybrid",
           title: 'Content Management Systems (CMS)',
-          text: "Enhance your online presence with our advanced Content Management Systems (CMS) services. Our expertise lies in streamlining content creation and website management, ensuring your digital platform remains competitive and consistently updated."
-         },
+          text: "Enhance your online presence with advanced Content Management Systems (CMS) services. We streamline content creation and website management to keep your digital platform competitive and updated."
+        },
         {
           id: 5,
           image: "services/hybrid",
           title: 'Custom Web Solutions',
-          text: "Collaborate with us to elevate your digital presence and surpass the competition. We excel in designing unique websites and applications tailored precisely to your requirements, ensuring your online presence not only stands out but excels in the digital landscape."
+          text: "Elevate your digital presence and surpass the competition with unique websites and applications tailored precisely to your requirements, ensuring excellence in the digital landscape."
         },
       ],
     },
     
+    
 
     whyUs: {
       subHeading: "Why Choose Us",
-      generalHeading: "Why NYV Digital Solutions Stands Out for Web Development Services?",
-      subGenHeading: "Our success story is built on six core value propositions, establishing us as the foremost and trusted provider of web app development services in the U.S.A., the U.K., and Canada.",
+      generalHeading: "Why NYV Digital Solutions Excels in Web Development Services?",
+      subGenHeading: "Our success is founded on six core value propositions, establishing us as the foremost and trusted provider of web app development services in Canada.",
       WHY_US_DATA: [
         {
           id: 1,
           heading: "01",
           title: 'Unmatched Expertise',
-          text: 'Our team comprises seasoned industry professionals deeply immersed in the realm of software development, ensuring the delivery of exceptional, top-tier solutions.'
-       },
+          text: 'Our team comprises seasoned industry professionals deeply immersed in the realm of web development, ensuring the delivery of exceptional, top-tier solutions.'
+        },
         {
           id: 2,
           heading: "02",
           title: 'Tailored Excellence',
-          text: 'We specialize in meticulously crafting custom software solutions tailored precisely to address your distinctive business requirements, offering a personalized touch that sets us apart.'
-      },
+          text: 'We specialize in meticulously crafting custom web solutions precisely addressing your distinctive business requirements, offering a personalized touch that sets us apart.'
+        },
         {
           id: 3,
           heading: "03",
           title: 'Innovative Technology',
-          text: 'At the forefront of technological advancements, we harness cutting-edge tools and trends to create software products that embody innovation and competitiveness.'
-      },
+          text: 'At the forefront of technological advancements, we harness cutting-edge tools and trends to create web products that embody innovation and competitiveness.'
+        },
         {
           id: 4,
           heading: "04",
           title: 'Proven Track Record',
-          text: 'Our history speaks volumes about our expertise, showcasing a track record of successful projects and delighted clients, consistently achieving on-time and on-budget deliveries.'
-      },
+          text: 'Our history speaks volumes about our expertise, showcasing a track record of successful web projects and delighted clients, consistently achieving on-time and on-budget deliveries.'
+        },
         {
           id: 5,
           heading: "05",
@@ -1145,16 +1148,17 @@ export const data = {
           id: 6,
           heading: "06",
           title: 'Dedicated Support',
-          text: 'Beyond deployment, we provide steadfast support and maintenance services, ensuring sustained high-performance and relevance for your software, continuing to shine brightly.'
+          text: 'Beyond deployment, we provide steadfast support and maintenance services, ensuring sustained high-performance and relevance for your web software, continuing to shine brightly.'
         },
         {
           id: 7,
           heading: "07",
           title: 'Client-Centric Approach',
-          text: 'We prioritize understanding your needs and aspirations, fostering a collaborative approach that ensures your vision is not just met, but exceeded at every step of the journey.'
+          text: 'We prioritize understanding your needs and aspirations, fostering a collaborative approach that ensures your vision is not just met, but exceeded at every step of the web development journey.'
         },
       ],
     },
+    
     
 
     devIdea: {
@@ -1210,44 +1214,44 @@ export const data = {
         },
       ],
     },
-
-    teamWork: {
-      subHeading: "Team Work",
-      generalHeading: "Team Work On Your Project",
-      subGenHeading: "We deliver profitable and gratifying offshore BlockChain development services. You may connect with a large talent pool in 60 seconds at a cost roughly 50% lower than Western marketplaces. We can demonstrate it to you through a trial.",
+  teamWork: {
+      subHeading: "Team Collaboration",
+      generalHeading: "Collaborative Efforts for Your Web Development Project",
+      subGenHeading: "We offer proficient and rewarding offshore web development services. Connect with a vast talent pool in just 60 seconds, at a cost approximately 50% lower than Western marketplaces. Experience it through a trial.",
       TEAM_WORK_DATA: [
         {
           id: 1,
-          title: "Designer",
-            icon: 'services/design',
-          content: "Seek the helping hand of our 500+ pre-vetted developers adept in the most loved languages and frameworks. Elixir, Python, RoR, Flutter, Ionic — you want it, you got it. You name it, here it is.",
+          title: "Web Designer",
+          icon: 'services/design',
+          content: "Leverage the expertise of our 500+ pre-vetted developers skilled in the most popular languages and frameworks for web development. Whether it's Elixir, Python, RoR, Flutter, Ionic — you name it, and we've got it for you."
         },
         {
           id: 2,
-          title: "iOS Development",
-            icon: 'services/Ios',
-          content: "Seek the helping hand of our 500+ pre-vetted developers adept in the most loved languages and frameworks. Elixir, Python, RoR, Flutter, Ionic — you want it, you got it. You name it, here it is.",
+          title: "iOS Web Development",
+          icon: 'services/Ios',
+          content: "Access the assistance of our 500+ pre-vetted developers adept in various languages and frameworks ideal for iOS web development. From Elixir, Python, RoR, Flutter to Ionic — we have the skills you require."
         },
         {
           id: 3,
-          title: "Android Developers",
-            icon: 'services/andriod',
-          content: "Seek the helping hand of our 500+ pre-vetted developers adept in the most loved languages and frameworks. Elixir, Python, RoR, Flutter, Ionic — you want it, you got it. You name it, here it is.",
+          title: "Android Web Developers",
+          icon: 'services/andriod',
+          content: "Engage our 500+ pre-vetted developers who are proficient in the most sought-after languages and frameworks for Android web development. Whether it's Elixir, Python, RoR, Flutter, Ionic — we've got you covered."
         },
         {
           id: 4,
-          title: "Product Manager",
-            icon: 'services/product',
-          content: "Seek the helping hand of our 500+ pre-vetted developers adept in the most loved languages and frameworks. Elixir, Python, RoR, Flutter, Ionic — you want it, you got it. You name it, here it is.",
+          title: "Product Manager for Web",
+          icon: 'services/product',
+          content: "Utilize the expertise of our 500+ pre-vetted developers well-versed in the most favored languages and frameworks. Be it Elixir, Python, RoR, Flutter, Ionic — you ask for it, and we deliver."
         },
         {
           id: 5,
-          title: "QA Tester",
-            icon: 'services/qaBlueBg',
-          content:  "Seek the helping hand of our 500+ pre-vetted developers adept in the most loved languages and frameworks. Elixir, Python, RoR, Flutter, Ionic — you want it, you got it. You name it, here it is.",
+          title: "Web QA Tester",
+          icon: 'services/qaBlueBg',
+          content:  "Benefit from our 500+ pre-vetted developers skilled in the most beloved languages and frameworks. Elixir, Python, RoR, Flutter, Ionic — whatever you need, we've got the expertise."
         },
       ],
     },
+    
 
     platforms: {
       subHeading: "Web Development Platforms",
@@ -1383,87 +1387,85 @@ export const data = {
     },
   },
 
-  devops: {
+  softwareDevelopment: {
     serviceBanner: {
-      title: "devOps",
-      desc: "Our DevOps development services are designed to ensure consistent enhancements in software quality, scalability, and predictability. Simultaneously, they effectively cut down the costs associated with design, testing, coding, and deployment. Our aim is to assist businesses in meeting customer demands more efficiently. Explore top-notch DevOps consulting services and solutions with us, and optimize your IT operations, workflows, and software development processes.",
+      title: "Software Development",
+      desc: "Every decision we make needs to answer the million-dollar question: how will this benefit our partner’s goal best? We work to develop solutions. We like to be different, in the same way that every mission is different. Every project is an opportunity to create result that will help you",
     },
 
     weServer: {
-      subHeading: "we serve",
-      generalHeading: "A Sneak Peak of Our Custom DevOps Development Services",
-      subGenHeading: "Delivering convenience-focused mobile application development services in any form is what we’re inclined towards.",
+      subHeading: "Software Development",
+      generalHeading: "Explore Our Customized Software Development Services",
+      subGenHeading: "Delivering software development services focused on convenience and efficiency is our priority.",
       WE_SERVER_DATA: [
         {
           id: 1,
-          image: "services/andriod",
-          title: 'DevOps Managed services',
-          text: 'Benefit from our expert DevOps managed services at NYV Digital Solutions, where we conduct in-depth requirements analysis and provide comprehensive guidance throughout the process for seamless results.'
-            },
-        {
-          id: 2,
-          image: "services/Ios",
-          title: 'DevOps consulting services',
-          text: 'Our DevOps consulting service guarantees quality control for smooth production and launch while expertly resolving any technical challenges along the way, ensuring a successful project outcome.'
-              },
-        {
-          id: 3,
-          image: "services/native",
-          title: 'End to end services',
-          text: 'With our end-to-end DevOps implementation services, we harmoniously blend development and operations to optimize your software projects, ensuring efficiency from inception to delivery.'
-           },
-        {
-          id: 4,
-          image: "services/hybrid",
-          title: 'Integration and testing',
-          text: "Our integration and testing solutions focus on the seamless integration and rigorous testing of your software products, ensuring they meet the highest quality standards and provide a dependable user experience."
-          },
-      ],
-    },
-
-    whyUs: {
-      subHeading: "Why You Choose Us",
-      generalHeading:"Why Should You Choose NYV Digital Solutions For DevOps Development Services?",
-      subGenHeading:"We capitalized on 6 key value services and successfully built a reputation as the leading and trusted mobile app development services provider in the U.S.A., the U.K., and Canada.",
-      WHY_US_DATA: [
-        {
-          id: 1,
-          heading: "01",
-          title: 'Unparalleled Expertise',
-          text: 'Our team comprises industry experts, steeped in the art of software development, guaranteeing the delivery of exceptional, high-quality solutions.'
-       },
-        {
-          id: 2,
-          heading: "02",
-          title: 'Tailored Excellence',
-          text: 'We specialize in creating customized software solutions meticulously crafted to suit your unique business needs, offering a personalized touch that sets us apart.'
-      },
-        {
-          id: 3,
-          heading: "03",
-          title: 'Pioneering Technology',
-          text: 'At the forefront of technological innovation, we harness cutting-edge tools and trends to fashion software products that epitomize innovation and competitiveness.'
-      },
-        {
-          id: 4,
-          heading: "04",
-          title: 'A Proven Legacy ',
-          text: 'Our track record stands as a testament to our proficiency, exemplifying a history of successful projects and elated clients, with a consistent record of on-time, on-budget deliveries.'
-      },
-        {
-          id: 5,
-          heading: "05",
-          title: 'Built to Scale',
-          text: 'Our solutions are architected with scalability in mind, prepared to gracefully expand alongside your business, accommodating evolving demands and securing long-term viability.'
+          title: 'Custom Software Development',
+          text: 'At NYV Digital Solutions, we specialize in creating tailor-made software solutions to meet your unique business needs. Our expert team ensures high-quality, scalable, and efficient software development from concept to deployment.'
         },
         {
-          id: 6,
-          heading: "06",
-          title: 'Unwavering Support',
-          text: 'Beyond delivery, we offer unwavering support and maintenance services, ensuring your software continues to shine brilliantly in performance and relevance, even after deployment.'
+          id: 2,
+          title: 'Desktop App Development',
+          text: 'Crafting engaging desktop applications that cater to your specific requirements is our expertise. We bring your ideas to life with user-friendly and innovative desktop app development services.'
+        },
+        {
+          id: 3,
+          title: 'Full Stack Development',
+          text: 'We offer end-to-end full stack development services encompassing front-end and back-end technologies. Our holistic approach ensures comprehensive and cohesive software solutions.'
+        },
+        {
+          id: 4,
+          title: 'Quality Assurance and Testing',
+          text: 'Ensuring top-notch quality, our dedicated QA team conducts rigorous testing to deliver flawless software products. We guarantee reliable performance and exceptional user experiences.'
         },
       ],
-    },
+    }
+    
+  , 
+  whyUs: {
+    subHeading: "Why Choose NYV Digital Solutions for Software Development?",
+    generalHeading: "Why Opt for NYV Digital Solutions for Software Development Services?",
+    subGenHeading: "We've capitalized on 6 key value services, earning a reputation as a leading and trusted software development services provider in the Canada.",
+    WHY_US_DATA: [
+      {
+        id: 1,
+        heading: "01",
+        title: 'Unparalleled Expertise',
+        text: 'Our team consists of industry experts deeply immersed in the art of software development, ensuring the delivery of exceptional, high-quality solutions.'
+      },
+      {
+        id: 2,
+        heading: "02",
+        title: 'Tailored Excellence',
+        text: 'We specialize in crafting customized software solutions meticulously tailored to meet your unique business needs, providing a personalized touch that sets us apart.'
+      },
+      {
+        id: 3,
+        heading: "03",
+        title: 'Pioneering Technology',
+        text: 'At the forefront of technological innovation, we leverage cutting-edge tools and trends to create software products that epitomize innovation and competitiveness.'
+      },
+      {
+        id: 4,
+        heading: "04",
+        title: 'Proven Legacy',
+        text: 'Our track record speaks volumes about our proficiency, showcasing a history of successful projects and satisfied clients, consistently delivering on-time and on-budget.'
+      },
+      {
+        id: 5,
+        heading: "05",
+        title: 'Built to Scale',
+        text: 'Our solutions are designed with scalability in mind, ready to seamlessly grow with your business, adapting to evolving demands and ensuring long-term viability.'
+      },
+      {
+        id: 6,
+        heading: "06",
+        title: 'Continuous Support',
+        text: 'Beyond delivery, we offer unwavering support and maintenance services, ensuring your software continues to perform brilliantly and remain relevant even after deployment.'
+      },
+    ],
+  }
+ ,  
 
     devIdea: {
       heading: "with A Featured-packed DevOps Development Services",
@@ -1521,41 +1523,42 @@ export const data = {
 
     teamWork: {
       subHeading: "Team Work",
-      generalHeading: "Team Work On Your Project",
-      subGenHeading: "We deliver profitable and gratifying offshore DevOps development services. You may connect with a large talent pool in 60 seconds at a cost roughly 50% lower than Western marketplaces. We can demonstrate it to you through a trial.",
+      generalHeading: "Enhanced Collaboration for Software Development",
+      subGenHeading: "We offer rewarding offshore software development services, facilitating access to a vast talent pool within 60 seconds and at a cost roughly 50% lower than Western markets. Experience it firsthand through a trial.",
       TEAM_WORK_DATA: [
         {
           id: 1,
           title: "Designer",
-            icon: 'services/design',
-          content: "Seek the helping hand of our 500+ pre-vetted developers adept in the most loved languages and frameworks. Elixir, Python, RoR, Flutter, Ionic — you want it, you got it. You name it, here it is.",
+          icon: 'services/design',
+          content: "Engage with our team of 500+ pre-vetted developers proficient in popular languages and frameworks such as Elixir, Python, RoR, Flutter, Ionic. Tell us what you need, and we'll make it happen."
         },
         {
           id: 2,
           title: "iOS Development",
-            icon: 'services/Ios',
-          content: "Seek the helping hand of our 500+ pre-vetted developers adept in the most loved languages and frameworks. Elixir, Python, RoR, Flutter, Ionic — you want it, you got it. You name it, here it is.",
+          icon: 'services/Ios',
+          content: "Collaborate with our 500+ pre-vetted developers skilled in various languages and frameworks. Whether it's Elixir, Python, RoR, Flutter, or Ionic, we've got you covered for iOS development."
         },
         {
           id: 3,
           title: "Android Developers",
-            icon: 'services/andriod',
-          content: "Seek the helping hand of our 500+ pre-vetted developers adept in the most loved languages and frameworks. Elixir, Python, RoR, Flutter, Ionic — you want it, you got it. You name it, here it is.",
+          icon: 'services/andriod',
+          content: "Leverage the expertise of our 500+ pre-vetted developers proficient in diverse languages and frameworks. From Elixir to Python, RoR to Flutter and Ionic, we're here for Android development."
         },
         {
           id: 4,
           title: "Product Manager",
-            icon: 'services/product',
-          content: "Seek the helping hand of our 500+ pre-vetted developers adept in the most loved languages and frameworks. Elixir, Python, RoR, Flutter, Ionic — you want it, you got it. You name it, here it is.",
+          icon: 'services/product',
+          content: "Rely on our 500+ pre-vetted developers well-versed in your favorite languages and frameworks. Be it Elixir, Python, RoR, Flutter, or Ionic, we've got the expertise for product management."
         },
         {
           id: 5,
           title: "QA Tester",
-            icon: 'services/qaBlueBg',
-          content:  "Seek the helping hand of our 500+ pre-vetted developers adept in the most loved languages and frameworks. Elixir, Python, RoR, Flutter, Ionic — you want it, you got it. You name it, here it is.",
+          icon: 'services/qaBlueBg',
+          content: "Count on our 500+ pre-vetted developers adept in various languages and frameworks. Whether it's Elixir, Python, RoR, Flutter, or Ionic, we ensure top-notch quality as QA testers."
         },
       ],
-    },
+    }
+     , 
 
     platforms: {
       subHeading: "DevOps Development Platforms",
@@ -1745,44 +1748,44 @@ export const data = {
         },
       ],
     },
-
     teamWork: {
-      subHeading: "Team Work",
-      generalHeading: "Team Work On Your Project",
-      subGenHeading: "We deliver profitable and gratifying offshore salesforce development services. You may connect with a large talent pool in 60 seconds at a cost roughly 50% lower than Western marketplaces. We can demonstrate it to you through a trial.",
+      subHeading: "Our Collaborative Team",
+      generalHeading: "Meet Our Expert Team for Your Product Photoshoot",
+      subGenHeading: "We collaborate efficiently to deliver exceptional product photoshoot services. Each team member plays a crucial role in creating stunning visual content tailored to meet your needs.",
       TEAM_WORK_DATA: [
         {
           id: 1,
-          title: "Designer",
-            icon: 'services/design',
-          content: "Seek the helping hand of our 500+ pre-vetted developers adept in the most loved languages and frameworks. Elixir, Python, RoR, Flutter, Ionic — you want it, you got it. You name it, here it is.",
+          title: "Photographer",
+          icon: 'services/photographerIcon',
+          content: "Our photographers are skilled in capturing the essence of your products, ensuring high-quality images that showcase your products in their best light."
         },
         {
           id: 2,
-          title: "iOS Development",
-            icon: 'services/Ios',
-          content: "Seek the helping hand of our 500+ pre-vetted developers adept in the most loved languages and frameworks. Elixir, Python, RoR, Flutter, Ionic — you want it, you got it. You name it, here it is.",
+          title: "Creative Director",
+          icon: 'services/creativeDirectorIcon',
+          content: "Our Creative Directors bring innovative ideas and concepts to the photoshoot, ensuring that your product presentation stands out with unique and engaging visuals."
         },
         {
           id: 3,
-          title: "Android Developers",
-            icon: 'services/andriod',
-          content: "Seek the helping hand of our 500+ pre-vetted developers adept in the most loved languages and frameworks. Elixir, Python, RoR, Flutter, Ionic — you want it, you got it. You name it, here it is.",
+          title: "Image Retoucher",
+          icon: 'services/imageRetoucherIcon',
+          content: "Our Image Retouchers meticulously edit and enhance the photos, ensuring that your product images are polished and ready for use in various marketing materials."
         },
         {
           id: 4,
-          title: "Product Manager",
-            icon: 'services/product',
-          content: "Seek the helping hand of our 500+ pre-vetted developers adept in the most loved languages and frameworks. Elixir, Python, RoR, Flutter, Ionic — you want it, you got it. You name it, here it is.",
+          title: "Stylist",
+          icon: 'services/stylistIcon',
+          content: "Our Stylists ensure that your products are styled and presented in a visually appealing manner, adding a professional touch to the photoshoot."
         },
         {
           id: 5,
-          title: "QA Tester",
-            icon: 'services/qaBlueBg',
-          content:  "Seek the helping hand of our 500+ pre-vetted developers adept in the most loved languages and frameworks. Elixir, Python, RoR, Flutter, Ionic — you want it, you got it. You name it, here it is.",
+          title: "Production Assistant",
+          icon: 'services/productionAssistantIcon',
+          content: "Our Production Assistants support the photoshoot logistics, ensuring a smooth process and assisting the team in achieving the desired results."
         },
       ],
-    },
+    }
+,    
 
     platforms: {
       subHeading: "DevOps Development Platforms",
@@ -1869,94 +1872,96 @@ export const data = {
     },
   },
 
-  ai: {
+seo  : {
     serviceBanner: {
-      title: "Ai & ML",
-      desc: "We are specialists in utilizing AI and Machine Learning technologies to extract valuable insights and deliver intelligent solutions. Our expertise covers various areas, including the development of customized machine learning models, the integration of natural language processing, and the creation of computer vision applications. By partnering with us, you can drive innovation, enhance efficiency, and position your digital initiatives for unparalleled success and industry leadership.",
+      title: "SEO",
+      desc: "SEO, or Search Engine Optimization, is the foundation of online visibility. It fine-tunes your website to rank higher in search results, driving organic traffic and ensuring your business shines brightly amidst the digital clutter.  In a world where being found online is paramount, SEO isn't an option; it's a necessity. It's about delivering value to your audience, optimizing your web presence, and ensuring your business thrives in the digital age. "
+      
     },
 
     weServer: {
-      subHeading: "we serve",
-      generalHeading: "A Sneak Peak of Our Custom Ai & ML Development Services",
-      subGenHeading: "Delivering convenience-focused Ai & Ml development services in any form is what we’re inclined towards.",
+      subHeading: "SEO Services",
+      generalHeading: "Explore Our Customized SEO Solutions",
+      subGenHeading: "Delivering result-oriented SEO services is our commitment.",
       WE_SERVER_DATA: [
         {
           id: 1,
           image: "services/andriod",
-          title: 'AI Consulting',
-          text: 'Empower your business with our AI consulting, guiding you to harness the potential of artificial intelligence by identifying opportunities, strategizing implementation, and optimizing existing AI solutions for enhanced efficiency and innovation.'
+          title: 'Keyword Analysis',
+          text: 'Gain insights into high-performing keywords and optimize your content strategy with our comprehensive keyword analysis services, enhancing your visibility in search results.'
         },
         {
           id: 2,
           image: "services/Ios",
-          title: 'Machine Learning Model Development',
-          text: 'Crafting bespoke machine learning models, we tailor solutions to your unique needs, delivering accurate predictions and data-driven insights to supercharge decision-making and productivity.'
-         },
+          title: 'On-Page SEO Optimization',
+          text: 'Enhance your website of  visibility and relevance through on-page SEO optimization. Our experts optimize meta tags, content, and other on-page elements for better search engine rankings.'
+        },
         {
           id: 3,
           image: "services/native",
-          title: 'Natural Language Processing (NLP) Services',
-          text: 'Transforming text and speech data into valuable insights and seamless interactions, our NLP services enable machines to understand and generate human language, from sentiment analysis to chatbots.'
+          title: 'Content Optimization',
+          text: 'Leverage our content optimization strategies to create engaging, keyword-rich content that resonates with your audience and boosts organic traffic to your website.'
         },
         {
           id: 4,
           image: "services/native",
-          title: 'Computer Vision Services',
-          text: "Our cutting-edge computer vision solutions interpret visual data, enhancing automation and accuracy in tasks such as facial recognition, object detection, and image analysis."
-         },
+          title: 'Link Building Strategies',
+          text: 'Improve your website authority and credibility through our effective link building strategies. We implement white-hat techniques to secure quality backlinks for your site.'
+        },
         {
           id: 5,
           image: "services/native",
-          title: 'AI Platform and Integration Services',
-          text: "Effortlessly integrate AI and machine learning into your systems and applications with our platforms and services. Optimize workflows, drive innovation, and propel your organization forward."
+          title: 'Local SEO Services',
+          text: 'Enhance your local presence with our targeted local SEO services. We optimize your online presence to attract local customers and drive foot traffic to your physical locations.'
         },
-      
       ],
     },
+    
 
     whyUs: {
-      subHeading: "Why You Choose Us",
-      generalHeading:"Why Should You Choose NYV Digital Solutions For Ai Ml Development Services?",
-      subGenHeading:"We capitalized on 6 key value services and successfully built a reputation as the leading and trusted ai & ml development services provider in the U.S.A., the U.K., and Canada.",
+      subHeading: "Why Choose Us",
+      generalHeading: "Why Choose NYV Digital Solutions For SEO Services?",
+      subGenHeading: "We are committed to delivering top-notch SEO solutions tailored for your success.",
       WHY_US_DATA: [
         {
           id: 1,
           heading: "01",
-          title: 'Unparalleled Expertise',
-          text: 'Our team comprises industry experts, steeped in the art of software development, guaranteeing the delivery of exceptional, high-quality solutions.'
-       },
+          title: 'Expertise in SEO',
+          text: 'Our team consists of SEO experts with a deep understanding of search engine optimization, ensuring exceptional and effective solutions for your business.'
+        },
         {
           id: 2,
           heading: "02",
-          title: 'Tailored Excellence',
-          text: 'We specialize in creating customized software solutions meticulously crafted to suit your unique business needs, offering a personalized touch that sets us apart.'
-      },
+          title: 'Customized Strategies',
+          text: 'We specialize in crafting personalized SEO strategies designed specifically to cater to your unique business needs, setting us apart in delivering tailored solutions.'
+        },
         {
           id: 3,
           heading: "03",
-          title: 'Pioneering Technology',
-          text: 'At the forefront of technological innovation, we harness cutting-edge tools and trends to fashion software products that epitomize innovation and competitiveness.'
-      },
+          title: 'Cutting-edge Techniques',
+          text: 'We leverage cutting-edge tools and the latest trends in SEO to develop innovative strategies that boost competitiveness and drive your business forward.'
+        },
         {
           id: 4,
           heading: "04",
-          title: 'A Proven Legacy ',
-          text: 'Our track record stands as a testament to our proficiency, exemplifying a history of successful projects and elated clients, with a consistent record of on-time, on-budget deliveries.'
-      },
+          title: 'Proven Track Record',
+          text: 'Our consistent success in delivering results, meeting deadlines, and satisfying clients stands as evidence of our proficiency and reliability in SEO services.'
+        },
         {
           id: 5,
           heading: "05",
-          title: 'Built to Scale',
-          text: 'Our solutions are architected with scalability in mind, prepared to gracefully expand alongside your business, accommodating evolving demands and securing long-term viability.'
+          title: 'Scalable Solutions',
+          text: 'Our SEO solutions are designed with scalability in mind, capable of adapting to your business growth and evolving demands for long-term success.'
         },
         {
           id: 6,
           heading: "06",
-          title: 'Unwavering Support',
-          text: 'Beyond delivery, we offer unwavering support and maintenance services, ensuring your software continues to shine brilliantly in performance and relevance, even after deployment.'
+          title: 'Continuous Support',
+          text: 'We provide ongoing support and maintenance, ensuring that your SEO efforts continue to perform and remain relevant even after implementation.'
         },
       ],
     },
+    
 
     devIdea: {
       heading: "with A Featured-packed Ai & Ml Development Services",
@@ -2011,44 +2016,44 @@ export const data = {
         },
       ],
     },
-
     teamWork: {
-      subHeading: "Team Work",
-      generalHeading: "Team Work On Your Project",
-      subGenHeading: "We deliver profitable and gratifying offshore Ai & Ml development services. You may connect with a large talent pool in 60 seconds at a cost roughly 50% lower than Western marketplaces. We can demonstrate it to you through a trial.",
+      subHeading: "Collaborative Team",
+      generalHeading: "Collaborative Efforts for Your SEO Project",
+      subGenHeading: "We provide efficient and rewarding SEO services leveraging a diverse talent pool. Connect with our skilled experts in under 60 seconds at rates approximately 50% lower than Western markets. Experience it firsthand through a trial.",
       TEAM_WORK_DATA: [
         {
           id: 1,
-          title: "Designer",
-            icon: 'services/design',
-          content: "Seek the helping hand of our 500+ pre-vetted developers adept in the most loved languages and frameworks. Elixir, Python, RoR, Flutter, Ionic — you want it, you got it. You name it, here it is.",
+          title: "SEO Specialist",
+          icon: 'services/seoExpert',
+          content: "Rely on our seasoned SEO specialists who are proficient in the most favored SEO languages and frameworks. Whether it's technical SEO, content optimization, or link building, our team excels in it all."
         },
         {
           id: 2,
-          title: "iOS Development",
-            icon: 'services/Ios',
-          content: "Seek the helping hand of our 500+ pre-vetted developers adept in the most loved languages and frameworks. Elixir, Python, RoR, Flutter, Ionic — you want it, you got it. You name it, here it is.",
+          title: "Content Writer",
+          icon: 'services/contentWriter',
+          content: "Engage our expert content writers adept in crafting SEO-centric content that resonates with your audience. We ensure your content strategy aligns perfectly with your SEO goals."
         },
         {
           id: 3,
-          title: "Android Developers",
-            icon: 'services/andriod',
-          content: "Seek the helping hand of our 500+ pre-vetted developers adept in the most loved languages and frameworks. Elixir, Python, RoR, Flutter, Ionic — you want it, you got it. You name it, here it is.",
+          title: "Link Building Specialist",
+          icon: 'services/linkBuilder',
+          content: "Leverage the expertise of our link building specialists skilled in creating robust backlink profiles. We implement strategic link-building campaigns for improved SEO performance."
         },
         {
           id: 4,
-          title: "Product Manager",
-            icon: 'services/product',
-          content: "Seek the helping hand of our 500+ pre-vetted developers adept in the most loved languages and frameworks. Elixir, Python, RoR, Flutter, Ionic — you want it, you got it. You name it, here it is.",
+          title: "Analytics & Reporting",
+          icon: 'services/analytics',
+          content: "Access comprehensive analytics and reports prepared by our proficient team. We provide insights into your SEO strategies' effectiveness, ensuring data-driven decisions for continual improvement."
         },
         {
           id: 5,
-          title: "QA Tester",
-            icon: 'services/qaBlueBg',
-          content:  "Seek the helping hand of our 500+ pre-vetted developers adept in the most loved languages and frameworks. Elixir, Python, RoR, Flutter, Ionic — you want it, you got it. You name it, here it is.",
+          title: "Technical SEO Expert",
+          icon: 'services/technicalSEO',
+          content: "Consult our technical SEO experts capable of optimizing website structures, resolving technical issues, and ensuring search engine crawlability and indexing for better search rankings."
         },
       ],
     },
+    
 
     platforms: {
       subHeading: "Ai & Ml Development Platforms",
@@ -2137,99 +2142,102 @@ export const data = {
     },
   },
 
-  iot: {
+  ui: {
     serviceBanner: {
-      title: "IoT & Embedded",
-      desc: "Drive innovation within connected enterprises by harnessing adaptable IoT development services. Stay ahead of the competition by embracing the power of the Internet of Things to optimize and simplify operational processes. Employ the most suitable IoT technology stack to construct software solutions teeming with valuable data.",
+      title: "Ui & Ux Designing",
+      desc: "Elevate your digital presence with our exceptional UI/UX design expertise. At NYV Solutions Shed, we're passionate about creating user-centric experiences that captivate and engage your audience, making your brand stand out from the crowd.",
     },
 
     weServer: {
-      subHeading: "we serve",
-      generalHeading: "A Sneak Peak of Our Custom IOT Development Services",
-      subGenHeading: "Delivering convenience-focused IOT development services in any form is what we’re inclined towards.",
+      subHeading: "UI & UX Design",
+      generalHeading: "Explore Our Custom UI & UX Design Services",
+      subGenHeading: "Crafting intuitive and user-centric UI & UX designs is our forte, ensuring seamless and engaging digital experiences.",
       WE_SERVER_DATA: [
         {
           id: 1,
-          image: "services/andriod",
-          title: 'Full Cycle IoT Development',
-          text: "NYV Digital Solutions's IoT software development services can efficiently guide your concept from inception to realization, digitalizing your business in the process. We offer solutions to address challenges related to connected vehicles, intelligent facilities, personal gadgets, industrial services, and a wide array of other domains."
-             },
+          image: "services/uiDesign",
+          title: 'Full-cycle UI & UX Design',
+          text: "NYV Digital Solutions offers comprehensive UI & UX design services that guide your project from conceptualization to implementation. We focus on delivering user-centric designs, ensuring a seamless transition from idea to intuitive digital experiences."
+        },
         {
           id: 2,
-          image: "services/Ios",
-          title: 'IoT App Development',
-          text: 'Efficiently handle your device data through user-friendly IoT mobile and web applications, ensuring a seamless user experience. NYV Digital Solutions boasts a wealth of experience in delivering top-tier IoT solutions for enterprises, along with expertise in crafting secure web and mobile apps that facilitate secure device connectivity.'
-            },
+          image: "services/uxDesign",
+          title: 'UX-Centric App Development',
+          text: 'Develop user-friendly and intuitive applications with our UX-centric approach. Our team specializes in crafting engaging user experiences, guaranteeing applications that resonate with your users and fulfill their needs effectively.'
+        },
         {
           id: 3,
-          image: "services/native",
-          title: 'IoT Software Enhancement',
-          text: 'Attain fresh business goals, fine-tune your current platforms, or create tailored connected software through our IoT engineering services. Effectively oversee diverse devices through finely-tailored custom IoT systems designed for optimization.'
-           },
+          image: "services/iotDesign",
+          title: 'IoT Software Interface Design',
+          text: 'Enhance your IoT solutions with intuitive and visually appealing software interfaces. We focus on designing interfaces that facilitate seamless interactions between users and IoT devices, ensuring a delightful user experience.'
+        },
         {
           id: 4,
-          image: "services/native",
-          title: 'Industrial Automation',
-          text: "Enhance the operational efficiency of your existing systems by incorporating the industrial Internet of Things (IoT). NYV Digital Solutions's skilled IoT engineers specialize in deploying IoT solutions for industrial automation. Make the transition to AI-driven automation now for optimized performance."
-          },
+          image: "services/industrialAutomation",
+          title: 'Industrial Automation UI Design',
+          text: "Revamp your industrial IoT interfaces for optimal usability. Our expertise in industrial IoT UI design ensures streamlined interfaces that improve operational efficiency and user interaction within industrial settings."
+        },
         {
           id: 5,
-          image: "services/native",
-          title: 'Smart Home Automation',
-          text: "Tap into the complete capabilities of IoT and AI technology through the utilization of data analytics to intelligently manage your home systems. We create smart, dependable, and harmonious solutions tailored to your home and preferences, employing AI, Machine Learning, and IoT."
+          image: "services/smartHomeAutomation",
+          title: 'Smart Home UX Design',
+          text: "Create intuitive and efficient smart home interfaces for a seamless user experience. We specialize in designing interfaces that harmoniously control home systems, leveraging AI, Machine Learning, and IoT for personalized experiences."
         },
         {
           id: 6,
-          image: "services/native",
-          title: 'Industrial IoT Consulting',
-          text: "Efficiently harness IoT solutions by transforming data into actionable intelligence and creating fresh revenue opportunities with NYV Digital Solutions's experienced IoT specialists. Explore reliable IoT consultancy for valuable market insights."
-         },
+          image: "services/consulting",
+          title: 'UI & UX Consulting',
+          text: "Leverage our UI & UX consulting services to transform data into user-focused designs. Our experienced specialists provide valuable insights and recommendations, ensuring your digital products are tailored for optimal user engagement and satisfaction."
+        },
       ],
-    },
+    }
+    ,
 
     whyUs: {
-      subHeading: "Why You Choose Us",
-      generalHeading:"Why Should You Choose NYV Digital Solutions For IOT Development Services?",
-      subGenHeading:"We capitalized on 6 key value services and successfully built a reputation as the leading and trusted IOT development services provider in the U.S.A., the U.K., and Canada.",
+      subHeading: "Why Choose Our UI & UX Design Services",
+      generalHeading: "Reasons to Choose NYV Digital Solutions for UI & UX Design",
+      subGenHeading: "We have leveraged six key value propositions to establish ourselves as a leading and trusted provider of UI & UX design services, catering to clients in the Canada.",
       WHY_US_DATA: [
         {
           id: 1,
           heading: "01",
-          title: 'Unparalleled Expertise',
-          text: 'Our team comprises industry experts, steeped in the art of software development, guaranteeing the delivery of exceptional, high-quality solutions.'
-       },
+          title: 'Design Expertise',
+          text: 'Our team comprises industry-leading design experts well-versed in the art of creating exceptional user interfaces and experiences, ensuring high-quality design solutions.'
+        },
         {
           id: 2,
           heading: "02",
-          title: 'Tailored Excellence',
-          text: 'We specialize in creating customized software solutions meticulously crafted to suit your unique business needs, offering a personalized touch that sets us apart.'
-      },
+          title: 'Tailored Design Excellence',
+          text: 'We specialize in crafting customized design solutions meticulously tailored to align with your unique business requirements, offering a personalized touch that distinguishes our services.'
+        },
         {
           id: 3,
           heading: "03",
-          title: 'Pioneering Technology',
-          text: 'At the forefront of technological innovation, we harness cutting-edge tools and trends to fashion software products that epitomize innovation and competitiveness.'
-      },
+          title: 'Innovation-driven Design',
+          text: 'At the forefront of design innovation, we harness cutting-edge tools and trends to create user-centric designs that epitomize innovation and competitiveness in the digital landscape.'
+        },
         {
           id: 4,
           heading: "04",
-          title: 'A Proven Legacy ',
-          text: 'Our track record stands as a testament to our proficiency, exemplifying a history of successful projects and elated clients, with a consistent record of on-time, on-budget deliveries.'
-      },
+          title: 'Proven Design Legacy',
+          text: 'Our track record speaks volumes about our design proficiency, showcasing a history of successful design projects and satisfied clients, consistently delivering exceptional designs on time and within budget.'
+        },
         {
           id: 5,
           heading: "05",
-          title: 'Built to Scale',
-          text: 'Our solutions are architected with scalability in mind, prepared to gracefully expand alongside your business, accommodating evolving demands and securing long-term viability.'
+          title: 'Scalable Design Solutions',
+          text: 'Our design solutions are architected with scalability in mind, prepared to evolve alongside your business, accommodating changing needs and ensuring long-term design viability.'
         },
         {
           id: 6,
           heading: "06",
-          title: 'Unwavering Support',
-          text: 'Beyond delivery, we offer unwavering support and maintenance services, ensuring your software continues to shine brilliantly in performance and relevance, even after deployment.'
+          title: 'Continuous Support',
+          text: 'Beyond design delivery, we offer continuous support and maintenance services, ensuring that your UI & UX designs remain impactful and relevant even after implementation.'
         },
       ],
     },
+
+    
 
     devIdea: {
       heading: "with A Featured-packed IOT Development Services",
@@ -2285,43 +2293,45 @@ export const data = {
       ],
     },
 
-    teamWork: {
-      subHeading: "Team Work",
-      generalHeading: "Team Work On Your Project",
-      subGenHeading: "We deliver profitable and gratifying offshore IOT development services. You may connect with a large talent pool in 60 seconds at a cost roughly 50% lower than Western marketplaces. We can demonstrate it to you through a trial.",
-      TEAM_WORK_DATA: [
-        {
-          id: 1,
-          title: "Designer",
-            icon: 'services/design',
-          content: "Seek the helping hand of our 500+ pre-vetted developers adept in the most loved languages and frameworks. Elixir, Python, RoR, Flutter, Ionic — you want it, you got it. You name it, here it is.",
-        },
-        {
-          id: 2,
-          title: "iOS Development",
-            icon: 'services/Ios',
-          content: "Seek the helping hand of our 500+ pre-vetted developers adept in the most loved languages and frameworks. Elixir, Python, RoR, Flutter, Ionic — you want it, you got it. You name it, here it is.",
-        },
-        {
-          id: 3,
-          title: "Android Developers",
-            icon: 'services/andriod',
-          content: "Seek the helping hand of our 500+ pre-vetted developers adept in the most loved languages and frameworks. Elixir, Python, RoR, Flutter, Ionic — you want it, you got it. You name it, here it is.",
-        },
-        {
-          id: 4,
-          title: "Product Manager",
-            icon: 'services/product',
-          content: "Seek the helping hand of our 500+ pre-vetted developers adept in the most loved languages and frameworks. Elixir, Python, RoR, Flutter, Ionic — you want it, you got it. You name it, here it is.",
-        },
-        {
-          id: 5,
-          title: "QA Tester",
-            icon: 'services/qaBlueBg',
-          content:  "Seek the helping hand of our 500+ pre-vetted developers adept in the most loved languages and frameworks. Elixir, Python, RoR, Flutter, Ionic — you want it, you got it. You name it, here it is.",
-        },
-      ],
+teamWork: {
+  subHeading: "UI & UX Team Collaboration",
+  generalHeading: "Collaborative UI & UX Team for Your Project",
+  subGenHeading: "We deliver exceptional UI & UX design services tailored to meet your project needs. Collaborate with our diverse talent pool for streamlined and cost-effective solutions.",
+  TEAM_WORK_DATA: [
+
+    {
+      id: 1,
+      title: "UX Designer",
+      icon: 'services/uxDesignerIcon',
+      content: "Our UX Designers specialize in creating seamless and meaningful user experiences, ensuring that users navigate through your product effortlessly."
     },
+    {
+      id: 2,
+      title: "iOS Developer",
+      icon: 'services/iOSDeveloperIcon',
+      content: "Our iOS Developers complement the design with their expertise, ensuring the implementation of visually pleasing and functional designs on Apple devices."
+    },
+    {
+      id: 3,
+      title: "Android Developer",
+      icon: 'services/androidDeveloperIcon',
+      content: "Our Android Developers work in sync with the design team to implement captivating and user-friendly designs on various Android platforms."
+    },
+    {
+      id: 4,
+      title: "Product Manager",
+      icon: 'services/productManagerIcon',
+      content: "Our Product Managers oversee the UI & UX design process, ensuring alignment with project goals and effective communication between teams."
+    },
+    {
+      id: 5,
+      title: "QA Tester",
+      icon: 'services/qaTesterIcon',
+      content: "Our QA Testers ensure the quality and usability of the UI & UX designs through rigorous testing, ensuring a seamless user experience."
+    },
+  ],
+},
+
 
     platforms: {
       subHeading: "IOT Development Platforms",
