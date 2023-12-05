@@ -21,7 +21,7 @@ const DevTeamWork = ({teamWork}:any) => {
             {teamWork?.TEAM_WORK_DATA?.map((data:any) => {
               return (
                 <div key={data.id}>
-                <Accordion  heading={data.title} text={data.content} image={`./services_images/${data.icon}.svg`} className="border-0" isBorder={false} />
+                <Accordion  heading={data.title} text={data.content}  className="border-0" isBorder={false} />
                 </div>
               )
             })}

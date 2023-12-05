@@ -19,7 +19,7 @@ const index = () => {
   return (
     <>
       <Head>
-        <title>IoT & Embedded | NYV Digital Solutions LLC - Web & Mobile APP | Artificial Intelligence and Blockchain Development Services</title>
+        <title>Ui & Ux  Designing | NYV Digital Solutions LLC - Web & Mobile APP | Artificial Intelligence and Blockchain Development Services</title>
  
         <meta
           name="description"
@@ -28,14 +28,10 @@ const index = () => {
         />
       </Head>
     
-      <DevServicesBanner service_banner={data.iot.serviceBanner}/>
-      <DevWeServe weServer={data.iot.weServer}/>
-      <DevWhyUs whyUs={data.iot.whyUs}/>
-      <DevIdea devIdea={data.iot.devIdea}/>
-      <DevProcess developmentProcess={data.iot.developmentProcess}/>
-      <DevTeamWork teamWork={data.iot.teamWork}/>
-      <DevPlatforms platforms={data.iot.platforms}/>
-      <DevFaq faq={data.iot.faq}/>
+      <DevServicesBanner service_banner={data.ui.serviceBanner}/>
+      <DevWeServe weServer={data.ui.weServer}/>
+      <DevWhyUs whyUs={data.ui.whyUs}/>
+      <DevTeamWork teamWork={data.ui.teamWork}/>
 
       <ContactForm
         className="mt-24 pb-[245px]"

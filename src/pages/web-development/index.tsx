@@ -30,11 +30,11 @@ const index = () => {
       <DevServicesBanner service_banner={data.web.serviceBanner}/>
       <DevWeServe weServer={data.web.weServer}/>
       <DevWhyUs whyUs={data.web.whyUs}/>
-      <DevIdea devIdea={data.web.devIdea}/>
-      <DevProcess developmentProcess={data.web.developmentProcess}/>
+      {/* <DevIdea devIdea={data.web.devIdea}/> */}
+      {/* <DevProcess developmentProcess={data.web.developmentProcess}/> */}
       <DevTeamWork teamWork={data.web.teamWork}/>
-      <DevPlatforms platforms={data.web.platforms}/>
-      <DevFaq faq={data.web.faq}/>
+      {/* <DevPlatforms platforms={data.web.platforms}/> */}
+      {/* <DevFaq faq={data.web.faq}/> */}
 
       <ContactForm
         className="mt-24 pb-[245px]"

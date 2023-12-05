@@ -1,3 +1,4 @@
+
 import Footer from "@/components/footer/Footer";
 import Navbar from "@/components/Navbar/Navbar";
 import { StoryCard } from "@/components/storyCard/StoryCard";
@@ -18,7 +19,7 @@ const index = () => {
   return (
     <>
       <Head>
-        <title>Blockchain Development | NYV Digital Solutions LLC - Web & Mobile APP | Artificial Intelligence and Blockchain Development Services</title>
+        <title>Graphic Design | NYV Digital Solutions LLC - Web & Mobile APP | Artificial Intelligence and Blockchain Development Services</title>
  
         <meta
           name="description"
@@ -27,14 +28,14 @@ const index = () => {
         />
       </Head>
       
-      <DevServicesBanner service_banner={data.blockchain.serviceBanner}/>
-      <DevWeServe weServer={data.blockchain.weServer}/>
-      <DevWhyUs whyUs={data.blockchain.whyUs}/>
-      <DevIdea devIdea={data.blockchain.devIdea}/>
-      <DevProcess developmentProcess={data.blockchain.developmentProcess}/>
-      <DevTeamWork teamWork={data.blockchain.teamWork}/>
-      <DevPlatforms platforms={data.blockchain.platforms}/>
-      <DevFaq faq={data.blockchain.faq}/>
+      <DevServicesBanner service_banner={data.graphicDesign.serviceBanner}/>
+      <DevWeServe weServer={data.graphicDesign.weServer}/>
+      <DevWhyUs whyUs={data.graphicDesign.whyUs}/>
+      {/* <DevIdea devIdea={data.graphicDesign.devIdea}/> */}
+      {/* <DevProcess developmentProcess={data.graphicDesign.developmentProcess}/>/ */}
+      <DevTeamWork teamWork={data.graphicDesign.teamWork}/>
+      {/* <DevPlatforms platforms={data.graphicDesign.platforms}/> */}
+      {/* <DevFaq faq={data.graphicDesign.faq}/> */}
       <ContactForm
         className="mt-24 pb-[245px]"
         ContactInfoCard={false}
