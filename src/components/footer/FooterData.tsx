@@ -73,8 +73,8 @@ export const FOOTER_LINKS: any = [
             //     urlLink: ''
             // },
             {
-                link: 'Hire Talent',
-                urlLink: '/hireTalent'
+                link: 'Our Team',
+                urlLink: '/our-team'
             },
             // {
             //     link: 'Work',
@@ -98,15 +98,15 @@ export const FOOTER_LINKS: any = [
         links: [
             {
                 icon: <PhoneIcon />,
-                link: '123 456 789'
+                link: '+1 (778) 896-2443'
             },
             {
                 icon: <MailIcon />,
-                link: 'hola@Liftmedia.com'
+                link: 'info@nyvsolutions.com'
             },
             {
                 icon: <TimeIcon />,
-                link: 'Lunes a Viernes 09:00 a 20:00 horas'
+                link: 'Unit 209 8078 128 Street Surrey , British Columbia V3W4E9'
             },
         ]
     },

@@ -2,7 +2,7 @@ import Checkbox from "../../../components/checkbox/Checkbox";
 import React, { ChangeEvent, useEffect, useState } from "react";
 import SubHeading from "@/components/Heading/SubHeading";
 import GeneralHeading from "@/components/Heading/GeneralHeading";
-import styles from './ContactForm.module.css';
+import styles from './SuggestionForm.module.css';
 import FormField from "@/components/formField/FormField";
 import { TextArea } from "@/components/textArea/TextArea";
 import { Button } from "@/components/Button/Button";
@@ -15,6 +15,7 @@ import { Navigation } from 'swiper/modules';
 import { useFormik } from "formik";
 import { ContactFormEntity } from "@/components/models/contactform/contact-form";
 import {  toast } from 'react-toastify'; 
+import { SuggestionFormEntity } from "@/components/models/suggestionform/suggestion.entity";
 
 interface ContactFormProps {
   ContatctSubHeading: string;
@@ -31,7 +32,7 @@ const ContactForm = ({
 }: ContactFormProps) => {
 
   const form = useFormik({
-    initialValues: new ContactFormEntity(),
+    initialValues: new SuggestionFormEntity(),
     validationSchema: ContactFormEntity.yupSchema(),
     enableReinitialize : true,
     onSubmit: async (values,  actions) => {
@@ -55,7 +56,7 @@ const ContactForm = ({
               companyname: '',
               phone:'',
               dev_message:'',
-              website: ''
+              
             },
           });
         }
@@ -101,23 +102,10 @@ const ContactForm = ({
           </div>
         )}
         <div className="mt-[60px]">
-          <h4 className="mb-[17px] font-poppins font-semibold text-base text-primary-dark	">
-            Services you are looking for
-          </h4>
+       
 
           <form onSubmit={form.handleSubmit}>
-            <div className={`${styles.contactCheckboxes}  md:gap-[8px] gap-[15px] mb-[30px] flex items-center overflow-x-auto `} role="group" aria-labelledby="checkbox-group">
-         
-                <Checkbox name={"website"} value={form.values.website} labelText="Website" onChange={form.handleChange}/>
-                <Checkbox name={"Mobile_App"} value={form.values.Mobile_App} labelText="Mobile App" onChange={form.handleChange}/>
-                <Checkbox name={"Digital_Marketing"} value={form.values.Digital_Marketing} labelText="Digital Marketing" onChange={form.handleChange}/>
-                <Checkbox name={"Software_Development"} value={form.values.Software_Development}  labelText="Software Development" onChange={form.handleChange}/>
-                <Checkbox name={"Seo"} value={form.values.Seo} labelText="SEO"  onChange={form.handleChange} />
-                <Checkbox name={"graphic_designing"} value={form.values.graphic_designing} labelText="Graphic Designing"  onChange={form.handleChange} />
-                <Checkbox name={"domain_hosting"} value={form.values.domain_hosting} labelText="Domain Hosting"  onChange={form.handleChange} />
-                <Checkbox name={"ui_ux"} value={form.values.ui_ux} labelText="UI & UX Designing"  onChange={form.handleChange} />
-                <Checkbox name={"product_photoshoot"} value={form.values.product_photoshoot} labelText="Product Photoshoot"  onChange={form.handleChange} />
-            </div>
+           
 
             <div className="grid grid-cols-2 gap-[30px]">
               <div className="colum-1">
@@ -171,11 +159,11 @@ const ContactForm = ({
 
               <div className="colum-1">
                 <FormField
-                  name={"companyname"}
+                  name={"type-of-feedback"}
                   type={"text"}
                   onChange={form.handleChange}
                   value={form.values.companyname}
-                  placeholder={"Company*"}
+                  placeholder={"Type of feedback*"}
                   className="w-full"
                 />
                 {form.errors.companyname ? (
@@ -186,8 +174,8 @@ const ContactForm = ({
               </div>
             </div>
             <div className="mt-[30px] w-full">
-              <TextArea name={"dev_message"} 
-                  value={form.values.dev_message}  className={"w-full"} />
+              <TextArea name={"feedback"} 
+                  value={form.values.feedback}  className={"w-full"} />
             </div>
 
             <div className="mt-[30px]">
