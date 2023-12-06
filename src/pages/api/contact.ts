@@ -7,7 +7,7 @@ const handler =async (
   res: NextApiResponse
 ) => {
   if (req.method === 'POST') {
-    const { fullname, email, companyname, phone ,dev_message, website, Mobile_App, Digital_Marketing, Software_Development, Ui_UX } = req.body;
+    const { fullname, email, companyname, phone , dev_message, website, Mobile_App, Digital_Marketing, Software_Development, Ui_UX } = req.body;
 
       const transporter = nodemailer.createTransport({
         service: 'gmail', 

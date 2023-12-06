@@ -3,6 +3,7 @@ import { Button } from '../Button/Button';
 import styles from './Navbar.module.css';
 import NavDropDown from './NavDropDown';
 import NavItem from './NavItem';
+import Link from 'next/link';
 const MobileNavbar = () => {
     const [isnavActive, setIsnavActive] = useState<boolean>(false);
 
@@ -32,8 +33,12 @@ const MobileNavbar = () => {
                             <NavItem text="Careers" className='text-white text-lg 	  inline-block w-full  border-b py-9	' href={'/careers'} /></div>
                             
                         </div>
-                        <Button className="bg-primary-dark text-white text-base font-poppins  mt-20	 px-[14px] py-[10px] font-bold	capitalize rounded-lg">
+                        <Button className="bg-primary-dark text-white text-base font-poppins  mb-20 mt-20	 px-[14px] py-[10px] font-bold	capitalize rounded-lg">
+                       <span onClick={toggleHumBurger}>
+                       <Link href={'/contact'} >
                             Get in Touch
+                            </Link>
+                       </span>
                         </Button>
                     </ul>
                 </div>
