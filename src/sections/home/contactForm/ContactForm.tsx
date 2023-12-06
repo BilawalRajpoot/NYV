@@ -106,15 +106,13 @@ const ContactForm = ({
          
                 <Checkbox name={"website"} value={form.values.website} labelText="Website" onChange={form.handleChange}/>
                 <Checkbox name={"Mobile_App"} value={form.values.Mobile_App} labelText="Mobile App" onChange={form.handleChange}/>
-                <Checkbox name={"Digital_Product"} value={form.values.Digital_Product} labelText="Digital Product" onChange={form.handleChange}/>
+                <Checkbox name={"Digital_Marketing"} value={form.values.Digital_Marketing} labelText="Digital Marketing" onChange={form.handleChange}/>
                 <Checkbox name={"Software_Development"} value={form.values.Software_Development}  labelText="Software Development" onChange={form.handleChange}/>
-                <Checkbox name={"Ecommerce_Development"} value={form.values.Ecommerce_Development} labelText="Ecommerce Development"  onChange={form.handleChange} />
-                <Checkbox name={"Blockchain_Development"} value={form.values.Blockchain_Development} labelText="Blockchain Development"  onChange={form.handleChange} />
-                <Checkbox name={"Game_Development"} value={form.values.Game_Development} labelText="Game Development"  onChange={form.handleChange} />
-                <Checkbox name={"Salesforce_Development"} value={form.values.Salesforce_Development} labelText="Salesforce Development"  onChange={form.handleChange} />
-                <Checkbox name={"Ai_Development"} value={form.values.Ai_Development} labelText="Ai & Ml Development"  onChange={form.handleChange} />
-                <Checkbox name={"Iot_Development"} value={form.values.Iot_Development} labelText="Iot Development"  onChange={form.handleChange} />
-                <Checkbox name={"Devops_Development"} value={form.values.Devops_Development} labelText="DevOps Development"  onChange={form.handleChange} />
+                <Checkbox name={"Seo"} value={form.values.Seo} labelText="SEO"  onChange={form.handleChange} />
+                <Checkbox name={"graphic_designing"} value={form.values.graphic_designing} labelText="Graphic Designing"  onChange={form.handleChange} />
+                <Checkbox name={"domain_hosting"} value={form.values.domain_hosting} labelText="Domain Hosting"  onChange={form.handleChange} />
+                <Checkbox name={"ui_ux"} value={form.values.ui_ux} labelText="UI & UX Designing"  onChange={form.handleChange} />
+                <Checkbox name={"product_photoshoot"} value={form.values.product_photoshoot} labelText="Product Photoshoot"  onChange={form.handleChange} />
             </div>
 
             <div className="grid grid-cols-2 gap-[30px]">

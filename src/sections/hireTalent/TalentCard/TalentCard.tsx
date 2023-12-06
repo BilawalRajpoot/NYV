@@ -7,6 +7,7 @@ import style from "./TalentCard.module.css"
 import Image from "next/image";
 import React, { useState } from "react";
 import { TALENT_DATA } from "./TalentCardData";
+import Link from "next/link";
 
 const TalentCard = () => {
     const [visibleCards, setVisibleCards] = useState(3);
@@ -33,8 +34,11 @@ const TalentCard = () => {
                                 <p className={`text-grey font-poppins text-center text-lg font-normal mb-[32px] ` }>
                                     {data.description}
                                 </p>
-                                <Button className="bg-primary text-white font-poppins text-base items-center justify-center hover:shadow-custom-button hover:translate-y-[-3px] w-full		flex gap-3 py-[16px] px-[24px] font-bold	capitalize rounded-lg">
+                                <Button  className="bg-primary text-white font-poppins text-base items-center justify-center hover:shadow-custom-button hover:translate-y-[-3px] w-full		flex gap-3 py-[16px] px-[24px] font-bold	capitalize rounded-lg">
+                                    <Link href={'/contact'}>
+                                    
                                     Hire Now
+                                    </Link>
                                 </Button>
                             </Card>
                         );

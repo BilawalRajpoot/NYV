@@ -7,14 +7,14 @@ const handler =async (
   res: NextApiResponse
 ) => {
   if (req.method === 'POST') {
-    const { fullname, email, companyname, phone ,dev_message, website, Mobile_App, Digital_Product, Software_Development, Ecommerce_Development } = req.body;
+    const { fullname, email, companyname, phone ,dev_message, website, Mobile_App, Digital_Marketing, Software_Development, Ui_UX } = req.body;
 
       const transporter = nodemailer.createTransport({
         service: 'gmail', 
         auth: {
           //This is gmail App Credentials
-          user: 'email',
-          pass: 'password',
+          user: 'bilawal.ali2626@gmail.com',
+          pass: 'lscv qztk gedd qkeu',
         },
       });
 
@@ -23,8 +23,7 @@ const handler =async (
         from: email,  
         to: 'bilawal.ali2626@gmail.com',
         subject: `New Contact Form Submission from ${fullname}`,
-        text: `Full Name: ${fullname}\nEmail: ${email}\ncompanyname: ${companyname}\nPhone: ${phone}\nMessage: ${dev_message} 
-        \nWebsite: ${Boolean(website)}\nMobile App : ${Boolean(Mobile_App)}\nDigital Product : ${Boolean(Digital_Product)}\nSoftware Development : ${Boolean(Software_Development)}\nEcommerce Development : ${Boolean(Ecommerce_Development)}
+        text: `Full Name: ${fullname}\nEmail: ${email}\ncompanyname: ${companyname}\nPhone: ${phone}\nMessage: ${dev_message}\nWebsite: ${Boolean(website)}\nMobile App : ${Boolean(Mobile_App)}\nDigital Marketing : ${Boolean(Digital_Marketing)}\nSoftware Development : ${Boolean(Software_Development)}\nUi & UX Designing : ${Boolean(Ui_UX)}
         `,
       });
 

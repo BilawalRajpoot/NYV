@@ -3,7 +3,7 @@ import Text from "@/components/Text/Text";
 import { ArrowRightIcon } from "@/svg";
 import Image from "next/image";
 import React from "react";
-import serviceImage from "../../../images/services/serviceBanner.svg";
+import serviceImage from "../../../images/services/serviceBanner.png";
 import laptopsImage from "../../../images/services/laptops.png";
 import styles from "./ServicesBanner.module.css";
 import Link from "next/link";

@@ -9,15 +9,14 @@ export class ContactFormEntity{
     dev_message?: string;
     website?:string;
     Mobile_App?: string;
-    Digital_Product?: string;
+    Digital_Marketing?: string;
     Software_Development?: string;
-    Ecommerce_Development?:string;
-    Blockchain_Development?:string;
-    Game_Development?:string;
-    Salesforce_Development?:string;
-    Ai_Development?:string;
-    Iot_Development?:string;
-    Devops_Development?:string;
+    Seo?:string;
+    graphic_designing?:string;
+    domain_hosting?:string;
+    ui_ux?:string;
+    product_photoshoot?:string;
+
    
     static yupSchema(){
         return yup.object({

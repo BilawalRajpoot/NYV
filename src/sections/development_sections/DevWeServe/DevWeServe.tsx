@@ -4,6 +4,7 @@ import React from 'react'
 import { Card } from '@/components/card/Card';
 import Text from '@/components/Text/Text';
 import Image from 'next/image';
+import styles from "./DevWeServe.module.css"
 const  DevWeServe = ({weServer}:any) => {
 
 
@@ -17,7 +18,7 @@ const  DevWeServe = ({weServer}:any) => {
           {
             weServer.WE_SERVER_DATA.map((data : any) => {
               return (
-                <Card className={'lg:w-[calc(33.3%-30px)] md:w-[calc(50%-30px)]'} key={data.id}>
+                <Card className={`lg:w-[calc(33.3%-30px)] md:w-[calc(50%-30px)] ${styles.WeServeCard}` } key={data.id}>
                   <div className='mb-[17px]'>
                     {/* <Image src={`./services_images/${data.image}.svg`} alt={data.subHeading} width={50} height={50}/> */}
                   </div>

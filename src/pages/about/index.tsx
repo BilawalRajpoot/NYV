@@ -22,7 +22,7 @@ function index() {
       </Head>
       <AboutBanner />
       <Execution />
-      <Team />
+      {/* <Team /> */}
       <div style={{ background: '#F9F9FD' }}>
         <JoinUs />
         <Vision />
