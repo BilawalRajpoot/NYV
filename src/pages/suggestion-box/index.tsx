@@ -1,7 +1,7 @@
 import React from "react";
 import Map from "./Map";
 import OfficeCardData from "@/sections/contact/office-card-data";
-import ContactForm from '@/sections/home/contactForm/ContactForm'
+import SuggestionForm from '@/sections/home/suggestion-box/SuggestionForm'
 import Head from "next/head";
 
 const Contact = () => {
@@ -17,14 +17,13 @@ const Contact = () => {
         />
       </Head>
       <div className="">
-        <ContactForm
-          ContactGeneralHeading={" Contact Us"}
-          ContactInfoCard
-          ContatctSubHeading={"Let’s Work Together"}
-          className="mt-0 pb-24"
+        <SuggestionForm 
+         ContactGeneralHeading={" Contact Us"}
+         ContactInfoCard
+         ContatctSubHeading={"Let’s Work Togather"}
+         className="mt-0 pb-24"
         />
-        <Map />
-        <OfficeCardData />
+       
       </div>
     </>
   );

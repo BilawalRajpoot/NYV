@@ -70,15 +70,15 @@ const Testimonials = () => {
           <div className="max-w-[750px] md:w-[70%] w-[100%] z-[1]">
             <SubHeading
               className={"text-left mb-[8px]"}
-              subHeading={"Testimonials"}
+              subHeading={"Portfolio"}
             />
             <GeneralHeading
               className={"text-left mb-[8px]"}
-              heading={`We've stopped counting. Over 500 brands count on us.`}
+              heading={`Showcasing Our Creative Excellence.`}
             />
             <p className="text-left text-grey text-lg font-poppins font-normal">
-              1,200+ projects executed successfully and an average relationship
-              of over 3 years.
+               150+ projects executed successfully and an average relationship
+              of over one year.
             </p>
           </div>
         </div>
