@@ -1,6 +1,6 @@
 import { MailIcon, PhoneIcon, TimeIcon, } from "@/svg";
 import lahoreOffice from '../../../src/images/pakistan.svg';
-import newYc from '../../../src/images/new-yc.png'
+import newYc from '../../../src/images/Canada.jpg'
 
 import pakFlag from '../../../src/images/pakFlag.svg';
 import caFlag from '../../../src/images/canada.png';
@@ -11,49 +11,50 @@ export const FOOTER_LINKS: any = [
         links: [
             {
                 link: 'App Development',
-                urlLink: '/appDevelopment'
+                urlLink: '/app-development'
 
             },
             {
                 link: 'Web Development',
-                urlLink: '/webDevelopment'
+                urlLink: '/web-development'
 
             },
             {
-                link: 'Ecommerce Development',
-                urlLink: '/ecommerceDev'
+                link: 'Digital Marketing',
+                urlLink: '/digital-marketing'
 
             },
             {
-                link: 'GaBlockchainme Development',
-                urlLink: '/blockchainDevelopment'
+                link: 'Software Development',
+                urlLink: '/software-development'
 
             },
             {
-                link: 'Game Development',
-                urlLink: '/gameDevelopment'
+                link: 'Search Engine Optimization',
+                urlLink: '/seo'
 
             },
-            {
-                link: 'Salesforce Solutions',
-                urlLink: '/salesforceDevelopment'
+            
+            // {
+            //     link: 'Salesforce Solutions',
+            //     urlLink: '/salesforceDevelopment'
 
-            },
-            {
-                link: 'AI & ML',
-                urlLink: '/aiDevelopment'
+            // },
+            // {
+            //     link: 'AI & ML',
+            //     urlLink: '/aiDevelopment'
 
-            },
-            {
-                link: 'IoT & Embedded',
-                urlLink: '/iotDevelopment'
+            // },
+            // {
+            //     link: 'IoT & Embedded',
+            //     urlLink: '/iotDevelopment'
 
-            },
-            {
-                link: 'Devops',
-                urlLink: '/devops'
+            // },
+            // {
+            //     link: 'Devops',
+            //     urlLink: '/devops'
 
-            },
+            // },
         ]
     },
     {
@@ -106,7 +107,7 @@ export const FOOTER_LINKS: any = [
             },
             {
                 icon: <TimeIcon />,
-                link: 'Unit 209 8078 128 Street Surrey , British Columbia V3W4E9'
+                link: '12847 66B AVE SURREY BC V3W'
             },
         ]
     },
