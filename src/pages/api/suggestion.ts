@@ -23,7 +23,7 @@ const handler =async (
         from: email,  
         to: 'bilawal.ali2626@gmail.com',
         subject: `New Contact Form Submission from ${fullname}`,
-        text: `Full Name: ${fullname}\nEmail: ${email}\ntypeoffeedback: ${typeoffeedback}\nPhone: ${phone}\nfeedback: ${feedback}
+        text: `Full Name: ${fullname}\nEmail: ${email}\nType Of Feedback: ${typeoffeedback}\nPhone: ${phone}\nFeedback: ${feedback}
         `,
       });
 

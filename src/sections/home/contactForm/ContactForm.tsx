@@ -117,6 +117,7 @@ const ContactForm = ({
                 <Checkbox name={"domain_hosting"} value={form.values.domain_hosting} labelText="Domain Hosting"  onChange={form.handleChange} />
                 <Checkbox name={"ui_ux"} value={form.values.ui_ux} labelText="UI & UX Designing"  onChange={form.handleChange} />
                 <Checkbox name={"product_photoshoot"} value={form.values.product_photoshoot} labelText="Product Photoshoot"  onChange={form.handleChange} />
+                <Checkbox name={"other_services"} value={form.values.otherservices} labelText="Other Services"  onChange={form.handleChange} />
             </div>
 
             <div className="grid grid-cols-2 gap-[30px]">
@@ -186,7 +187,7 @@ const ContactForm = ({
               </div>
             </div>
             <div className="mt-[30px] w-full">
-              <TextArea name={"dev_message"} 
+              <TextArea onClick={form?.handleChange} name={"dev_message"} placeholder="Message" 
                   value={form.values.dev_message}  className={"w-full"} />
             </div>
 

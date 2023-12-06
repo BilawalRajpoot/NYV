@@ -35,7 +35,7 @@ const Home = () => {
       <OurProcess />
       <Partnership />
       <Testimonials />
-      <Exelence />
+      {/* <Exelence /> */}
       <ContactForm className="mt-24 pb-[245px]" ContactInfoCard={true} ContactGeneralHeading='Let Us Know What You’re Looking for, We’ll Build it for You' ContatctSubHeading='Let’s Work Together' />
     </>
   )
