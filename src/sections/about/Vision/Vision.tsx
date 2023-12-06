@@ -10,12 +10,12 @@ export const Vision = () => {
         },
         {
             title: '2015',
-            text: 'We follow the first and foremost priority of gathering requirements, resources, and information to begin our project.',
+            text: 'At NVY Digital Solutions, our journey began in 2015 with a commitment to prioritize the gathering of requirements, resources, and information for every projects initiation.',
             class: 'text-left'
         },
         {
             title: '2016',
-            text: 'We follow the first and foremost priority of gathering requirements, resources, and information to begin our project.',
+            text: 'Building on our foundation, 2016 saw NVY Digital Solutions maintaining its unwavering dedication to the first and foremost priority: gathering requirements, resources, and information for project commencement.',
             class: 'text-right'
         },
         {
@@ -24,25 +24,25 @@ export const Vision = () => {
         },
         {
             title: '2018',
-            text: 'We follow the first and foremost priority of gathering requirements, resources, and information to begin our project.',
+            text: 'As the years progressed, our steadfast approach continued into 2018, where NVY Digital Solutions prioritized the meticulous gathering of requirements, resources, and information for each projects successful start.',
             class: 'text-left'
         },
         {
             title: '2020',
-            text: 'We follow the first and foremost priority of gathering requirements, resources, and information to begin our project.',
+            text: 'In 2020, NVY Digital Solutions stood firm in its commitment, ensuring that the first and foremost priority remained unchanged – thorough gathering of requirements, resources, and information to kickstart projects.',
             class: 'text-right'
         },
         {},
         {},
         {
             title: '2022',
-            text: 'We follow the first and foremost priority of gathering requirements, resources, and information to begin our project.',
+            text: 'The year 2022 marked another chapter in our journey, with NVY Digital Solutions maintaining its consistent dedication to gathering requirements, resources, and information as the cornerstone of project initiation.',
             class: 'text-left'
         },
 
         {
             title: '2023',
-            text: 'We follow the first and foremost priority of gathering requirements, resources, and information to begin our project.',
+            text: 'Stepping into 2023, NVY Digital Solutions remains true to its principles. We continue to prioritize the comprehensive gathering of requirements, resources, and information, ensuring the success of every project we undertake.',
             class: 'text-right'
         },
         {}
