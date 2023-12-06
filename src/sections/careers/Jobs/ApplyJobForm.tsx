@@ -1,6 +1,6 @@
 import { Button } from "@/components/Button/Button";
 import FormField from "@/components/formField/FormField";
-import { TextArea } from "@/components/textArea/TextArea";
+import  TextArea  from "@/components/textArea/TextArea";
 import React from "react";
 import styles from './Jobs.module.css'
 import Image from "next/image";

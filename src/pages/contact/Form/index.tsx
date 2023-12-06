@@ -1,7 +1,7 @@
 import { Button } from "@/components/Button/Button";
 import Checkbox from "@/components/checkbox/Checkbox";
 import FormField from "@/components/formField/FormField";
-import { TextArea } from "@/components/textArea/TextArea";
+import  TextArea  from "@/components/textArea/TextArea";
 import React from "react";
 
 const Form = () => {

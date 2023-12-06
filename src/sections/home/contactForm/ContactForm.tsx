@@ -4,7 +4,7 @@ import SubHeading from "@/components/Heading/SubHeading";
 import GeneralHeading from "@/components/Heading/GeneralHeading";
 import styles from './ContactForm.module.css';
 import FormField from "@/components/formField/FormField";
-import { TextArea } from "@/components/textArea/TextArea";
+import  TextArea  from "@/components/textArea/TextArea";
 import { Button } from "@/components/Button/Button";
 import InfoCard from "@/components/infoCard";
 import { Mail, Phone } from "@/svg";
