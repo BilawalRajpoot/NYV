@@ -34,7 +34,7 @@ useEffect(() => {
    {/* <div className='fixed bottom-0 right-0 bg-black text-white'>
 <h1>dsa</h1>
    </div> */}
-    <div className={`${Boolean(scroll) && 'sticky top-0 bg-white z-50 shadow-md'} `}>
+    <div className={`${Boolean(scroll && !isItMobile ) &&  'sticky top-0 bg-white z-50 shadow-md'} `}>
 
 <div className='container '>
   <div className='flex justify-between items-center h-[88px]' >
