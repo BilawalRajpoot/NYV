@@ -4,7 +4,7 @@ import SubHeading from "@/components/Heading/SubHeading";
 import GeneralHeading from "@/components/Heading/GeneralHeading";
 import styles from './SuggestionForm.module.css';
 import FormField from "@/components/formField/FormField";
-import { TextArea } from "@/components/textArea/TextArea";
+import TextArea  from "@/components/textArea/TextArea";
 import { Button } from "@/components/Button/Button";
 import InfoCard from "@/components/infoCard";
 import { Mail, Phone } from "@/svg";
@@ -39,7 +39,7 @@ const ContactForm = ({
 
       console.log(values,'++++++++++++++++++++++++++++++++++++++');
       try {
-        const response = await fetch('/api/contact', {
+        const response = await fetch('/api/suggestion', {
           method: 'POST',
           headers: {
             'Content-Type': 'application/json',
@@ -74,7 +74,7 @@ const ContactForm = ({
   useEffect(() => {
     console.log(form?.values) 
     console.log(form?.errors)
-  }, []);
+  }, [form?.values]);
 
   return (
     <div className={`${styles.contactFormWrapper} ${className}`}>
@@ -88,7 +88,7 @@ const ContactForm = ({
           heading={ContatctSubHeading}
         />
         {ContactInfoCard && (
-          <div className="lg:flex justify-center items-center lg:space-y-0 space-y-5 lg:space-x-5 mt-[60px]">
+          <div className="lg:flex justify-center items-center lg:space-y-0 space-y-5 lg:space-x-5 mt-[60px] mb-[60px]">
             <InfoCard
               CardIcon={<Mail />}
               cardTitle={`Mail Us`}
@@ -174,7 +174,7 @@ const ContactForm = ({
               </div>
             </div>
             <div className="mt-[30px] w-full">
-              <TextArea name={"feedback"} 
+              <TextArea placeholder="Share Your Feedback" onChange={form?.handleChange} name={"feedback"} 
                   value={form.values.feedback}  className={"w-full"} />
             </div>
 
@@ -185,7 +185,7 @@ const ContactForm = ({
                 }
                 disabled={form.isSubmitting}
                 >
-                Send Message
+                Send Feedback
               </Button>
             </div>
           </form>

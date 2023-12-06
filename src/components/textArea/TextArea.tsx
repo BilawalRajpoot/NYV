@@ -1,20 +1,40 @@
-import React from 'react';
+import React, { ComponentProps } from 'react';
 import styles from './TextArea.module.css';
 
 
-interface textAreProps {
+interface TextAreaProps extends Omit<ComponentProps<'textarea'>, 'onChange'> {
+    labelText?: string;
     className?: string;
-    name?: string;
-    id?: string;
     value?: string;
-    // onChange?: (e: React.ChangeEvent<HTMLInputElement>) => void|undefined;
+    onChange?: (e: React.ChangeEvent<HTMLTextAreaElement>) => void;
+    readOnly?: boolean;
+    id?:string
 }
-export const TextArea: React.FC<textAreProps> = ({ className, name, id, value }) => {
+
+const TextArea: React.FC<TextAreaProps> = ({
+    labelText,
+    name,
+    className,
+    value,
+    onChange,
+    readOnly,
+    placeholder,
+    onBlur,
+    onFocus,
+    rows,
+    id
+}) => {
+    const handleTextAreaChange = (e: React.ChangeEvent<HTMLTextAreaElement>) => {
+        if (onChange) {
+            onChange(e);
+        }
+    };
     return (
         <div className={styles.textAreWrapper}>
-            <textarea id={id} name={name} rows={3}  className={className} value={value}  placeholder="Message">
+            <textarea id={id} name={name} rows={3}  onChange={handleTextAreaChange}  className={className} value={value}  placeholder={placeholder}>
              
             </textarea>
         </div>
     )
 }
+export default TextArea

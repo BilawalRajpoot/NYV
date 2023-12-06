@@ -7,7 +7,7 @@ const handler =async (
   res: NextApiResponse
 ) => {
   if (req.method === 'POST') {
-    const { fullname, email, typeoffeedback, phone , dev_message, feedback} = req.body;
+    const { fullname, email, typeoffeedback, phone , feedback} = req.body;
 
       const transporter = nodemailer.createTransport({
         service: 'gmail', 
@@ -23,7 +23,7 @@ const handler =async (
         from: email,  
         to: 'bilawal.ali2626@gmail.com',
         subject: `New Contact Form Submission from ${fullname}`,
-        text: `Full Name: ${fullname}\nEmail: ${email}\ntypeoffeedback: ${typeoffeedback}\nPhone: ${phone}\nfeedback: ${Boolean(feedback)}
+        text: `Full Name: ${fullname}\nEmail: ${email}\ntypeoffeedback: ${typeoffeedback}\nPhone: ${phone}\nfeedback: ${feedback}
         `,
       });
 

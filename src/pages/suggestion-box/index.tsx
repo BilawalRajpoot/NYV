@@ -8,7 +8,7 @@ const Contact = () => {
   return (
     <>
      <Head>
-        <title>Contact Us | NYV Digital Solutions LLC - Web & Mobile APP | Artificial Intelligence and Blockchain Development Services</title>
+        <title>Suggestion Form | NYV Digital Solutions LLC - Web & Mobile APP | Artificial Intelligence and Blockchain Development Services</title>
  
         <meta
           name="description"
@@ -18,10 +18,10 @@ const Contact = () => {
       </Head>
       <div className="">
         <SuggestionForm 
-         ContactGeneralHeading={" Contact Us"}
+         ContactGeneralHeading={"Complaints/Suggestions Form"}
          ContactInfoCard
-         ContatctSubHeading={"Let’s Work Togather"}
-         className="mt-0 pb-24"
+         ContatctSubHeading={" Share Your Feedback Today"}
+         className="mt-0 pb-64"
         />
        
       </div>
