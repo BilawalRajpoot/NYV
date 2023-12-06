@@ -33,7 +33,7 @@ const ContactForm = ({
 
   const form = useFormik({
     initialValues: new SuggestionFormEntity(),
-    validationSchema: ContactFormEntity.yupSchema(),
+    validationSchema: SuggestionFormEntity.yupSchema,
     enableReinitialize : true,
     onSubmit: async (values,  actions) => {
 
@@ -53,9 +53,9 @@ const ContactForm = ({
             values: {
               fullname: '',
               email: '',
-              companyname: '',
+              typeoffeedback: '',
               phone:'',
-              dev_message:'',
+              feedback:'',
               
             },
           });
@@ -159,16 +159,16 @@ const ContactForm = ({
 
               <div className="colum-1">
                 <FormField
-                  name={"type-of-feedback"}
+                  name={"typeoffeedback"}
                   type={"text"}
                   onChange={form.handleChange}
-                  value={form.values.companyname}
+                  value={form.values.typeoffeedback}
                   placeholder={"Type of feedback*"}
                   className="w-full"
                 />
-                {form.errors.companyname ? (
+                {form.errors.typeoffeedback ? (
                   <div className="font-normal pt-1 text-red-400 text-sm">
-                    {form.errors.companyname}
+                    {form.errors.typeoffeedback}
                   </div>
                 ) : null}
               </div>
