@@ -11,49 +11,49 @@ export const FOOTER_LINKS: any = [
         links: [
             {
                 link: 'App Development',
-                urlLink: '/appDevelopment'
+                urlLink: '/app-development'
 
             },
             {
                 link: 'Web Development',
-                urlLink: '/webDevelopment'
+                urlLink: '/web-development'
 
             },
             {
-                link: 'Ecommerce Development',
-                urlLink: '/ecommerceDev'
+                link: 'Digital Marketing',
+                urlLink: '/digital-marketing'
 
             },
             {
-                link: 'GaBlockchainme Development',
-                urlLink: '/blockchainDevelopment'
+                link: 'Domain & Hosting',
+                urlLink: '/domain-and-hosting'
 
             },
             {
-                link: 'Game Development',
-                urlLink: '/gameDevelopment'
+                link: 'Graphic Designing',
+                urlLink: '/graphic-designing'
 
             },
-            {
-                link: 'Salesforce Solutions',
-                urlLink: '/salesforceDevelopment'
+            // {
+            //     link: 'Product Photoshoot',
+            //     urlLink: '/product-photoshoot'
 
-            },
-            {
-                link: 'AI & ML',
-                urlLink: '/aiDevelopment'
+            // },
+            // {
+            //     link: 'Search Engine Optimization',
+            //     urlLink: '/seo'
 
-            },
-            {
-                link: 'IoT & Embedded',
-                urlLink: '/iotDevelopment'
+            // },
+            // {
+            //     link: 'UI & UX Designing',
+            //     urlLink: '/ui-ux-designing'
 
-            },
-            {
-                link: 'Devops',
-                urlLink: '/devops'
+            // },
+            // {
+            //     link: 'Software Development',
+            //     urlLink: '/software-development'
 
-            },
+            // },
         ]
     },
     {
@@ -98,11 +98,11 @@ export const FOOTER_LINKS: any = [
         links: [
             {
                 icon: <PhoneIcon />,
-                link: '123 456 789'
+                link: '+1 (654) 765-8900'
             },
             {
                 icon: <MailIcon />,
-                link: 'hola@Liftmedia.com'
+                link: 'info@nyvsolutions.com'
             },
             {
                 icon: <TimeIcon />,
