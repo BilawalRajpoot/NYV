@@ -53,7 +53,7 @@ export const Vision = () => {
             <div className='max-w-[836px] mx-auto'>
                 <SubHeading className={'text-center'} subHeading={'Our Vision'} />
                 <GeneralHeading className={'text-center mb-[60px]'} heading={'How our vision became reality'} />
-                <div className={`grid md:grid-cols-2 gap-x-[72px] gap-x`}>
+                <div className={`grid md:grid-cols-2 gap-x-[72px] gap-x ${styles.VISONCARD}` }>
                     {VISION_DATA.map((data, index) => {
                         return (
                             <div className={styles.vissionTile} key={index}>
