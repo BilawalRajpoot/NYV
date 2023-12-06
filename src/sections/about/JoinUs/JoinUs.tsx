@@ -2,7 +2,7 @@ import GeneralHeading from "@/components/Heading/GeneralHeading";
 import Text from "@/components/Text/Text";
 import React from "react";
 import styles from "./JoinUs.module.css";
-import joinUsImage from "../../../../src/images/about/mockup.png";
+import joinUsImage from "../../../../src/images/OurStory.jpg";
 import Image from "next/image";
 import SubHeading from "@/components/Heading/SubHeading";
 import { Button } from "@/components/Button/Button";
@@ -10,7 +10,7 @@ import Link from "next/link";
 
 const JoinUs = () => {
   const text =
-    "Founded with a passion for innovation and technology  4dots Solutions embarked on a remarkable journey that has seen us evolve into a leading Software House. From our modest beginnings, w ve cultivated a legacy of dedication, teamwork, and an unwavering pursuit of excellence. Over the years, we have built enduring client relationships while adapting to the dynamic digital landscape. Our commitment to delivering groundbreaking software solutions continues to drive our success. We take pride in embracing change, fostering creativity, and pushing the boundaries of what of possible in the software industry.";
+    "Founded with a passion for innovation and technology NYV Digital Solutions embarked on a remarkable journey that has seen us evolve into a leading Software House. From our modest beginnings, w ve cultivated a legacy of dedication, teamwork, and an unwavering pursuit of excellence. Over the years, we have built enduring client relationships while adapting to the dynamic digital landscape. Our commitment to delivering groundbreaking software solutions continues to drive our success. We take pride in embracing change, fostering creativity, and pushing the boundaries of what of possible in the software industry.";
   return (
     <div className={styles.joinUsWrapper}>
       <div className="container">

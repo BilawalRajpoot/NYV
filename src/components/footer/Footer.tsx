@@ -15,7 +15,7 @@ const Footer = () => {
         <div className='grid lg:grid-cols-4 md:grid-cols-3  grid-cols-1 gap-4'>
           <div className='mt-[60px]'>
             <Image src={footerLogo} alt="footer logo" />
-            <p className='text-half-whiite mt-[24px] ml-[8px] text-base	font-poppins font-light		'>Hello, we are Lift Media. Our goal is to translate the positive effects from revolutionizing how companies engage with their clients & their team.</p>
+            <p className='text-half-whiite mt-[24px] ml-[8px] text-base	font-poppins font-light		'>NYV Digital Solutions: Innovating IT services to optimize client and team engagement, delivering positive results through technology solutions.</p>
             <ul className={`flex gap-3 mt-[24px] ml-[5px] ${styles.socialICons}`}>
               <li className='cursor-pointer'>
                 <a><LinkedInIcon /></a>
