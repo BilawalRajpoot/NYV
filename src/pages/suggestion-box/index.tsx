@@ -18,7 +18,7 @@ const Contact = () => {
       </Head>
       <div className="">
         <SuggestionForm 
-         ContactGeneralHeading={"Complaints/Suggestions Form"}
+         ContactGeneralHeading={"Complaints & Suggestions Form"}
          ContactInfoCard
          ContatctSubHeading={" Share Your Feedback Today"}
          className="mt-0 pb-64"

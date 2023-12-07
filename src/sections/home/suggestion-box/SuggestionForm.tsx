@@ -8,12 +8,7 @@ import TextArea  from "@/components/textArea/TextArea";
 import { Button } from "@/components/Button/Button";
 import InfoCard from "@/components/infoCard";
 import { Mail, Phone } from "@/svg";
-import { Swiper, SwiperSlide } from 'swiper/react';
-import { Pagination } from 'swiper/modules';
-import { Navigation } from 'swiper/modules';
-
 import { useFormik } from "formik";
-import { ContactFormEntity } from "@/components/models/contactform/contact-form";
 import {  toast } from 'react-toastify'; 
 import { SuggestionFormEntity } from "@/components/models/suggestionform/suggestion.entity";
 
@@ -92,7 +87,7 @@ const ContactForm = ({
             <InfoCard
               CardIcon={<Mail />}
               cardTitle={`Mail Us`}
-              cardLine={`info@nyvsolutions.com`}
+              cardLine={`complaints@nyvsolutions.com`}
             />
             <InfoCard
               CardIcon={<Phone />}

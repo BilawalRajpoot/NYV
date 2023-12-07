@@ -59,7 +59,7 @@ const Testimonials = () => {
     
   ];
   return (
-    <div className={styles.testimonialsWrapper}>
+    <div id="portfolio" className={styles.testimonialsWrapper}>
       <div className={styles.bgImage}>
 
         <Image className="" src={backgroundImage} alt="image" />
