@@ -31,19 +31,19 @@ const Footer = () => {
 
           {FOOTER_LINKS.map((data: any, index: number) => {
             return (
-              <div key={index} className='text-center lg:w-[80%] sm:w-full lg:ml-[70px] sm:ml-0'>
+              <div key={index} className=' text-left md:text-center lg:w-[80%] sm:w-full lg:ml-[70px] sm:ml-0'>
                 <h4 className='text-white font-bold text-base mt-[60px] font-poppins'>{data.title}</h4>
                 <ul className='mt-[24px]'>
                   {data.links.map((linkData: any, linkIndex: number) => {
                     return (
                       <li className='mb-[8px]' key={linkIndex}>
                         {linkData.urlLink ? (
-                          <Link href={linkData.urlLink} className='justify-center flex text-half-whiite text-base cursor-pointer hover:underline transition font-poppins font-light'>
+                          <Link href={linkData.urlLink} className='justify-start md:justify-center flex text-half-whiite text-base cursor-pointer hover:underline transition font-poppins font-light'>
                             {linkData.icon && <span className='mr-2'>{linkData.icon}</span>}
                             {linkData.link}
                           </Link>
                         ) : (
-                          <span className=' justify-center flex text-half-whiite text-base cursor-pointer hover:underline transition font-poppins font-light'>
+                          <span className=' justify-start md:justify-center flex text-half-whiite text-base cursor-pointer hover:underline transition font-poppins font-light'>
                             {linkData.icon && <span className='mr-2'>{linkData.icon}</span>}
                             {linkData.link}
                           </span>

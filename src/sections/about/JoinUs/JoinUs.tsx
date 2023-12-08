@@ -32,8 +32,8 @@ const JoinUs = () => {
           </div>
         </div>
 
-        <div className="grid md:grid-cols-2 gap-x-[73px] sm:my-0 md:my-32">
-          <div className="flex-col flex justify-center">
+        <div className="grid md:grid-cols-2 gap-x-[73px] my-20 md:my-32">
+          <div className="flex-col md:flex justify-center  hidden">
          
          
              <div>
@@ -42,13 +42,17 @@ const JoinUs = () => {
           </div>
          <div>
          <GeneralHeading
-              className={"text-left text-white sm:mt-5 md:mt-0"}
+              className={"text-left text-white mt-5 md:mt-0"}
               heading={"Commitment To CSR"}
             />
           <Text
               text={csr}
               className="text-white font-normal	mt-[16px] leading-8	"
             />
+         </div>
+         <div className="block md:hidden">
+         <Image src={CSR} alt="user" />
+
          </div>
         </div>
         <div className="mt-[80px]">
