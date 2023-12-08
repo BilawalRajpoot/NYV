@@ -3,6 +3,8 @@ import lahoreOffice from '../../../src/images/pakistan.svg';
 import newYc from '../../../src/images/Canada.jpg'
 
 import pakFlag from '../../../src/images/pakFlag.svg';
+import pakistan from '../../../src/images/pakistan.png';
+import pak from '../../../src/images/pak.jpg';
 import caFlag from '../../../src/images/canada.png';
 import ukFlag from '../../../src/images/UAEFLAG.jpg';
 export const FOOTER_LINKS: any = [
@@ -107,7 +109,7 @@ export const FOOTER_LINKS: any = [
             },
             {
                 icon: <TimeIcon />,
-                link: '12847 66B AVE SURREY BC V3W'
+                link: '12847 66B AVE SURREY BC V3W , Canada'
             },
         ]
     },
@@ -344,16 +346,24 @@ export const OUR_OFFICES_DATA = [
     {
         image: newYc,
         icon: caFlag,
-        title: 'Canada Office',
+        title: 'Canada (Head Office)',
         infoText: '12847 66B AVE SURREY BC V3W',
-        phoneNumber: '+1 (778) 896-2443',
+        phoneNumber: '+17788962443 (Ashraf Maitla) '
     },
     {
         image: ukFlag,
         icon: pakFlag,
         title: 'Our UAE Representative',
         infoText: 'Muhammad Tahir Azhar',
-        phoneNumber: '+971 55 342 8730',
+        phoneNumber: '+971553428730',
     },
+    {
+        image: pak,
+        icon: pakistan,
+        title: 'Pak Office',
+        infoText: 'Ch Attiq Humayun',
+        phoneNumber: '+923053003000',
+    },
+
 
 ]

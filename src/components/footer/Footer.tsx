@@ -12,8 +12,8 @@ const Footer = () => {
   return (
     <div className={styles.footerWrapper} >
       <div className='container'>
-        <div className='grid lg:grid-cols-4 md:grid-cols-3  grid-cols-1 gap-4'>
-          <div className='mt-[60px]'>
+        <div className='grid lg:grid-cols-4 md:grid-cols-3  grid-cols-1  '>
+          <div className='mt-[60px] '>
             <Image src={footerLogo} alt="footer logo" />
             <p className='text-half-whiite mt-[24px] ml-[8px] text-base	font-poppins font-light		'>NYV Digital Solutions: Innovating IT services to optimize client and team engagement, delivering positive results through technology solutions.</p>
             <ul className={`flex gap-3 mt-[24px] ml-[5px] ${styles.socialICons}`}>
@@ -31,19 +31,19 @@ const Footer = () => {
 
           {FOOTER_LINKS.map((data: any, index: number) => {
             return (
-              <div key={index}>
+              <div key={index} className='text-center lg:w-[80%] sm:w-full lg:ml-[70px] sm:ml-0'>
                 <h4 className='text-white font-bold text-base mt-[60px] font-poppins'>{data.title}</h4>
                 <ul className='mt-[24px]'>
                   {data.links.map((linkData: any, linkIndex: number) => {
                     return (
                       <li className='mb-[8px]' key={linkIndex}>
                         {linkData.urlLink ? (
-                          <Link href={linkData.urlLink} className='flex text-half-whiite text-base cursor-pointer hover:underline transition font-poppins font-light'>
+                          <Link href={linkData.urlLink} className='justify-center flex text-half-whiite text-base cursor-pointer hover:underline transition font-poppins font-light'>
                             {linkData.icon && <span className='mr-2'>{linkData.icon}</span>}
                             {linkData.link}
                           </Link>
                         ) : (
-                          <span className='flex text-half-whiite text-base cursor-pointer hover:underline transition font-poppins font-light'>
+                          <span className=' justify-center flex text-half-whiite text-base cursor-pointer hover:underline transition font-poppins font-light'>
                             {linkData.icon && <span className='mr-2'>{linkData.icon}</span>}
                             {linkData.link}
                           </span>

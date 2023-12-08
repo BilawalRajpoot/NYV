@@ -87,7 +87,7 @@ const ContactForm = ({
             <InfoCard
               CardIcon={<Mail />}
               cardTitle={`Mail Us`}
-              cardLine={`complaints@nyvsolutions.com`}
+              cardLine={`customercare@nyvsolutions.com`}
             />
             <InfoCard
               CardIcon={<Phone />}

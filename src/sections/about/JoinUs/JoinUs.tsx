@@ -3,12 +3,14 @@ import Text from "@/components/Text/Text";
 import React from "react";
 import styles from "./JoinUs.module.css";
 import joinUsImage from "../../../../src/images/OurStory.jpg";
+import CSR from "../../../../src/images/csr.jpg";
 import Image from "next/image";
 import SubHeading from "@/components/Heading/SubHeading";
 import { Button } from "@/components/Button/Button";
 import Link from "next/link";
 
 const JoinUs = () => {
+  const csr = "At NYV Solutions, Corporate Social Responsibility (CSR) is the cornerstone of our ethos. We integrate sustainability into our operations by minimizing our environmental impact, engaging in community development, and upholding ethical business practices. Our commitment extends to empowering communities through education initiatives and supporting employee volunteerism. Through transparent reporting and continuous evaluation, we strive for meaningful, lasting contributions, aligning our technology-driven solutions with a responsible approach for a brighter, more sustainable future"
   const text =
     "Founded with a passion for innovation and technology NYV Digital Solutions embarked on a remarkable journey that has seen us evolve into a leading Software House. From our modest beginnings, w ve cultivated a legacy of dedication, teamwork, and an unwavering pursuit of excellence. Over the years, we have built enduring client relationships while adapting to the dynamic digital landscape. Our commitment to delivering groundbreaking software solutions continues to drive our success. We take pride in embracing change, fostering creativity, and pushing the boundaries of what of possible in the software industry.";
   return (
@@ -28,6 +30,26 @@ const JoinUs = () => {
           <div>
             <Image src={joinUsImage} alt="user" />
           </div>
+        </div>
+
+        <div className="grid md:grid-cols-2 gap-x-[73px] my-32">
+          <div className="flex-col flex justify-center">
+         
+         
+             <div>
+            <Image src={CSR} alt="user" />
+          </div>
+          </div>
+         <div>
+         <GeneralHeading
+              className={"text-left text-white"}
+              heading={"Commitment To CSR"}
+            />
+          <Text
+              text={csr}
+              className="text-white font-normal	mt-[16px] leading-8	"
+            />
+         </div>
         </div>
         <div className="mt-[80px]">
           <SubHeading
