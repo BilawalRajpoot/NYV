@@ -35,7 +35,7 @@ const HireTalentBanner = () => {
       </div>
 
       <div className={style.rightImage}>
-        <Image className="grayscale" src={TalentBG} alt="Picture of the author" />
+        <Image className="grayscale md:block hidden" src={TalentBG} alt="Picture of the author" />
       </div>
     </div>
   );

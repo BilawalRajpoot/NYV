@@ -11,7 +11,7 @@ const OfficeCardData = () => {
         {OUR_OFFICES_DATA.map((data, index) => {
           return (
             <Card className={""} key={index}>
-              <div className="flex justify-start items-start gap-3" key={index}>
+              <div className="md:flex grid justify-start items-start gap-3" key={index}>
                 <Image className="w-24" src={data.image} alt={data.title} />
                 <div>
                   <div className="flex gap-2">

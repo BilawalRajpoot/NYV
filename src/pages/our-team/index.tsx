@@ -27,7 +27,7 @@ const index = () => {
       <TalentProcess />
       <TalentCard />
       <div className="container">
-        <div className="grid grid-cols-2 gap-[30px]">
+        <div className="grid md:grid-cols-2 grid-col-1 gap-[30px]">
           <div className="mt-[16px]">
             <Image src={workhardImage} alt="devOps Image" />
           </div>

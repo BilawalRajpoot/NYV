@@ -17,13 +17,13 @@ import uiux from '../../images/navbar/ui-ux.svg';
 interface NavDropDownProps {
   dropDownText: string;
   className?: string;
-  href?:string ; 
-  onClose?: ()=>void;
+  href?: string;
+  onClose?: () => void;
 }
-const NavDropDown: React.FC<NavDropDownProps> = ({ dropDownText, className, href , onClose}) => {
+const NavDropDown: React.FC<NavDropDownProps> = ({ dropDownText, className, href, onClose }) => {
   const isItMobile = useCheckMobileScreen();
   const [open, setOpen] = useState(false);
-  const url: string =  href?href:'';
+  const url: string = href ? href : '';
 
 
 
@@ -47,7 +47,7 @@ const NavDropDown: React.FC<NavDropDownProps> = ({ dropDownText, className, href
               className={`absolute right-[-15rem] p-8  bg-white z-10 grid grid-cols-3 gap-2 w-[100vh] transition font-poppins	 rounded-lg shadow-xl ${open ? "block" : "hidden"
                 }`}
             >
-              
+
               <li className="flex w-full  items-center p-6 border-b-2 border-gray-100  gap-3 text-sm hover:text-purple hover:font-semibold font-poppins">
                 <Image src={appDev} alt="app development" />
                 <Link href={'/app-development'}>App Development</Link>
@@ -57,7 +57,7 @@ const NavDropDown: React.FC<NavDropDownProps> = ({ dropDownText, className, href
                 <Link href={'/web-development'}>Web Development</Link>
               </li>
               <li className="flex w-full items-center p-6 border-b-2 border-gray-100   gap-3 text-sm hover:text-purple hover:font-semibold  font-poppins">
-                <Image src={DigitalMarketing} alt="app development"  />
+                <Image src={DigitalMarketing} alt="app development" />
                 <Link href={'/digital-marketing'}>Digital Marketing</Link>
               </li>
               <li className="flex w-full items-center p-6 border-b-2 border-gray-100   gap-3 text-sm hover:text-purple hover:font-semibold  font-poppins">
@@ -69,19 +69,19 @@ const NavDropDown: React.FC<NavDropDownProps> = ({ dropDownText, className, href
                 <Link href={'/graphic-designing'}>Graphic Designing</Link>
               </li>
               <li className="flex w-full items-center p-6 border-b-2 border-gray-100   gap-3 text-sm hover:text-purple hover:font-semibold  font-poppins">
-              <Image src={SoftwareDevelopment} alt="app development" />
-              <Link href={'/software-development'}>Software Development</Link>
+                <Image src={SoftwareDevelopment} alt="app development" />
+                <Link href={'/software-development'}>Software Development</Link>
               </li>
               <li className="flex w-full items-center p-6 border-b-2 border-gray-100   gap-3 text-sm hover:text-purple hover:font-semibold   font-poppins">
-              <Image src={DomainHosting} alt="app development" />
-              <Link href={'/domain-and-hosting'}>Domain & Hosting </Link>
+                <Image src={DomainHosting} alt="app development" />
+                <Link href={'/domain-and-hosting'}>Domain & Hosting </Link>
               </li>
-              <li className="flex w-full items-center p-6 border-b-2 border-gray-100   gap-3 text-sm hover:text-purple hover:font-semibold  font-poppins"> 
-              <Image src={uiux} alt="app development" className='m-0 p-0'/>
-              <Link href={'/ui-ux-designing'}>UI & UX Designing</Link>
+              <li className="flex w-full items-center p-6 border-b-2 border-gray-100   gap-3 text-sm hover:text-purple hover:font-semibold  font-poppins">
+                <Image src={uiux} alt="app development" className='m-0 p-0' />
+                <Link href={'/ui-ux-designing'}>UI & UX Designing</Link>
               </li>
               <li className="flex w-full items-center p-6 border-b-2 border-gray-100   gap-3 text-sm hover:text-purple hover:font-semibold  font-poppins ">
-              <Image src={ProductPhotoShoot} alt="app development" />
+                <Image src={ProductPhotoShoot} alt="app development" />
                 <Link href={'/product-photoshoot'}>Product Photoshoot</Link>
               </li>
             </ul>
@@ -99,30 +99,38 @@ const NavDropDown: React.FC<NavDropDownProps> = ({ dropDownText, className, href
               <ul
                 className={`right-0 w-40 py-2  font-poppins	  w-full flex flex-wrap `}
               >
-                
+
                 <li className="flex  items-center px-3 py-2 text-base w-1/2 font-light font-poppins text-white">
-                <Link onClick={onClose} href={'/devops'}>DevOps</Link>
+                  <Link onClick={onClose} href={'/app-development'}>App Development</Link>
                 </li>
                 <li className="flex  items-center px-3 py-2 text-base w-1/2 font-light text-white font-poppins">
-                <Link onClick={onClose} href={'/web-development'}>Web Development</Link>
+                  <Link onClick={onClose} href={'/web-development'}>Web Development</Link>
                 </li>
                 <li className="flex  items-center px-3 py-2 text-base w-1/2 font-light text-white font-poppins">
-                <Link onClick={onClose} href={'/ai-development'}>Ai & Ml Development</Link>
+                  <Link onClick={onClose} href={'/digital-marketing'}>Digital Marketing</Link>
                 </li>
                 <li className="flex  items-center px-3 py-2 text-base w-1/2 font-light text-white font-poppins">
-                <Link onClick={onClose} href={'/game-development'}>Game Development</Link>
+                  <Link onClick={onClose} href={'/seo'}>Search Engine Optimization</Link>
                 </li>
                 <li className="flex  items-center px-3 py-2 text-base w-1/2 font-light text-white font-poppins">
-                <Link onClick={onClose} href={'/ecommerce-dev'}>E-Commerce Development</Link>
+                  <Link onClick={onClose} href={'/graphic-designing'}>Graphic Designing</Link>
+
                 </li>
                 <li className="flex  items-center px-3 py-2 text-base w-1/2 font-light text-white font-poppins">
-                <Link onClick={onClose} href={'/salesforce-development'}>SalesForce Development</Link>
+                  <Link onClick={onClose} href={'/software-development'}>Software Development</Link>
                 </li>
                 <li className="flex  items-center px-3 py-2 text-base w-1/2 font-light text-white font-poppins">
-                <Link onClick={onClose} href={'/blockchain-development'}>Blockchain Development</Link>
-                </li> 
+                  <Link onClick={onClose} href={'/domain-and-hosting'}>Domain & Hosting </Link>
+
+                </li>
                 <li className="flex  items-center px-3 py-2 text-base w-1/2 font-light text-white font-poppins">
-                <Link onClick={onClose} href={'/iot-development'}>IoT Development</Link>
+                  <Link onClick={onClose} href={'/ui-ux-designing'}>UI & UX Designing</Link>
+
+                </li>
+                <li className="flex  items-center px-3 py-2 text-base w-1/2 font-light text-white font-poppins">
+                  <Link onClick={onClose} href={'/product-photoshoot'}>Product Photoshoot</Link>
+
+
                 </li>
               </ul>
             }
