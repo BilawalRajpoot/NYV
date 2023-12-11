@@ -23,6 +23,7 @@ const OfficeCardData = () => {
                   <p className="text-grey font-poppins max-w-[260px] font-light my-[8px] text-base">
                     {data.infoText}
                   </p>
+                  
                   <p className="text-dark-grey font-poppins font-light text-base">
                     {data.phoneNumber}
                   </p>

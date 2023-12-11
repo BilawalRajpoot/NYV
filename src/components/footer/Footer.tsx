@@ -66,7 +66,8 @@ const Footer = () => {
                 <div>
                   <div className='flex gap-2'> <Image src={data.icon} alt={data.title} /> <h4 className='text-white font-poppins text-base font-medium	'> {data.title}</h4> </div>
                   <p className='text-half-whiite font-poppins max-w-[260px] font-light my-[8px] text-base'>{data.infoText}</p>
-                  <p className='text-half-whiite font-poppins font-light text-base'>{data.phoneNumber}</p>
+                  <p className='text-half-whiite font-poppins max-w-[260px] font-light my-[8px] text-base'>{data?.optionalData}</p>
+                  <Link href={`tel:${data?.linkPhoneNo}`} className='text-half-whiite font-poppins font-light text-base'>{data.phoneNumber}</Link>
                 </div>
               </div>
             )

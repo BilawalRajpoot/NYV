@@ -25,14 +25,14 @@ const MobileNavbar = () => {
                                 <NavItem text="Home" className=' text-white 	 text-lg 	  inline-block	 w-full  border-b	py-9' href={'/'} />
                             </div>
                             <div onClick={toggleHumBurger}>
-                                <NavItem text="About" className='text-white text-lg 		  inline-block w-full  border-b py-9	' href={'/about'} /></div>
+                                <NavItem text="Portfolio" className='text-white text-lg 	  inline-block w-full  border-b py-9	' href={'/#portfolio'} /></div>
                             <NavDropDown onClose={toggleHumBurger} dropDownText='Services' className='text-white text-lg 		  inline-block 	w-full border-b py-9' href='/services' />
                             <div onClick={toggleHumBurger}>
                                 <NavItem text="Our Team" className='text-white text-lg 		 inline-block w-full	 border-b py-9' href={'our-team'} /></div>
                             <div onClick={toggleHumBurger}>
                                 <NavItem text="Careers" className='text-white text-lg 	  inline-block w-full  border-b py-9	' href={'/careers'} /></div>
                                 <div onClick={toggleHumBurger}>
-                                <NavItem text="Portfolio" className='text-white text-lg 	  inline-block w-full  border-b py-9	' href={'/#portfolio'} /></div>
+                                <NavItem text="About" className='text-white text-lg 		  inline-block w-full  border-b py-9	' href={'/about'} /></div>
                                 <div onClick={toggleHumBurger}>
                                 <NavItem text="Complaints" href={'/suggestion-box'} className='text-white text-lg 	  inline-block w-full  border-b py-9	' /></div>
                            

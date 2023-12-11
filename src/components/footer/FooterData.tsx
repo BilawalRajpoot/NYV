@@ -36,7 +36,7 @@ export const FOOTER_LINKS: any = [
                 urlLink: '/seo'
 
             },
-            
+
             // {
             //     link: 'Salesforce Solutions',
             //     urlLink: '/salesforceDevelopment'
@@ -347,22 +347,26 @@ export const OUR_OFFICES_DATA = [
         image: newYc,
         icon: caFlag,
         title: 'Canada (Head Office)',
-        infoText: '12847 66B AVE SURREY BC V3W',
-        phoneNumber: '+17788962443 (Ashraf Maitla) '
+        infoText: '12847 66B AVE SURREY BC V3W9X6',
+        optionalData: "Ashraf Maitla",
+        phoneNumber: '+1 778 896 2443',
+        linkPhoneNo: '+1 778 896 2443'
     },
     {
         image: ukFlag,
         icon: pakFlag,
-        title: 'Our UAE Representative',
+        title: 'UAE Office',
         infoText: 'Muhammad Tahir Azhar',
-        phoneNumber: '+971553428730',
+        phoneNumber: '+971 55 342 8730',
+        linkPhoneNo: '+971 55 342 8730'
     },
     {
         image: pak,
         icon: pakistan,
-        title: 'Pak Office',
-        infoText: 'Ch Attiq Humayun',
-        phoneNumber: '+923053003000',
+        title: 'Pakistan Office',
+        infoText: 'Chaudhry Atiq Humayun',
+        phoneNumber: '+92 305 300 3000 ',
+        linkPhoneNo: '+92 305 300 3000 '
     },
 
 
