@@ -50,11 +50,11 @@ useEffect(() => {
       <NavItem text="Home" href={'/'} className="hover:text-purple transition" />
       <NavItem text="Portfolio" href={'/#portfolio'} className="hover:text-purple transition" />
       <NavDropDown dropDownText='Services' className="transition" href='/services' />
-      <NavItem text="Our Team" href={'/our-team'} className="hover:text-purple transition" />
+      {/* <NavItem text="Our Team" href={'/our-team'} className="hover:text-purple transition" /> */}
       {/* <NavItem text="Work" href={'/about'} className="hover:text-purple transition" /> */}
       <NavItem text="Careers" href={'/careers'} className="hover:text-purple transition" />
       <NavItem text="About" href={'/about'} className="hover:text-purple transition" />
-      <NavItem text="Complaints" href={'/suggestion-box'} className="hover:text-purple transition" />
+      {/* <NavItem text="Complaints" href={'/suggestion-box'} className="hover:text-purple transition" /> */}
       
       {/* <NavDropDown dropDownText='Careers' className="transition" href='/careers' /> */}
       <Button className="bg-primary text-white font-poppins text-xs hover:shadow-custom-button hover:translate-y-[-3px]	 px-[18px] py-[14px] font-bold	capitalize rounded-lg">

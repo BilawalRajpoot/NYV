@@ -27,15 +27,15 @@ const MobileNavbar = () => {
                             <div onClick={toggleHumBurger}>
                                 <NavItem text="Portfolio" className='text-white text-lg 	  inline-block w-full  border-b py-9	' href={'/#portfolio'} /></div>
                             <NavDropDown onClose={toggleHumBurger} dropDownText='Services' className='text-white text-lg 		  inline-block 	w-full border-b py-9' href='/services' />
-                            <div onClick={toggleHumBurger}>
-                                <NavItem text="Our Team" className='text-white text-lg 		 inline-block w-full	 border-b py-9' href={'our-team'} /></div>
+                            {/* <div onClick={toggleHumBurger}>
+                                <NavItem text="Our Team" className='text-white text-lg 		 inline-block w-full	 border-b py-9' href={'our-team'} /></div> */}
                             <div onClick={toggleHumBurger}>
                                 <NavItem text="Careers" className='text-white text-lg 	  inline-block w-full  border-b py-9	' href={'/careers'} /></div>
-                                <div onClick={toggleHumBurger}>
+                            <div onClick={toggleHumBurger}>
                                 <NavItem text="About" className='text-white text-lg 		  inline-block w-full  border-b py-9	' href={'/about'} /></div>
-                                <div onClick={toggleHumBurger}>
-                                <NavItem text="Complaints" href={'/suggestion-box'} className='text-white text-lg 	  inline-block w-full  border-b py-9	' /></div>
-                           
+                            <div onClick={toggleHumBurger}>
+                                <NavItem text="Complaints & Suggestion" href={'/suggestion-box'} className='text-white text-lg 	  inline-block w-full  border-b py-9	' /></div>
+
 
                         </div>
                         <Button className="bg-primary-dark text-white text-base font-poppins  mb-20 mt-20	 px-[14px] py-[10px] font-bold	capitalize rounded-lg">
