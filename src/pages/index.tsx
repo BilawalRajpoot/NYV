@@ -28,7 +28,7 @@ const Home = () => {
         />
       </Head>
       <HeroBanner />
-      <RelyOnUs />
+      {/* <RelyOnUs /> */}
       <Industries />
       <Services />
       <Theory />
