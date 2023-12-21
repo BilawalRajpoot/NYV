@@ -32,6 +32,8 @@ import Pet from "../../../../src/images/Pets-Heaven.png";
 import PetWhite from "../../../../src/images/Pets-Heaven(1).png";
 import Chicken from "../../../../src/images/Chicken-World.png";
 import ChickenWhite from "../../../../src/images/Chicken-WorldWhite.png";
+import Sketcher from "../../../../src/images/Skechers-Logo.png";
+import SketcherWhite from "../../../../src/images/Skechers-W.png";
 import Fc from "../../../../src/images/FC.png";
 import FcWhite from "../../../../src/images/FCWhite.png";
 import Mra from "../../../../src/images/MRA-Engineering.png";
@@ -184,6 +186,14 @@ const Testimonials = () => {
       text: "",
       // text: " We offer a range of legal services, all designed to help our clients. Whether you are looking for a small tweak or complete overhaul, we have you covered . We believe in a unique and customized consulting experience for each and every client. Each firm is unique. One-size-fits-all approaches will never help your problems reach a solution. We deliver custom solutions, tailored to you–your industry, your culture, your one-of-a-kind challenges.",
       title: "French Corner "
+      // name: "Manmohan Kaushal",
+    },
+    {
+      whiteimage: SketcherWhite,
+      image: Sketcher,
+      text: "",
+      // text: " We offer a range of legal services, all designed to help our clients. Whether you are looking for a small tweak or complete overhaul, we have you covered . We believe in a unique and customized consulting experience for each and every client. Each firm is unique. One-size-fits-all approaches will never help your problems reach a solution. We deliver custom solutions, tailored to you–your industry, your culture, your one-of-a-kind challenges.",
+      title: "Skechers"
       // name: "Manmohan Kaushal",
     },
 
