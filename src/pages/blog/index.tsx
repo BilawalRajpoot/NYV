@@ -13,7 +13,7 @@ const Blog = () => {
                     <p className="text-white text-xl md:text-2xl">
                         We're working hard to bring you something amazing. Stay tuned!
                     </p>
-                    <Link href="/home" className="z-50 mt-4">
+                    <Link href="/" className="z-50 mt-4">
                         <Button className=' bg-black text-white p-5 rounded-2xl'>
                             Go Back To Home
                         </Button>
