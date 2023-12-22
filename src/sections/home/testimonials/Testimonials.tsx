@@ -213,13 +213,14 @@ const Testimonials = () => {
               className={"text-left mb-[8px]"}
               subHeading={"Portfolio"}
             />
+             <p className="mb-2 text-left text-grey text-lg font-poppins font-normal">
+              List of a few recent projects is as under
+            </p>
             <GeneralHeading
               className={"text-left mb-[8px]"}
               heading={`Showcasing Our Creative Excellence`}
             />
-            <p className="text-left text-grey text-lg font-poppins font-normal">
-              List of a few recent projects is as under
-            </p>
+           
           </div>
         </div>
 
