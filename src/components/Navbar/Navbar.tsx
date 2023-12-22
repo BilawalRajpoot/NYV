@@ -8,6 +8,7 @@ import useCheckMobileScreen from '@/hooks/UseCheckMobileScreen';
 import MobileNavbar from './MobileNavbar';
 import Link from 'next/link';
 import { boolean } from 'yup';
+import DropDownAbout from './dropdown-about';
 const Navbar = () => {
   const isItMobile = useCheckMobileScreen();
 const [scroll, setScroll] = useState<boolean>(false); 
@@ -53,7 +54,8 @@ useEffect(() => {
       {/* <NavItem text="Our Team" href={'/our-team'} className="hover:text-purple transition" /> */}
       {/* <NavItem text="Work" href={'/about'} className="hover:text-purple transition" /> */}
       <NavItem text="Careers" href={'/careers'} className="hover:text-purple transition" />
-      <NavItem text="About" href={'/about'} className="hover:text-purple transition" />
+      {/* <NavItem text="About" href={'/about'} className="hover:text-purple transition" /> */}
+      <DropDownAbout  dropDownText='About' className="transition" href='/about' />
       <NavItem text="Blog" href={'/blog'} className="hover:text-purple transition" />
       {/* <NavItem text="Complaints" href={'/suggestion-box'} className="hover:text-purple transition" /> */}
       

@@ -4,6 +4,7 @@ import styles from './Navbar.module.css';
 import NavDropDown from './NavDropDown';
 import NavItem from './NavItem';
 import Link from 'next/link';
+import DropDownAbout from './dropdown-about';
 const MobileNavbar = () => {
     const [isnavActive, setIsnavActive] = useState<boolean>(false);
 
@@ -31,8 +32,7 @@ const MobileNavbar = () => {
                                 <NavItem text="Our Team" className='text-white text-lg 		 inline-block w-full	 border-b py-9' href={'our-team'} /></div> */}
                             <div onClick={toggleHumBurger}>
                                 <NavItem text="Careers" className='text-white text-lg 	  inline-block w-full  border-b py-9	' href={'/careers'} /></div>
-                            <div onClick={toggleHumBurger}>
-                                <NavItem text="About" className='text-white text-lg 		  inline-block w-full  border-b py-9	' href={'/about'} /></div>
+                            <DropDownAbout onClose={toggleHumBurger} dropDownText='About' className='text-white text-lg 		  inline-block 	w-full border-b py-9' href='/About' />
                             <div onClick={toggleHumBurger}>
                                 <NavItem text="Blog" href={'/blog'} className='text-white text-lg 	  inline-block w-full  border-b py-9	' /></div>
 

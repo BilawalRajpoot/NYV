@@ -20,7 +20,7 @@ interface NavDropDownProps {
   href?: string;
   onClose?: () => void;
 }
-const NavDropDown: React.FC<NavDropDownProps> = ({ dropDownText, className, href, onClose }) => {
+const DropDownAbout: React.FC<NavDropDownProps> = ({ dropDownText, className, href, onClose }) => {
   const isItMobile = useCheckMobileScreen();
   const [open, setOpen] = useState(false);
   const url: string = href ? href : '';
@@ -44,46 +44,24 @@ const NavDropDown: React.FC<NavDropDownProps> = ({ dropDownText, className, href
             </Link>
 
             <ul
-              className={`absolute right-[-15rem] p-8  bg-white z-10 grid grid-cols-3 gap-2 w-[100vh] transition font-poppins	 rounded-lg shadow-xl ${open ? "block" : "hidden"
+              className={`absolute w-72 right-[-50px] p-8  bg-white z-10 grid grid-cols-1 gap-2  transition font-poppins	 rounded-lg shadow-xl ${open ? "block" : "hidden"
                 }`}
             >
 
-              <li className="flex w-full  items-center p-6 border-b-2 border-gray-100  gap-3 text-sm hover:text-purple hover:font-semibold font-poppins">
-                <Image src={appDev} alt="app development" />
-                <Link href={'/app-development'}>App Development</Link>
+              <li className="flex w-full  items-center p-3 border-b-2 border-gray-100  gap-3 text-sm hover:text-purple  font-poppins">
+                <Link href={'/about'}>Who We Are</Link>
               </li>
-              <li className="flex w-full items-center p-6 border-b-2 border-gray-100   gap-3 text-sm hover:text-purple hover:font-semibold   font-poppins">
-                <Image src={webDev} alt="app development" />
-                <Link href={'/web-development'}>Web Development</Link>
+              <li className="flex w-full items-center p-3 border-b-2 border-gray-100   gap-3 text-sm hover:text-purple    font-poppins">
+                <Link href={'/about#Navigating-Organizational-Structure'}>Organizational Chart</Link>
               </li>
-              <li className="flex w-full items-center p-6 border-b-2 border-gray-100   gap-3 text-sm hover:text-purple hover:font-semibold  font-poppins">
-                <Image src={DigitalMarketing} alt="app development" />
-                <Link href={'/digital-marketing'}>Digital Marketing</Link>
+              <li className="flex w-full items-center p-3 border-b-2 border-gray-100   gap-3 text-sm hover:text-purple    font-poppins">
+                <Link href={'/about#our-story'}> Our Story</Link>
               </li>
-              <li className="flex w-full items-center p-6 border-b-2 border-gray-100   gap-3 text-sm hover:text-purple hover:font-semibold  font-poppins">
-                <Image src={Seo} alt="app development" />
-                <Link href={'/seo'}>Search Engine Optimization</Link>
+              <li className="flex w-full items-center p-3 border-b-2 border-gray-100   gap-3 text-sm hover:text-purple    font-poppins">
+                <Link href={'/about#csr'}> CSR</Link>
               </li>
-              <li className="flex w-full items-center p-6 border-b-2 border-gray-100   gap-3 text-sm hover:text-purple hover:font-semibold   font-poppins">
-                <Image src={GraphicDesigning} alt="app development" />
-                <Link href={'/graphic-designing'}>Graphic Designing</Link>
-              </li>
-              <li className="flex w-full items-center p-6 border-b-2 border-gray-100   gap-3 text-sm hover:text-purple hover:font-semibold  font-poppins">
-                <Image src={SoftwareDevelopment} alt="app development" />
-                <Link href={'/software-development'}>Software Development</Link>
-              </li>
-              <li className="flex w-full items-center p-6 border-b-2 border-gray-100   gap-3 text-sm hover:text-purple hover:font-semibold   font-poppins">
-                <Image src={DomainHosting} alt="app development" />
-                <Link href={'/domain-and-hosting'}>Domain & Hosting </Link>
-              </li>
-              <li className="flex w-full items-center p-6 border-b-2 border-gray-100   gap-3 text-sm hover:text-purple hover:font-semibold  font-poppins">
-                <Image src={uiux} alt="app development" className='m-0 p-0' />
-                <Link href={'/ui-ux-designing'}>UI & UX Designing</Link>
-              </li>
-              <li className="flex w-full items-center p-6 border-b-2 border-gray-100   gap-3 text-sm hover:text-purple hover:font-semibold  font-poppins ">
-                <Image src={ProductPhotoShoot} alt="app development" />
-                <Link href={'/product-photoshoot'}>Product Photoshoot</Link>
-              </li>
+              
+
             </ul>
           </div>
 
@@ -101,37 +79,18 @@ const NavDropDown: React.FC<NavDropDownProps> = ({ dropDownText, className, href
               >
 
                 <li className="flex  items-center px-3 py-2 text-base w-1/2 font-light font-poppins text-white">
-                  <Link onClick={onClose} href={'/app-development'}>App Development</Link>
+                  <Link onClick={onClose} href={'/about'}>Who We Are</Link>
                 </li>
                 <li className="flex  items-center px-3 py-2 text-base w-1/2 font-light text-white font-poppins">
-                  <Link onClick={onClose} href={'/web-development'}>Web Development</Link>
+                  <Link onClick={onClose} href={'/about#Navigating-Organizational-Structure'}>Organizational Chart</Link>
                 </li>
                 <li className="flex  items-center px-3 py-2 text-base w-1/2 font-light text-white font-poppins">
-                  <Link onClick={onClose} href={'/digital-marketing'}>Digital Marketing</Link>
+                  <Link onClick={onClose} href={'/about#our-story'}>Our Story</Link>
                 </li>
                 <li className="flex  items-center px-3 py-2 text-base w-1/2 font-light text-white font-poppins">
-                  <Link onClick={onClose} href={'/seo'}>Search Engine Optimization</Link>
+                  <Link onClick={onClose} href={'/about#csr'}>CSR</Link>
                 </li>
-                <li className="flex  items-center px-3 py-2 text-base w-1/2 font-light text-white font-poppins">
-                  <Link onClick={onClose} href={'/graphic-designing'}>Graphic Designing</Link>
-
-                </li>
-                <li className="flex  items-center px-3 py-2 text-base w-1/2 font-light text-white font-poppins">
-                  <Link onClick={onClose} href={'/software-development'}>Software Development</Link>
-                </li>
-                <li className="flex  items-center px-3 py-2 text-base w-1/2 font-light text-white font-poppins">
-                  <Link onClick={onClose} href={'/domain-and-hosting'}>Domain & Hosting </Link>
-
-                </li>
-                <li className="flex  items-center px-3 py-2 text-base w-1/2 font-light text-white font-poppins">
-                  <Link onClick={onClose} href={'/ui-ux-designing'}>UI & UX Designing</Link>
-
-                </li>
-                <li className="flex  items-center px-3 py-2 text-base w-1/2 font-light text-white font-poppins">
-                  <Link onClick={onClose} href={'/product-photoshoot'}>Product Photoshoot</Link>
-
-
-                </li>
+                
               </ul>
             }
           </div>
@@ -145,4 +104,4 @@ const NavDropDown: React.FC<NavDropDownProps> = ({ dropDownText, className, href
   )
 }
 
-export default NavDropDown
+export default DropDownAbout

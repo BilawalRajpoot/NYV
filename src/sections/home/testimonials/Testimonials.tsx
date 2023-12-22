@@ -92,14 +92,7 @@ const Testimonials = () => {
       title: "Traditions Tea And Coffee",
       // name: "Manmohan Kaushal",
     },
-    {
-      whiteimage: chandwhite,
-      image: CeBlack,
-      text: "",
-      // text: " We offer a range of legal services, all designed to help our clients. Whether you are looking for a small tweak or complete overhaul, we have you covered . We believe in a unique and customized consulting experience for each and every client. Each firm is unique. One-size-fits-all approaches will never help your problems reach a solution. We deliver custom solutions, tailored to you–your industry, your culture, your one-of-a-kind challenges.",
-      title: "Chand Electrical Corporation",
-      // name: "Manmohan Kaushal",
-    },
+
     {
       whiteimage: AtharWhite,
       image: Athar,
@@ -124,14 +117,7 @@ const Testimonials = () => {
       title: "Hem Henge",
       // name: "Manmohan Kaushal",
     },
-    {
-      whiteimage: HfmWhite,
-      image: Hfm,
-      text: "",
-      // text: " We offer a range of legal services, all designed to help our clients. Whether you are looking for a small tweak or complete overhaul, we have you covered . We believe in a unique and customized consulting experience for each and every client. Each firm is unique. One-size-fits-all approaches will never help your problems reach a solution. We deliver custom solutions, tailored to you–your industry, your culture, your one-of-a-kind challenges.",
-      title: "Haq Fresh Malik",
-      // name: "Manmohan Kaushal",
-    },
+
     {
       whiteimage: GdWhite,
       image: Gd,
@@ -196,7 +182,22 @@ const Testimonials = () => {
       title: "Skechers"
       // name: "Manmohan Kaushal",
     },
-
+    {
+      whiteimage: chandwhite,
+      image: CeBlack,
+      text: "",
+      // text: " We offer a range of legal services, all designed to help our clients. Whether you are looking for a small tweak or complete overhaul, we have you covered . We believe in a unique and customized consulting experience for each and every client. Each firm is unique. One-size-fits-all approaches will never help your problems reach a solution. We deliver custom solutions, tailored to you–your industry, your culture, your one-of-a-kind challenges.",
+      title: "Chand Electrical Corporation",
+      // name: "Manmohan Kaushal",
+    },
+    {
+      whiteimage: HfmWhite,
+      image: Hfm,
+      text: "",
+      // text: " We offer a range of legal services, all designed to help our clients. Whether you are looking for a small tweak or complete overhaul, we have you covered . We believe in a unique and customized consulting experience for each and every client. Each firm is unique. One-size-fits-all approaches will never help your problems reach a solution. We deliver custom solutions, tailored to you–your industry, your culture, your one-of-a-kind challenges.",
+      title: "Haq Fresh Malik",
+      // name: "Manmohan Kaushal",
+    },
   ];
   return (
     <div id="portfolio" className={styles.testimonialsWrapper}>
@@ -217,8 +218,7 @@ const Testimonials = () => {
               heading={`Showcasing Our Creative Excellence.`}
             />
             <p className="text-left text-grey text-lg font-poppins font-normal">
-              150+ projects executed successfully and an average relationship
-              of over one year.
+              List of a few recent projects is as under
             </p>
           </div>
         </div>

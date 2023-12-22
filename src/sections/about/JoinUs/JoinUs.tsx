@@ -16,7 +16,7 @@ const JoinUs = () => {
   return (
     <div className={styles.joinUsWrapper}>
       <div className="container">
-        <div className="grid md:grid-cols-2 gap-x-[73px]">
+        <div className="grid md:grid-cols-2 gap-x-[73px] " id="our-story">
           <div className="flex-col flex justify-center">
             <GeneralHeading
               className={"text-left text-white"}
@@ -32,28 +32,28 @@ const JoinUs = () => {
           </div>
         </div>
 
-        <div className="grid md:grid-cols-2 gap-x-[73px] my-20 md:my-32">
+        <div className=" grid md:grid-cols-2 gap-x-[73px] my-20 md:my-32" id='csr'>
           <div className="flex-col md:flex justify-center  hidden">
-         
-         
-             <div>
-            <Image src={CSR} alt="user" />
+
+
+            <div>
+              <Image src={CSR} alt="user" />
+            </div>
           </div>
-          </div>
-         <div>
-         <GeneralHeading
+          <div>
+            <GeneralHeading
               className={"text-left text-white mt-5 md:mt-0"}
               heading={"Commitment To CSR"}
             />
-          <Text
+            <Text
               text={csr}
               className="text-white font-normal	mt-[16px] leading-8	"
             />
-         </div>
-         <div className="block md:hidden">
-         <Image src={CSR} alt="user" />
+          </div>
+          <div className="block md:hidden">
+            <Image src={CSR} alt="user" />
 
-         </div>
+          </div>
         </div>
         <div className="mt-[80px]">
           <SubHeading
