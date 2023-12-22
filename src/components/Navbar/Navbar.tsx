@@ -54,6 +54,7 @@ useEffect(() => {
       {/* <NavItem text="Work" href={'/about'} className="hover:text-purple transition" /> */}
       <NavItem text="Careers" href={'/careers'} className="hover:text-purple transition" />
       <NavItem text="About" href={'/about'} className="hover:text-purple transition" />
+      <NavItem text="Blog" href={'/blog'} className="hover:text-purple transition" />
       {/* <NavItem text="Complaints" href={'/suggestion-box'} className="hover:text-purple transition" /> */}
       
       {/* <NavDropDown dropDownText='Careers' className="transition" href='/careers' /> */}

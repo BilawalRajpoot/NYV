@@ -34,7 +34,8 @@ const MobileNavbar = () => {
                             <div onClick={toggleHumBurger}>
                                 <NavItem text="About" className='text-white text-lg 		  inline-block w-full  border-b py-9	' href={'/about'} /></div>
                             <div onClick={toggleHumBurger}>
-                                <NavItem text="Complaints & Suggestion" href={'/suggestion-box'} className='text-white text-lg 	  inline-block w-full  border-b py-9	' /></div>
+                                <NavItem text="Blog" href={'/blog'} className='text-white text-lg 	  inline-block w-full  border-b py-9	' /></div>
+
 
 
                         </div>
