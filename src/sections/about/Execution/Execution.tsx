@@ -2,7 +2,7 @@ import GeneralHeading from '@/components/Heading/GeneralHeading';
 import SubHeading from '@/components/Heading/SubHeading';
 import React from 'react'
 import styles from './Execution.module.css';
-import executionImage from '../../../../src/images/about/orgonogram.png'
+import executionImage from '../../../../src/images/about/Organogram.png'
 import Image from 'next/image';
 const heading = "Navigating Organizational Structure."
 export const Execution = () => {
