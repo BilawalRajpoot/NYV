@@ -4,7 +4,7 @@ import React from 'react'
 import styles from './Execution.module.css';
 import executionImage from '../../../../src/images/about/Organogram.png'
 import Image from 'next/image';
-const heading = " Organizational Structure."
+const heading = " Organizational Structure"
 export const Execution = () => {
     return (
         <div id='Navigating-Organizational-Structure' className={styles.executuonWrapper}>

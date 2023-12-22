@@ -3,8 +3,7 @@ import Text from "@/components/Text/Text";
 import { ArrowRightIcon } from "@/svg";
 import Image from "next/image";
 import React from "react";
-import serviceImage from "../../../images/services/serviceBanner.png";
-import laptopsImage from "../../../images/services/laptops.png";
+import serviceImage from "../../../images/services/14 Best Investments To Accelerate Your Wealth Fast.jpeg";
 import styles from "./ServicesBanner.module.css";
 import Link from "next/link";
 
@@ -31,13 +30,9 @@ const DevServicesBanner = ({ service_banner }: any) => {
               </Button>
             </div>
           </div>
-          <div className={styles.imageSection}>
-            <Image src={serviceImage} alt="services Image" />
-            <Image
-              src={laptopsImage}
-              alt="laptops Image"
-              className={styles.absoluteImage}
-            />
+          <div className=''>
+            <Image className="rounded-2xl" src={serviceImage} alt="services Image" />
+       
           </div>
         </div>
       </div>

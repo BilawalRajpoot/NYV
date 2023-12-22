@@ -147,7 +147,7 @@ const Testimonials = () => {
       image: Nthai,
       text: "",
       // text: " We offer a range of legal services, all designed to help our clients. Whether you are looking for a small tweak or complete overhaul, we have you covered . We believe in a unique and customized consulting experience for each and every client. Each firm is unique. One-size-fits-all approaches will never help your problems reach a solution. We deliver custom solutions, tailored to you–your industry, your culture, your one-of-a-kind challenges.",
-      title: "N THAI PLACE",
+      title: "N THAI PALACE",
       // name: "Manmohan Kaushal",
     },
     {
@@ -215,7 +215,7 @@ const Testimonials = () => {
             />
             <GeneralHeading
               className={"text-left mb-[8px]"}
-              heading={`Showcasing Our Creative Excellence.`}
+              heading={`Showcasing Our Creative Excellence`}
             />
             <p className="text-left text-grey text-lg font-poppins font-normal">
               List of a few recent projects is as under

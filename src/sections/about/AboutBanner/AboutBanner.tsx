@@ -1,7 +1,7 @@
 import Text from "@/components/Text/Text";
 import Image from "next/image";
 import React from "react";
-import aboutImage from "../../../../src/images/about/aboutBanner.png";
+import aboutImage from "../../../../src/images/about/prof_comms_skills_0.jpg";
 const AboutBanner = () => {
   return (
     <div className="container py-[60px]">
