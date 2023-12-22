@@ -214,7 +214,7 @@ const Testimonials = () => {
               subHeading={"Portfolio"}
             />
              <p className="mb-2 text-left text-grey text-lg font-poppins font-normal">
-              List of a few recent projects is as under
+             150+ projects executed successfully last year. List of a few recent projects is as under;
             </p>
             <GeneralHeading
               className={"text-left mb-[8px]"}
